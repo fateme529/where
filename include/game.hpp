@@ -3,10 +3,8 @@
 #include "../include/bus.hpp"
 #include "../include/subway.hpp"
 
-#define row 12
-#define column 9
-#define x_SIZE 800
-#define y_SIZE 600
+#define x_SIZE 375
+#define y_SIZE 812
 #include <cctype>
 #include <exception>
 #include <string>
@@ -15,14 +13,34 @@
 #include <time.h>
 #include <iomanip>
 #include <string>
-#include<fstream>
+#include <fstream>
 
 #include <conio.h>
-class Game
-{
+class Game{
 private:
+    // int score = 0;
+    // std::string set_score();
+    // void tryAgain(sf::RenderWindow &window, sf::Text point);
+    //----------------- set sound -----------------
+    // sf::SoundBuffer back_sound;
+    // sf::SoundBuffer eat_sound;
+    // sf::SoundBuffer gameover_sound;
+    //---------------------------------------------
+    //------------------- set font ----------------
+    sf::Font font;
+    //---------------------------------------------
 
+    //------------------ set photo ----------------
+    sf::Texture texture;
+    // sf::Texture snake_image;
+    // sf::Texture frog_image;
+    // sf::Texture frog2_image;
+    //---------------------------------------------
 
 public:
-
+    // Game(/* args */);
+    // Frog frog1;
+    // Frog frog2;
+    // Snake snake;
+    // void runGame(sf::RenderWindow &window);
 };

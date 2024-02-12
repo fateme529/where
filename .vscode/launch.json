@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/ASUS/Desktop/hungry_snake_SFML_graphics-main/src",
-      "program": "c:/Users/ASUS/Desktop/hungry_snake_SFML_graphics-main/src/build/Debug/outDebug",
+      "cwd": "c:/Users/ASUS/Desktop/where/src",
+      "program": "c:/Users/ASUS/Desktop/where/src/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
