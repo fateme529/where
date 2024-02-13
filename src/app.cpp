@@ -19,6 +19,7 @@ void App::menu()
     sf::Texture Lets_go_icon;
     sf::Texture help_icon;
     sf::Texture exit_icon;
+    sf::Texture next_icon;
 
     try
     {
@@ -30,6 +31,7 @@ void App::menu()
         Lets_go_icon.loadFromFile("picture/let.png");
         help_icon.loadFromFile("picture/help.png");
         exit_icon.loadFromFile("picture/exit.png");
+        next_icon.loadFromFile("picture/next.png");
     }
     catch (const std::exception &e)
     {
@@ -43,6 +45,7 @@ void App::menu()
     sf::RectangleShape exitIcon_shape(sf::Vector2f(316, 50));
     sf::RectangleShape helpIcon_shape(sf::Vector2f(316, 50));
     sf::RectangleShape BackIcon_shape(sf::Vector2f(316, 50));
+    sf::RectangleShape nextIcon_shape(sf::Vector2f(199, 39));
 
     texture_shape.setTexture(&texture);
     pag_2_shape.setTexture(&pag_2);
@@ -52,13 +55,15 @@ void App::menu()
     exitIcon_shape.setTexture(&exit_icon);
     helpIcon_shape.setTexture(&help_icon);
     BackIcon_shape.setTexture(&Back_icon);
+    nextIcon_shape.setTexture(&next_icon);
 
     Lets_go_Icon_shape.setPosition(sf::Vector2f(24, 360));
     exitIcon_shape.setPosition(sf::Vector2f(24, 438));
     helpIcon_shape.setPosition(sf::Vector2f(24, 512));
     BackIcon_shape.setPosition(sf::Vector2f(22, 741));
+    nextIcon_shape.setPosition(sf::Vector2f(90, 710));
 
-    // زمان لازم برای انتقال به صفحه بعد (به میلی ثانیه)
+
 
     while (window.isOpen())
     {
@@ -98,6 +103,8 @@ void App::menu()
             {
                         window.clear();
                     window.draw(welcome_shape);
+                    window.draw(nextIcon_shape);
+                    
             }
             if (Lets_go_Icon_shape.getGlobalBounds().contains(mouse))
             {
