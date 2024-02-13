@@ -15,6 +15,7 @@ void App::menu()
     sf::Texture pag_2;
     sf::Texture help;
     sf::Texture welcome;
+    sf::Texture user;
     sf::Texture Back_icon;
     sf::Texture Lets_go_icon;
     sf::Texture help_icon;
@@ -27,6 +28,7 @@ void App::menu()
         pag_2.loadFromFile("picture/02.png");
         help.loadFromFile("picture/03_help.png");
         welcome.loadFromFile("picture/04.png");
+        user.loadFromFile("picture/05.png");
         Back_icon.loadFromFile("picture/Back.png");
         Lets_go_icon.loadFromFile("picture/let.png");
         help_icon.loadFromFile("picture/help.png");
@@ -41,6 +43,7 @@ void App::menu()
     sf::RectangleShape pag_2_shape(sf::Vector2f(x_SIZE, y_SIZE));
     sf::RectangleShape help_shape(sf::Vector2f(x_SIZE, y_SIZE));
     sf::RectangleShape welcome_shape(sf::Vector2f(x_SIZE, y_SIZE));
+    sf::RectangleShape user_shape(sf::Vector2f(x_SIZE, y_SIZE));
     sf::RectangleShape Lets_go_Icon_shape(sf::Vector2f(316, 50));
     sf::RectangleShape exitIcon_shape(sf::Vector2f(316, 50));
     sf::RectangleShape helpIcon_shape(sf::Vector2f(316, 50));
@@ -51,6 +54,7 @@ void App::menu()
     pag_2_shape.setTexture(&pag_2);
     help_shape.setTexture(&help);
     welcome_shape.setTexture(&welcome);
+    user_shape.setTexture(&user);
     Lets_go_Icon_shape.setTexture(&Lets_go_icon);
     exitIcon_shape.setTexture(&exit_icon);
     helpIcon_shape.setTexture(&help_icon);
@@ -62,8 +66,6 @@ void App::menu()
     helpIcon_shape.setPosition(sf::Vector2f(24, 512));
     BackIcon_shape.setPosition(sf::Vector2f(22, 741));
     nextIcon_shape.setPosition(sf::Vector2f(90, 710));
-
-
 
     while (window.isOpen())
     {
@@ -77,13 +79,14 @@ void App::menu()
                 window.close();
             }
         }
-        if (clock.getElapsedTime() < sf::seconds(2))
+        if (clock.getElapsedTime() < sf::seconds(2) && flag_1_page)
         {
             window.clear();
             window.draw(texture_shape);
         }
         else
         {
+            flag_1_page = false;
             if (!flag)
             {
                 window.clear();
@@ -99,19 +102,23 @@ void App::menu()
                 window.draw(exitIcon_shape);
                 window.draw(helpIcon_shape);
             }
-             if (!flag_w)
+            if (!flag_w)
             {
-                        window.clear();
-                    window.draw(welcome_shape);
-                    window.draw(nextIcon_shape);
-                    
+                window.clear();
+                window.draw(welcome_shape);
+                window.draw(nextIcon_shape);
             }
+            if (!falg_user)
+            {
+                window.clear();
+                window.draw(user_shape);
+            }
+
             if (Lets_go_Icon_shape.getGlobalBounds().contains(mouse))
             {
                 if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
                 {
                     flag_w = false;
- 
                 }
             }
             if (exitIcon_shape.getGlobalBounds().contains(mouse))
@@ -134,6 +141,13 @@ void App::menu()
                 if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
                 {
                     flag = false;
+                }
+            }
+            if (nextIcon_shape.getGlobalBounds().contains(mouse))
+            {
+                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
+                {
+                    falg_user = false;
                 }
             }
         }
