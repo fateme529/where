@@ -61,18 +61,40 @@ void App::menu()
         }
         if (clock.getElapsedTime() < sf::seconds(2))
         {
-             window.clear();
+            window.clear();
             window.draw(texture_shape);
         }
         else
         {
-             window.clear();
+            window.clear();
             window.draw(pag_2_shape);
             window.draw(Lets_go_Icon_shape);
             window.draw(exitIcon_shape);
             window.draw(helpIcon_shape);
-        }
 
+            if (Lets_go_Icon_shape.getGlobalBounds().contains(mouse))
+            {
+                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
+                {
+                    // game.runGame(window);
+                    window.close();
+                }
+            }
+            else if (exitIcon_shape.getGlobalBounds().contains(mouse))
+            {
+                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
+                {
+                    window.close();
+                }
+            }
+            else if (helpIcon_shape.getGlobalBounds().contains(mouse))
+            {
+                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
+                {
+                    window.close();
+                }
+            }
+        }
 
         window.display();
     }
