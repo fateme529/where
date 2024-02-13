@@ -14,6 +14,7 @@ void App::menu()
     sf::Texture texture;
     sf::Texture pag_2;
     sf::Texture help;
+    sf::Texture welcome;
     sf::Texture Back_icon;
     sf::Texture Lets_go_icon;
     sf::Texture help_icon;
@@ -24,6 +25,7 @@ void App::menu()
         texture.loadFromFile("picture/01.png");
         pag_2.loadFromFile("picture/02.png");
         help.loadFromFile("picture/03_help.png");
+        welcome.loadFromFile("picture/04.png");
         Back_icon.loadFromFile("picture/Back.png");
         Lets_go_icon.loadFromFile("picture/let.png");
         help_icon.loadFromFile("picture/help.png");
@@ -36,6 +38,7 @@ void App::menu()
     sf::RectangleShape texture_shape(sf::Vector2f(x_SIZE, y_SIZE));
     sf::RectangleShape pag_2_shape(sf::Vector2f(x_SIZE, y_SIZE));
     sf::RectangleShape help_shape(sf::Vector2f(x_SIZE, y_SIZE));
+    sf::RectangleShape welcome_shape(sf::Vector2f(x_SIZE, y_SIZE));
     sf::RectangleShape Lets_go_Icon_shape(sf::Vector2f(316, 50));
     sf::RectangleShape exitIcon_shape(sf::Vector2f(316, 50));
     sf::RectangleShape helpIcon_shape(sf::Vector2f(316, 50));
@@ -44,6 +47,7 @@ void App::menu()
     texture_shape.setTexture(&texture);
     pag_2_shape.setTexture(&pag_2);
     help_shape.setTexture(&help);
+    welcome_shape.setTexture(&welcome);
     Lets_go_Icon_shape.setTexture(&Lets_go_icon);
     exitIcon_shape.setTexture(&exit_icon);
     helpIcon_shape.setTexture(&help_icon);
@@ -55,7 +59,7 @@ void App::menu()
     BackIcon_shape.setPosition(sf::Vector2f(22, 741));
 
     // زمان لازم برای انتقال به صفحه بعد (به میلی ثانیه)
-    sf::Time delayTime = sf::seconds(5);
+
     while (window.isOpen())
     {
         sf ::Event event;
@@ -90,12 +94,17 @@ void App::menu()
                 window.draw(exitIcon_shape);
                 window.draw(helpIcon_shape);
             }
+             if (!flag_w)
+            {
+                        window.clear();
+                    window.draw(welcome_shape);
+            }
             if (Lets_go_Icon_shape.getGlobalBounds().contains(mouse))
             {
                 if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
                 {
-                    // game.runGame(window);
-                    // window.close();
+                    flag_w = false;
+ 
                 }
             }
             if (exitIcon_shape.getGlobalBounds().contains(mouse))
@@ -110,8 +119,7 @@ void App::menu()
                 if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
                 {
 
-                    flag =true;
-    
+                    flag = true;
                 }
             }
             if (helpIcon_shape.getGlobalBounds().contains(mouse))
@@ -119,7 +127,6 @@ void App::menu()
                 if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
                 {
                     flag = false;
-
                 }
             }
         }

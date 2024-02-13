@@ -7,6 +7,7 @@ class App
 private:
     sf::Clock clock;
     bool flag = true;
+    bool flag_w = true;
     Game game;
     void menu();
 
