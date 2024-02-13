@@ -8,33 +8,45 @@ App::App()
 // -------------------------------------------------------
 void App::menu()
 {
-    sf::RenderWindow window(sf::VideoMode(x_SIZE, y_SIZE), "Hungry Snake");
+    sf::RenderWindow window(sf::VideoMode(x_SIZE, y_SIZE), "where");
     window.setFramerateLimit(60);
+    // sf::sleep(sf::seconds(5));
     sf::Texture texture;
-    // sf::Texture start_icon;
-    // sf::Texture exit_icon;
+    sf::Texture pag_2;
+    sf::Texture Lets_go_icon;
+    sf::Texture help_icon;
+    sf::Texture exit_icon;
 
     try
     {
         texture.loadFromFile("picture/01.png");
-        // start_icon.loadFromFile("picture/start_icon.png");
-        // exit_icon.loadFromFile("picture/exit_icon.png");
+        pag_2.loadFromFile("picture/02.png");
+        Lets_go_icon.loadFromFile("picture/let.png");
+        help_icon.loadFromFile("picture/exit.png");
+        exit_icon.loadFromFile("picture/help.png");
     }
     catch (const std::exception &e)
     {
         std::cerr << e.what() << '\n';
     }
     sf::RectangleShape texture_shape(sf::Vector2f(x_SIZE, y_SIZE));
-    // sf::RectangleShape startIcon_shape(sf::Vector2f(200, 100));
-    // sf::RectangleShape exitIcon_shape(sf::Vector2f(100, 50));
+    sf::RectangleShape pag_2_shape(sf::Vector2f(x_SIZE, y_SIZE));
+    sf::RectangleShape Lets_go_Icon_shape(sf::Vector2f(316, 50));
+    sf::RectangleShape exitIcon_shape(sf::Vector2f(316, 50));
+    sf::RectangleShape helpIcon_shape(sf::Vector2f(316, 50));
 
     texture_shape.setTexture(&texture);
-    // startIcon_shape.setTexture(&start_icon);
-    // exitIcon_shape.setTexture(&exit_icon);
+    pag_2_shape.setTexture(&pag_2);
+    Lets_go_Icon_shape.setTexture(&Lets_go_icon);
+    exitIcon_shape.setTexture(&exit_icon);
+    helpIcon_shape.setTexture(&help_icon);
 
-    // startIcon_shape.setPosition(sf::Vector2f(300, 150));
-    // exitIcon_shape.setPosition(sf::Vector2f(350, 400));
+    Lets_go_Icon_shape.setPosition(sf::Vector2f(24, 360));
+    exitIcon_shape.setPosition(sf::Vector2f(24, 438));
+    helpIcon_shape.setPosition(sf::Vector2f(24, 512));
 
+    // زمان لازم برای انتقال به صفحه بعد (به میلی ثانیه)
+    sf::Time delayTime = sf::seconds(5);
     while (window.isOpen())
     {
         sf ::Event event;
@@ -46,30 +58,22 @@ void App::menu()
             {
                 window.close();
             }
-            else if (event.type == sf::Event::KeyPressed && event.key.code == sf::Keyboard::Escape)
-            {
-                window.close();
-            }
         }
-        // if (startIcon_shape.getGlobalBounds().contains(mouse))
-        // {
-        //     if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
-        //     {
-        //         game.runGame(window);
-        //     }
-        // }
-        // else if (exitIcon_shape.getGlobalBounds().contains(mouse))
-        // {
-        //     if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
-        //     {
-        //         window.close();
-        //     }
-        // }
+        if (clock.getElapsedTime() < sf::seconds(2))
+        {
+             window.clear();
+            window.draw(texture_shape);
+        }
+        else
+        {
+             window.clear();
+            window.draw(pag_2_shape);
+            window.draw(Lets_go_Icon_shape);
+            window.draw(exitIcon_shape);
+            window.draw(helpIcon_shape);
+        }
 
-        window.clear();
-        window.draw(texture_shape);
-        // window.draw(startIcon_shape);
-        // window.draw(exitIcon_shape);
+
         window.display();
     }
 }

@@ -5,10 +5,10 @@
 class App
 {
 private:
- Game game;
- void menu();
+    sf::Clock clock;
+    Game game;
+    void menu();
 
 public:
-App();
-    
+    App();
 };
