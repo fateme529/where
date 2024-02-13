@@ -6,6 +6,7 @@ class App
 {
 private:
     sf::Clock clock;
+    bool flag = true;
     Game game;
     void menu();
 
