@@ -22,6 +22,8 @@ void App::menu()
     sf::Texture help_icon;
     sf::Texture exit_icon;
     sf::Texture next_icon;
+    sf::Texture Arrow_icon;
+    sf::Texture Arrow2_icon;
 
     try
     {
@@ -35,6 +37,8 @@ void App::menu()
         help_icon.loadFromFile("picture/help.png");
         exit_icon.loadFromFile("picture/exit.png");
         next_icon.loadFromFile("picture/next.png");
+        Arrow_icon.loadFromFile("picture/Arrow.png");
+        Arrow2_icon.loadFromFile("picture/Arrow.png");
     }
     catch (const std::exception &e)
     {
@@ -50,6 +54,8 @@ void App::menu()
     sf::RectangleShape helpIcon_shape(sf::Vector2f(316, 50));
     sf::RectangleShape BackIcon_shape(sf::Vector2f(316, 50));
     sf::RectangleShape nextIcon_shape(sf::Vector2f(199, 39));
+    sf::RectangleShape ArrowIcon_shape(sf::Vector2f(17, 16));
+    sf::RectangleShape Arrow2Icon_shape(sf::Vector2f(17, 16));
 
     texture_shape.setTexture(&texture);
     pag_2_shape.setTexture(&pag_2);
@@ -61,12 +67,17 @@ void App::menu()
     helpIcon_shape.setTexture(&help_icon);
     BackIcon_shape.setTexture(&Back_icon);
     nextIcon_shape.setTexture(&next_icon);
+    ArrowIcon_shape.setTexture(&Arrow_icon);
+    Arrow2Icon_shape.setTexture(&Arrow_icon);
 
     Lets_go_Icon_shape.setPosition(sf::Vector2f(24, 360));
     exitIcon_shape.setPosition(sf::Vector2f(24, 438));
     helpIcon_shape.setPosition(sf::Vector2f(24, 512));
     BackIcon_shape.setPosition(sf::Vector2f(22, 741));
     nextIcon_shape.setPosition(sf::Vector2f(90, 710));
+    ArrowIcon_shape.setPosition(sf::Vector2f(322, 250));
+    Arrow2Icon_shape.setPosition(sf::Vector2f(322, 328));
+
     graph.readGraphFromFile(filename);
 
     sf::Font font;
@@ -126,10 +137,10 @@ void App::menu()
 
                 window.clear();
                 window.draw(user_shape);
-
-                window.draw(orgin);
+                window.draw(ArrowIcon_shape);
+                window.draw(Arrow2Icon_shape);
+                // window.draw(orgin);
             }
-          
 
             if (Lets_go_Icon_shape.getGlobalBounds().contains(mouse))
             {
