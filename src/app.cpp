@@ -8,6 +8,7 @@ App::App()
 // -------------------------------------------------------
 void App::menu()
 {
+
     sf::RenderWindow window(sf::VideoMode(x_SIZE, y_SIZE), "where");
     window.setFramerateLimit(60);
 
@@ -28,7 +29,7 @@ void App::menu()
         pag_2.loadFromFile("picture/02.png");
         help.loadFromFile("picture/03_help.png");
         welcome.loadFromFile("picture/04.png");
-        user.loadFromFile("picture/05.png");
+        user.loadFromFile("picture/6.png");
         Back_icon.loadFromFile("picture/Back.png");
         Lets_go_icon.loadFromFile("picture/let.png");
         help_icon.loadFromFile("picture/help.png");
@@ -66,6 +67,18 @@ void App::menu()
     helpIcon_shape.setPosition(sf::Vector2f(24, 512));
     BackIcon_shape.setPosition(sf::Vector2f(22, 741));
     nextIcon_shape.setPosition(sf::Vector2f(90, 710));
+    graph.readGraphFromFile(filename);
+
+    sf::Font font;
+    if (!font.loadFromFile("font.TTF"))
+    { // Load a font
+        throw runtime_error("Error: Unable to load font.");
+    }
+    sf::Text orgin;
+    orgin.setFont(font);
+    orgin.setCharacterSize(16);
+    orgin.setFillColor(sf::Color::Black); // Set the text color
+    orgin.setPosition(319, 44);
 
     while (window.isOpen())
     {
@@ -110,9 +123,13 @@ void App::menu()
             }
             if (!falg_user)
             {
+
                 window.clear();
                 window.draw(user_shape);
+
+                window.draw(orgin);
             }
+          
 
             if (Lets_go_Icon_shape.getGlobalBounds().contains(mouse))
             {
