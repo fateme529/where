@@ -31,6 +31,19 @@ void App::menu()
     sf::Texture Bimeh_icon;
     sf::Texture Boostan_icon;
     sf::Texture chahar_icon;
+    sf::Texture Dowlat_icon;
+    sf::Texture Shemiran_icon;
+    sf::Texture sina_icon;
+    sf::Texture Hossein_icon;
+    sf::Texture sabz_icon;
+    sf::Texture Ferdowsi_icon;
+    sf::Texture Ghaem_icon;
+    sf::Texture gheytariyeh_icon;
+    sf::Texture Gholhak_icon;
+    sf::Texture Haram_icon;
+    sf::Texture haft_icon;
+    sf::Texture javadiyeh_icon;
+    sf::Texture Kashani_icon;
 
     try
     {
@@ -53,6 +66,7 @@ void App::menu()
         Allameh_icon.loadFromFile("picture/000.png");
         Boostan_icon.loadFromFile("picture/004.png");
         chahar_icon.loadFromFile("picture/005.png");
+        Dowlat_icon.loadFromFile("picture/006.png");
     }
     catch (const std::exception &e)
     {
@@ -77,6 +91,7 @@ void App::menu()
     sf::RectangleShape AllamehIcon_shape(sf::Vector2f(82, 21));
     sf::RectangleShape BoostanIcon_shape(sf::Vector2f(82, 21));
     sf::RectangleShape chaharIcon_shape(sf::Vector2f(82, 21));
+    sf::RectangleShape DowlatIcon_shape(sf::Vector2f(82, 21));
 
     texture_shape.setTexture(&texture);
     pag_2_shape.setTexture(&pag_2);
@@ -97,6 +112,7 @@ void App::menu()
     AllamehIcon_shape.setTexture(&Allameh_icon);
     BoostanIcon_shape.setTexture(&Boostan_icon);
     chaharIcon_shape.setTexture(&chahar_icon);
+    DowlatIcon_shape.setTexture(&Dowlat_icon);
 
     Lets_go_Icon_shape.setPosition(sf::Vector2f(24, 360));
     exitIcon_shape.setPosition(sf::Vector2f(24, 438));
@@ -111,6 +127,8 @@ void App::menu()
     AllamehIcon_shape.setPosition(sf::Vector2f(261, 116));
     BoostanIcon_shape.setPosition(sf::Vector2f(261, 197));
     chaharIcon_shape.setPosition(sf::Vector2f(261, 224));
+    DowlatIcon_shape.setPosition(sf::Vector2f(261, 251));
+
 
     graph.readGraphFromFile(filename);
 
@@ -185,6 +203,7 @@ void App::menu()
                 window.draw(AllamehIcon_shape);
                 window.draw(BoostanIcon_shape);
                 window.draw(chaharIcon_shape);
+                window.draw(DowlatIcon_shape);
                 
             }
             if (ArrowIcon_shape.getGlobalBounds().contains(mouse))
