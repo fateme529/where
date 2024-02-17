@@ -17,6 +17,7 @@ void App::menu()
     sf::Texture help;
     sf::Texture welcome;
     sf::Texture user;
+    sf::Texture back_grand;
     sf::Texture Back_icon;
     sf::Texture Lets_go_icon;
     sf::Texture help_icon;
@@ -24,6 +25,7 @@ void App::menu()
     sf::Texture next_icon;
     sf::Texture Arrow_icon;
     sf::Texture Arrow2_icon;
+    // sf::Texture Aghdasiyeh_icon;
 
     try
     {
@@ -32,6 +34,7 @@ void App::menu()
         help.loadFromFile("picture/03_help.png");
         welcome.loadFromFile("picture/04.png");
         user.loadFromFile("picture/6.png");
+        back_grand.loadFromFile("picture/back1.png");
         Back_icon.loadFromFile("picture/Back.png");
         Lets_go_icon.loadFromFile("picture/let.png");
         help_icon.loadFromFile("picture/help.png");
@@ -39,6 +42,7 @@ void App::menu()
         next_icon.loadFromFile("picture/next.png");
         Arrow_icon.loadFromFile("picture/Arrow.png");
         Arrow2_icon.loadFromFile("picture/Arrow.png");
+        // Aghdasiyeh_icon.loadFromFile("picture/001.png");
     }
     catch (const std::exception &e)
     {
@@ -49,6 +53,7 @@ void App::menu()
     sf::RectangleShape help_shape(sf::Vector2f(x_SIZE, y_SIZE));
     sf::RectangleShape welcome_shape(sf::Vector2f(x_SIZE, y_SIZE));
     sf::RectangleShape user_shape(sf::Vector2f(x_SIZE, y_SIZE));
+    sf::RectangleShape back_grand_shape(sf::Vector2f(x_SIZE, y_SIZE));
     sf::RectangleShape Lets_go_Icon_shape(sf::Vector2f(316, 50));
     sf::RectangleShape exitIcon_shape(sf::Vector2f(316, 50));
     sf::RectangleShape helpIcon_shape(sf::Vector2f(316, 50));
@@ -62,6 +67,7 @@ void App::menu()
     help_shape.setTexture(&help);
     welcome_shape.setTexture(&welcome);
     user_shape.setTexture(&user);
+    back_grand_shape.setTexture(&back_grand);
     Lets_go_Icon_shape.setTexture(&Lets_go_icon);
     exitIcon_shape.setTexture(&exit_icon);
     helpIcon_shape.setTexture(&help_icon);
@@ -141,7 +147,18 @@ void App::menu()
                 window.draw(Arrow2Icon_shape);
                 // window.draw(orgin);
             }
-
+            if (!flag_Arrow1)
+            {
+                window.clear();
+                window.draw(back_grand_shape);
+            }
+            if (ArrowIcon_shape.getGlobalBounds().contains(mouse))
+            {
+                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
+                {
+                    flag_Arrow1 = false;
+                }
+            }
             if (Lets_go_Icon_shape.getGlobalBounds().contains(mouse))
             {
                 if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
