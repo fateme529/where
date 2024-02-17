@@ -67,6 +67,7 @@ void App::menu()
         Boostan_icon.loadFromFile("picture/004.png");
         chahar_icon.loadFromFile("picture/005.png");
         Dowlat_icon.loadFromFile("picture/006.png");
+        Shemiran_icon.loadFromFile("picture/007.png");
     }
     catch (const std::exception &e)
     {
@@ -92,6 +93,7 @@ void App::menu()
     sf::RectangleShape BoostanIcon_shape(sf::Vector2f(82, 21));
     sf::RectangleShape chaharIcon_shape(sf::Vector2f(82, 21));
     sf::RectangleShape DowlatIcon_shape(sf::Vector2f(82, 21));
+    sf::RectangleShape ShemiranIcon_shape(sf::Vector2f(82, 21));
 
     texture_shape.setTexture(&texture);
     pag_2_shape.setTexture(&pag_2);
@@ -113,6 +115,7 @@ void App::menu()
     BoostanIcon_shape.setTexture(&Boostan_icon);
     chaharIcon_shape.setTexture(&chahar_icon);
     DowlatIcon_shape.setTexture(&Dowlat_icon);
+    ShemiranIcon_shape.setTexture(&Shemiran_icon);
 
     Lets_go_Icon_shape.setPosition(sf::Vector2f(24, 360));
     exitIcon_shape.setPosition(sf::Vector2f(24, 438));
@@ -128,7 +131,7 @@ void App::menu()
     BoostanIcon_shape.setPosition(sf::Vector2f(261, 197));
     chaharIcon_shape.setPosition(sf::Vector2f(261, 224));
     DowlatIcon_shape.setPosition(sf::Vector2f(261, 251));
-
+    ShemiranIcon_shape.setPosition(sf::Vector2f(261, 278));
 
     graph.readGraphFromFile(filename);
 
@@ -204,7 +207,7 @@ void App::menu()
                 window.draw(BoostanIcon_shape);
                 window.draw(chaharIcon_shape);
                 window.draw(DowlatIcon_shape);
-                
+                window.draw(ShemiranIcon_shape);
             }
             if (ArrowIcon_shape.getGlobalBounds().contains(mouse))
             {
