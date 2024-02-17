@@ -26,8 +26,11 @@ void App::menu()
     sf::Texture Arrow_icon;
     sf::Texture Arrow2_icon;
     sf::Texture Aghdasiyeh_icon;
+    sf::Texture Allameh_icon;
     sf::Texture Azadeghan_icon;
     sf::Texture Bimeh_icon;
+    sf::Texture Boostan_icon;
+    sf::Texture chahar_icon;
 
     try
     {
@@ -47,6 +50,9 @@ void App::menu()
         Aghdasiyeh_icon.loadFromFile("picture/001.png");
         Azadeghan_icon.loadFromFile("picture/002.png");
         Bimeh_icon.loadFromFile("picture/003.png");
+        Allameh_icon.loadFromFile("picture/000.png");
+        Boostan_icon.loadFromFile("picture/004.png");
+        chahar_icon.loadFromFile("picture/005.png");
     }
     catch (const std::exception &e)
     {
@@ -68,6 +74,9 @@ void App::menu()
     sf::RectangleShape AghdasiyehIcon_shape(sf::Vector2f(82, 21));
     sf::RectangleShape AzadeghanIcon_shape(sf::Vector2f(82, 21));
     sf::RectangleShape BimehIcon_shape(sf::Vector2f(82, 21));
+    sf::RectangleShape AllamehIcon_shape(sf::Vector2f(82, 21));
+    sf::RectangleShape BoostanIcon_shape(sf::Vector2f(82, 21));
+    sf::RectangleShape chaharIcon_shape(sf::Vector2f(82, 21));
 
     texture_shape.setTexture(&texture);
     pag_2_shape.setTexture(&pag_2);
@@ -85,9 +94,9 @@ void App::menu()
     AghdasiyehIcon_shape.setTexture(&Aghdasiyeh_icon);
     AzadeghanIcon_shape.setTexture(&Azadeghan_icon);
     BimehIcon_shape.setTexture(&Bimeh_icon);
-
-
-
+    AllamehIcon_shape.setTexture(&Allameh_icon);
+    BoostanIcon_shape.setTexture(&Boostan_icon);
+    chaharIcon_shape.setTexture(&chahar_icon);
 
     Lets_go_Icon_shape.setPosition(sf::Vector2f(24, 360));
     exitIcon_shape.setPosition(sf::Vector2f(24, 438));
@@ -97,8 +106,11 @@ void App::menu()
     ArrowIcon_shape.setPosition(sf::Vector2f(322, 250));
     Arrow2Icon_shape.setPosition(sf::Vector2f(322, 328));
     AghdasiyehIcon_shape.setPosition(sf::Vector2f(261, 89));
-    AzadeghanIcon_shape.setPosition(sf::Vector2f(261, 116));
-    BimehIcon_shape.setPosition(sf::Vector2f(261, 143));
+    AzadeghanIcon_shape.setPosition(sf::Vector2f(261, 143));
+    BimehIcon_shape.setPosition(sf::Vector2f(261, 170));
+    AllamehIcon_shape.setPosition(sf::Vector2f(261, 116));
+    BoostanIcon_shape.setPosition(sf::Vector2f(261, 197));
+    chaharIcon_shape.setPosition(sf::Vector2f(261, 224));
 
     graph.readGraphFromFile(filename);
 
@@ -170,6 +182,10 @@ void App::menu()
                 window.draw(AghdasiyehIcon_shape);
                 window.draw(AzadeghanIcon_shape);
                 window.draw(BimehIcon_shape);
+                window.draw(AllamehIcon_shape);
+                window.draw(BoostanIcon_shape);
+                window.draw(chaharIcon_shape);
+                
             }
             if (ArrowIcon_shape.getGlobalBounds().contains(mouse))
             {
