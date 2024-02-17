@@ -44,7 +44,8 @@ void App::menu()
     sf::Texture haft_icon;
     sf::Texture javadiyeh_icon;
     sf::Texture Kashani_icon;
-
+    sf::Texture Kahrizak_icon;
+    
     try
     {
         texture.loadFromFile("picture/01.png");
@@ -68,6 +69,17 @@ void App::menu()
         chahar_icon.loadFromFile("picture/005.png");
         Dowlat_icon.loadFromFile("picture/006.png");
         Shemiran_icon.loadFromFile("picture/007.png");
+        sina_icon.loadFromFile("picture/008.png");
+        Hossein_icon.loadFromFile("picture/009.png");
+        sabz_icon.loadFromFile("picture/010.png");
+        Ferdowsi_icon.loadFromFile("picture/011.png");
+        Ghaem_icon.loadFromFile("picture/012.png");
+        gheytariyeh_icon.loadFromFile("picture/013.png");
+        Gholhak_icon.loadFromFile("picture/014.png");
+        Haram_icon.loadFromFile("picture/015.png");
+        haft_icon.loadFromFile("picture/016.png");
+        javadiyeh_icon.loadFromFile("picture/017.png");
+        Kashani_icon.loadFromFile("picture/018.png");
     }
     catch (const std::exception &e)
     {
@@ -94,6 +106,17 @@ void App::menu()
     sf::RectangleShape chaharIcon_shape(sf::Vector2f(82, 21));
     sf::RectangleShape DowlatIcon_shape(sf::Vector2f(82, 21));
     sf::RectangleShape ShemiranIcon_shape(sf::Vector2f(82, 21));
+    sf::RectangleShape SinaIcon_shape(sf::Vector2f(82, 21));
+    sf::RectangleShape HosseinIcon_shape(sf::Vector2f(82, 21));
+    sf::RectangleShape SabzIcon_shape(sf::Vector2f(82, 21));
+    sf::RectangleShape FerdowsiIcon_shape(sf::Vector2f(82, 21));
+    sf::RectangleShape GhaemIcon_shape(sf::Vector2f(82, 21));
+    sf::RectangleShape GheytariyehIcon_shape(sf::Vector2f(82, 21));
+    sf::RectangleShape GolhakIcon_shape(sf::Vector2f(82, 21));
+    sf::RectangleShape HarmIcon_shape(sf::Vector2f(82, 21));
+    sf::RectangleShape haftIcon_shape(sf::Vector2f(82, 21));
+    sf::RectangleShape javadiyehIcon_shape(sf::Vector2f(82, 21));
+    sf::RectangleShape KashaniIcon_shape(sf::Vector2f(82, 21));
 
     texture_shape.setTexture(&texture);
     pag_2_shape.setTexture(&pag_2);
@@ -116,6 +139,30 @@ void App::menu()
     chaharIcon_shape.setTexture(&chahar_icon);
     DowlatIcon_shape.setTexture(&Dowlat_icon);
     ShemiranIcon_shape.setTexture(&Shemiran_icon);
+    SinaIcon_shape.setTexture(&sina_icon);
+    HosseinIcon_shape.setTexture(&Hossein_icon);
+    SabzIcon_shape.setTexture(&sabz_icon);
+    FerdowsiIcon_shape.setTexture(&Ferdowsi_icon);
+    GhaemIcon_shape.setTexture(&Ghaem_icon);
+    GheytariyehIcon_shape.setTexture(&gheytariyeh_icon);
+    GolhakIcon_shape.setTexture(&Gholhak_icon);
+    HarmIcon_shape.setTexture(&Haram_icon);
+    haftIcon_shape.setTexture(&haft_icon);
+    javadiyehIcon_shape.setTexture(&javadiyeh_icon);
+    KashaniIcon_shape.setTexture(&Kashani_icon);
+   
+
+
+
+
+
+
+
+
+
+
+
+
 
     Lets_go_Icon_shape.setPosition(sf::Vector2f(24, 360));
     exitIcon_shape.setPosition(sf::Vector2f(24, 438));
@@ -124,14 +171,37 @@ void App::menu()
     nextIcon_shape.setPosition(sf::Vector2f(90, 710));
     ArrowIcon_shape.setPosition(sf::Vector2f(322, 250));
     Arrow2Icon_shape.setPosition(sf::Vector2f(322, 328));
-    AghdasiyehIcon_shape.setPosition(sf::Vector2f(261, 89));
-    AzadeghanIcon_shape.setPosition(sf::Vector2f(261, 143));
-    BimehIcon_shape.setPosition(sf::Vector2f(261, 170));
-    AllamehIcon_shape.setPosition(sf::Vector2f(261, 116));
-    BoostanIcon_shape.setPosition(sf::Vector2f(261, 197));
-    chaharIcon_shape.setPosition(sf::Vector2f(261, 224));
-    DowlatIcon_shape.setPosition(sf::Vector2f(261, 251));
-    ShemiranIcon_shape.setPosition(sf::Vector2f(261, 278));
+    AghdasiyehIcon_shape.setPosition(sf::Vector2f(261,62 ));
+    AzadeghanIcon_shape.setPosition(sf::Vector2f(261, 116));
+    BimehIcon_shape.setPosition(sf::Vector2f(261, 143));
+    AllamehIcon_shape.setPosition(sf::Vector2f(261, 89));
+    BoostanIcon_shape.setPosition(sf::Vector2f(261, 170));
+    chaharIcon_shape.setPosition(sf::Vector2f(261, 197));
+    DowlatIcon_shape.setPosition(sf::Vector2f(261, 224));
+    ShemiranIcon_shape.setPosition(sf::Vector2f(261, 251));
+    SinaIcon_shape.setPosition(sf::Vector2f(261, 278));
+    HosseinIcon_shape.setPosition(sf::Vector2f(261,305));
+    SabzIcon_shape.setPosition(sf::Vector2f(261, 332));
+    FerdowsiIcon_shape.setPosition(sf::Vector2f(261, 359));
+    GhaemIcon_shape.setPosition(sf::Vector2f(261, 386));
+    GheytariyehIcon_shape.setPosition(sf::Vector2f(261, 413));
+    GolhakIcon_shape.setPosition(sf::Vector2f(261, 440));
+    HarmIcon_shape.setPosition(sf::Vector2f(261, 467));
+    haftIcon_shape.setPosition(sf::Vector2f(261, 494));
+    javadiyehIcon_shape.setPosition(sf::Vector2f(261, 521));
+    KashaniIcon_shape.setPosition(sf::Vector2f(261, 548));
+
+
+
+
+
+
+
+
+
+
+
+
 
     graph.readGraphFromFile(filename);
 
@@ -208,6 +278,19 @@ void App::menu()
                 window.draw(chaharIcon_shape);
                 window.draw(DowlatIcon_shape);
                 window.draw(ShemiranIcon_shape);
+                window.draw(SinaIcon_shape);
+                window.draw(HosseinIcon_shape);
+                window.draw(SabzIcon_shape);
+                window.draw(FerdowsiIcon_shape);
+                window.draw(GhaemIcon_shape);
+                window.draw(GheytariyehIcon_shape);
+                window.draw(GolhakIcon_shape);
+                window.draw(HarmIcon_shape);
+                window.draw(haftIcon_shape);
+                window.draw(javadiyehIcon_shape);
+                window.draw(KashaniIcon_shape);
+                
+
             }
             if (ArrowIcon_shape.getGlobalBounds().contains(mouse))
             {
