@@ -25,6 +25,7 @@ void App::menu()
     sf::Texture next_icon;
     sf::Texture Arrow_icon;
     sf::Texture Arrow2_icon;
+    sf::Texture Arrow_orgin_icon;
     sf::Texture Aghdasiyeh_icon;
     sf::Texture Allameh_icon;
     sf::Texture Azadeghan_icon;
@@ -159,6 +160,7 @@ void App::menu()
         Towhid_icon.loadFromFile("picture/056.png");
         Yadegar_icon.loadFromFile("picture/057.png");
         Zamzam_icon.loadFromFile("picture/058.png");
+        Arrow_orgin_icon.loadFromFile("picture/b1.png");
     }
     catch (const std::exception &e)
     {
@@ -236,6 +238,7 @@ void App::menu()
     sf::RectangleShape TowhidIcon_shape(sf::Vector2f(82, 21));
     sf::RectangleShape YadegarIcon_shape(sf::Vector2f(82, 21));
     sf::RectangleShape ZamzamIcon_shape(sf::Vector2f(82, 21));
+    sf::RectangleShape Arrow_orginIcon_shape(sf::Vector2f(17, 16));
 
     texture_shape.setTexture(&texture);
     pag_2_shape.setTexture(&pag_2);
@@ -309,6 +312,7 @@ void App::menu()
     TowhidIcon_shape.setTexture(&Towhid_icon);
     YadegarIcon_shape.setTexture(&Yadegar_icon);
     ZamzamIcon_shape.setTexture(&Zamzam_icon);
+    Arrow_orginIcon_shape.setTexture(&Arrow_orgin_icon);
 
     Lets_go_Icon_shape.setPosition(sf::Vector2f(24, 360));
     exitIcon_shape.setPosition(sf::Vector2f(24, 438));
@@ -376,6 +380,7 @@ void App::menu()
     TowhidIcon_shape.setPosition(sf::Vector2f(38, 625));
     YadegarIcon_shape.setPosition(sf::Vector2f(38, 652));
     ZamzamIcon_shape.setPosition(sf::Vector2f(38, 679));
+    Arrow_orginIcon_shape.setPosition(sf::Vector2f(38, 782));
 
     graph.readGraphFromFile(filename);
 
@@ -504,6 +509,7 @@ void App::menu()
                 window.draw(TowhidIcon_shape);
                 window.draw(YadegarIcon_shape);
                 window.draw(ZamzamIcon_shape);
+                window.draw(Arrow_orginIcon_shape);
             }
             if (ArrowIcon_shape.getGlobalBounds().contains(mouse))
             {
