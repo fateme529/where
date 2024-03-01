@@ -383,17 +383,18 @@ void App::menu()
     Arrow_orginIcon_shape.setPosition(sf::Vector2f(38, 782));
 
     graph.readGraphFromFile(filename);
-
     sf::Font font;
-    if (!font.loadFromFile("font.TTF"))
-    { // Load a font
+    sf::Text p000;
+    if (!font.loadFromFile("arial.ttf"))
+    {
         throw runtime_error("Error: Unable to load font.");
     }
-    sf::Text orgin;
-    orgin.setFont(font);
-    orgin.setCharacterSize(16);
-    orgin.setFillColor(sf::Color::Black); // Set the text color
-    orgin.setPosition(319, 44);
+    p000.setFont(font);
+    p000.setCharacterSize(16);
+    p000.setFillColor(sf::Color::Black);
+
+    p000.setPosition(66, 245);
+    p000.setString("Allameh Jafari");
 
     while (window.isOpen())
     {
@@ -510,6 +511,18 @@ void App::menu()
                 window.draw(YadegarIcon_shape);
                 window.draw(ZamzamIcon_shape);
                 window.draw(Arrow_orginIcon_shape);
+            }
+            if (!flag_000)
+            {
+                 flag_Arrow1 = true;
+                 window.draw(p000);
+            }
+            if (AllamehIcon_shape.getGlobalBounds().contains(mouse))
+            {
+                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
+                {
+                    flag_000 = false;
+                }
             }
             if (ArrowIcon_shape.getGlobalBounds().contains(mouse))
             {
