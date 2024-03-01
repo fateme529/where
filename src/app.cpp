@@ -45,7 +45,46 @@ void App::menu()
     sf::Texture javadiyeh_icon;
     sf::Texture Kashani_icon;
     sf::Texture Kahrizak_icon;
-    
+    sf::Texture Khajeh_icon;
+    sf::Texture Kouhsar_icon;
+    sf::Texture Jonoub_icon;
+    sf::Texture Mahdiyeh_icon;
+    sf::Texture Azadi_icon;
+    sf::Texture Enghelab_icon;
+    sf::Texture ValiAsar_icon;
+    sf::Texture Jahad_icon;
+    sf::Texture Shohada_icon;
+    sf::Texture Mirdamad_icon;
+    sf::Texture Shirazi_icon;
+    sf::Texture Moniriyeh_icon;
+    sf::Texture Nabard_icon;
+    sf::Texture Niro_icon;
+    sf::Texture Ostad_icon;
+    sf::Texture Panzdah_icon;
+    sf::Texture Payaneh_icon;
+    sf::Texture pirozi_icon;
+    sf::Texture Rahahan_icon;
+    sf::Texture Shademan_icon;
+    sf::Texture Ghodosi_icon;
+    sf::Texture Beheshti_icon;
+    sf::Texture Haghani_icon;
+    sf::Texture Kolahdoz_icon;
+    sf::Texture Mofatteh_icon;
+    sf::Texture Rezaei_icon;
+    sf::Texture Sadr_icon;
+    sf::Texture Zeynoddin_icon;
+    sf::Texture Shariati_icon;
+    sf::Texture Rey_icon;
+    sf::Texture Shoush_icon;
+    sf::Texture sohrevardi_icon;
+    sf::Texture Tajrish_icon;
+    sf::Texture Taleghani_icon;
+    sf::Texture Teater_icon;
+    sf::Texture Pars_icon;
+    sf::Texture Towhid_icon;
+    sf::Texture Yadegar_icon;
+    sf::Texture Zamzam_icon;
+
     try
     {
         texture.loadFromFile("picture/01.png");
@@ -80,6 +119,46 @@ void App::menu()
         haft_icon.loadFromFile("picture/016.png");
         javadiyeh_icon.loadFromFile("picture/017.png");
         Kashani_icon.loadFromFile("picture/018.png");
+        Kahrizak_icon.loadFromFile("picture/019.png");
+        Khajeh_icon.loadFromFile("picture/020.png");
+        Kouhsar_icon.loadFromFile("picture/022.png");
+        Jonoub_icon.loadFromFile("picture/021.png");
+        Mahdiyeh_icon.loadFromFile("picture/023.png");
+        Azadi_icon.loadFromFile("picture/024.png");
+        Enghelab_icon.loadFromFile("picture/025.png");
+        ValiAsar_icon.loadFromFile("picture/026.png");
+        Jahad_icon.loadFromFile("picture/027.png");
+        Shohada_icon.loadFromFile("picture/028.png");
+        Mirdamad_icon.loadFromFile("picture/029.png");
+        Shirazi_icon.loadFromFile("picture/030.png");
+        Moniriyeh_icon.loadFromFile("picture/031.png");
+        Nabard_icon.loadFromFile("picture/032.png");
+        Niro_icon.loadFromFile("picture/033.png");
+        Ostad_icon.loadFromFile("picture/034.png");
+        Panzdah_icon.loadFromFile("picture/035.png");
+        Payaneh_icon.loadFromFile("picture/036.png");
+        pirozi_icon.loadFromFile("picture/037.png");
+        Rahahan_icon.loadFromFile("picture/038.png");
+        Shademan_icon.loadFromFile("picture/039.png");
+        Ghodosi_icon.loadFromFile("picture/040.png");
+        Beheshti_icon.loadFromFile("picture/041.png");
+        Haghani_icon.loadFromFile("picture/042.png");
+        Kolahdoz_icon.loadFromFile("picture/043.png");
+        Mofatteh_icon.loadFromFile("picture/044.png");
+        Rezaei_icon.loadFromFile("picture/045.png");
+        Sadr_icon.loadFromFile("picture/046.png");
+        Zeynoddin_icon.loadFromFile("picture/047.png");
+        Shariati_icon.loadFromFile("picture/048.png");
+        Rey_icon.loadFromFile("picture/049.png");
+        Shoush_icon.loadFromFile("picture/050.png");
+        sohrevardi_icon.loadFromFile("picture/051.png");
+        Tajrish_icon.loadFromFile("picture/052.png");
+        Taleghani_icon.loadFromFile("picture/053.png");
+        Teater_icon.loadFromFile("picture/054.png");
+        Pars_icon.loadFromFile("picture/055.png");
+        Towhid_icon.loadFromFile("picture/056.png");
+        Yadegar_icon.loadFromFile("picture/057.png");
+        Zamzam_icon.loadFromFile("picture/058.png");
     }
     catch (const std::exception &e)
     {
@@ -117,6 +196,46 @@ void App::menu()
     sf::RectangleShape haftIcon_shape(sf::Vector2f(82, 21));
     sf::RectangleShape javadiyehIcon_shape(sf::Vector2f(82, 21));
     sf::RectangleShape KashaniIcon_shape(sf::Vector2f(82, 21));
+    sf::RectangleShape KahrizakIcon_shape(sf::Vector2f(82, 21));
+    sf::RectangleShape KhajehIcon_shape(sf::Vector2f(82, 21));
+    sf::RectangleShape JonoubIcon_shape(sf::Vector2f(82, 21));
+    sf::RectangleShape KouhsarIcon_shape(sf::Vector2f(82, 21));
+    sf::RectangleShape MahdiyehIcon_shape(sf::Vector2f(82, 21));
+    sf::RectangleShape AzadiIcon_shape(sf::Vector2f(82, 21));
+    sf::RectangleShape EnghelabIcon_shape(sf::Vector2f(82, 21));
+    sf::RectangleShape ValiAsarIcon_shape(sf::Vector2f(82, 21));
+    sf::RectangleShape JahadIcon_shape(sf::Vector2f(82, 21));
+    sf::RectangleShape ShohadaIcon_shape(sf::Vector2f(82, 21));
+    sf::RectangleShape MirdamadIcon_shape(sf::Vector2f(82, 21));
+    sf::RectangleShape ShiraziIcon_shape(sf::Vector2f(82, 21));
+    sf::RectangleShape MoniriyehIcon_shape(sf::Vector2f(82, 21));
+    sf::RectangleShape NabardIcon_shape(sf::Vector2f(82, 21));
+    sf::RectangleShape NiroIcon_shape(sf::Vector2f(82, 21));
+    sf::RectangleShape OstadIcon_shape(sf::Vector2f(82, 21));
+    sf::RectangleShape PanzdahIcon_shape(sf::Vector2f(82, 21));
+    sf::RectangleShape PayanehIcon_shape(sf::Vector2f(82, 21));
+    sf::RectangleShape piroziIcon_shape(sf::Vector2f(82, 21));
+    sf::RectangleShape RahahanIcon_shape(sf::Vector2f(82, 21));
+    sf::RectangleShape ShademanIcon_shape(sf::Vector2f(82, 21));
+    sf::RectangleShape GhodosiIcon_shape(sf::Vector2f(82, 21));
+    sf::RectangleShape BeheshtiIcon_shape(sf::Vector2f(82, 21));
+    sf::RectangleShape HaghaniIcon_shape(sf::Vector2f(82, 21));
+    sf::RectangleShape KolahdozIcon_shape(sf::Vector2f(82, 21));
+    sf::RectangleShape MofattehIcon_shape(sf::Vector2f(82, 21));
+    sf::RectangleShape RezaeiIcon_shape(sf::Vector2f(82, 21));
+    sf::RectangleShape SadrIcon_shape(sf::Vector2f(82, 21));
+    sf::RectangleShape ZeynoddinIcon_shape(sf::Vector2f(82, 21));
+    sf::RectangleShape ShariatiIcon_shape(sf::Vector2f(82, 21));
+    sf::RectangleShape ReyIcon_shape(sf::Vector2f(82, 21));
+    sf::RectangleShape ShoushIcon_shape(sf::Vector2f(82, 21));
+    sf::RectangleShape sohrevardiIcon_shape(sf::Vector2f(82, 21));
+    sf::RectangleShape TajrishIcon_shape(sf::Vector2f(82, 21));
+    sf::RectangleShape TaleghaniIcon_shape(sf::Vector2f(82, 21));
+    sf::RectangleShape TeaterIcon_shape(sf::Vector2f(82, 21));
+    sf::RectangleShape ParsIcon_shape(sf::Vector2f(82, 21));
+    sf::RectangleShape TowhidIcon_shape(sf::Vector2f(82, 21));
+    sf::RectangleShape YadegarIcon_shape(sf::Vector2f(82, 21));
+    sf::RectangleShape ZamzamIcon_shape(sf::Vector2f(82, 21));
 
     texture_shape.setTexture(&texture);
     pag_2_shape.setTexture(&pag_2);
@@ -150,19 +269,46 @@ void App::menu()
     haftIcon_shape.setTexture(&haft_icon);
     javadiyehIcon_shape.setTexture(&javadiyeh_icon);
     KashaniIcon_shape.setTexture(&Kashani_icon);
-   
-
-
-
-
-
-
-
-
-
-
-
-
+    KahrizakIcon_shape.setTexture(&Kahrizak_icon);
+    KhajehIcon_shape.setTexture(&Khajeh_icon);
+    KouhsarIcon_shape.setTexture(&Kouhsar_icon);
+    JonoubIcon_shape.setTexture(&Jonoub_icon);
+    MahdiyehIcon_shape.setTexture(&Mahdiyeh_icon);
+    AzadiIcon_shape.setTexture(&Azadi_icon);
+    EnghelabIcon_shape.setTexture(&Enghelab_icon);
+    ValiAsarIcon_shape.setTexture(&ValiAsar_icon);
+    JahadIcon_shape.setTexture(&Jahad_icon);
+    ShohadaIcon_shape.setTexture(&Shohada_icon);
+    MirdamadIcon_shape.setTexture(&Mirdamad_icon);
+    ShiraziIcon_shape.setTexture(&Shirazi_icon);
+    MoniriyehIcon_shape.setTexture(&Moniriyeh_icon);
+    NabardIcon_shape.setTexture(&Nabard_icon);
+    NiroIcon_shape.setTexture(&Niro_icon);
+    OstadIcon_shape.setTexture(&Ostad_icon);
+    PanzdahIcon_shape.setTexture(&Panzdah_icon);
+    PayanehIcon_shape.setTexture(&Payaneh_icon);
+    piroziIcon_shape.setTexture(&pirozi_icon);
+    RahahanIcon_shape.setTexture(&Rahahan_icon);
+    ShademanIcon_shape.setTexture(&Shademan_icon);
+    GhodosiIcon_shape.setTexture(&Ghodosi_icon);
+    BeheshtiIcon_shape.setTexture(&Beheshti_icon);
+    HaghaniIcon_shape.setTexture(&Haghani_icon);
+    KolahdozIcon_shape.setTexture(&Kolahdoz_icon);
+    MofattehIcon_shape.setTexture(&Mofatteh_icon);
+    RezaeiIcon_shape.setTexture(&Rezaei_icon);
+    SadrIcon_shape.setTexture(&Sadr_icon);
+    ZeynoddinIcon_shape.setTexture(&Zeynoddin_icon);
+    ShariatiIcon_shape.setTexture(&Shariati_icon);
+    ReyIcon_shape.setTexture(&Rey_icon);
+    ShoushIcon_shape.setTexture(&Shoush_icon);
+    sohrevardiIcon_shape.setTexture(&sohrevardi_icon);
+    TajrishIcon_shape.setTexture(&Tajrish_icon);
+    TaleghaniIcon_shape.setTexture(&Taleghani_icon);
+    TeaterIcon_shape.setTexture(&Teater_icon);
+    ParsIcon_shape.setTexture(&Pars_icon);
+    TowhidIcon_shape.setTexture(&Towhid_icon);
+    YadegarIcon_shape.setTexture(&Yadegar_icon);
+    ZamzamIcon_shape.setTexture(&Zamzam_icon);
 
     Lets_go_Icon_shape.setPosition(sf::Vector2f(24, 360));
     exitIcon_shape.setPosition(sf::Vector2f(24, 438));
@@ -171,7 +317,7 @@ void App::menu()
     nextIcon_shape.setPosition(sf::Vector2f(90, 710));
     ArrowIcon_shape.setPosition(sf::Vector2f(322, 250));
     Arrow2Icon_shape.setPosition(sf::Vector2f(322, 328));
-    AghdasiyehIcon_shape.setPosition(sf::Vector2f(261,62 ));
+    AghdasiyehIcon_shape.setPosition(sf::Vector2f(261, 62));
     AzadeghanIcon_shape.setPosition(sf::Vector2f(261, 116));
     BimehIcon_shape.setPosition(sf::Vector2f(261, 143));
     AllamehIcon_shape.setPosition(sf::Vector2f(261, 89));
@@ -180,7 +326,7 @@ void App::menu()
     DowlatIcon_shape.setPosition(sf::Vector2f(261, 224));
     ShemiranIcon_shape.setPosition(sf::Vector2f(261, 251));
     SinaIcon_shape.setPosition(sf::Vector2f(261, 278));
-    HosseinIcon_shape.setPosition(sf::Vector2f(261,305));
+    HosseinIcon_shape.setPosition(sf::Vector2f(261, 305));
     SabzIcon_shape.setPosition(sf::Vector2f(261, 332));
     FerdowsiIcon_shape.setPosition(sf::Vector2f(261, 359));
     GhaemIcon_shape.setPosition(sf::Vector2f(261, 386));
@@ -190,18 +336,46 @@ void App::menu()
     haftIcon_shape.setPosition(sf::Vector2f(261, 494));
     javadiyehIcon_shape.setPosition(sf::Vector2f(261, 521));
     KashaniIcon_shape.setPosition(sf::Vector2f(261, 548));
-
-
-
-
-
-
-
-
-
-
-
-
+    KahrizakIcon_shape.setPosition(sf::Vector2f(150, 125));
+    KhajehIcon_shape.setPosition(sf::Vector2f(150, 152));
+    KouhsarIcon_shape.setPosition(sf::Vector2f(150, 179));
+    JonoubIcon_shape.setPosition(sf::Vector2f(150, 206));
+    MahdiyehIcon_shape.setPosition(sf::Vector2f(150, 233));
+    AzadiIcon_shape.setPosition(sf::Vector2f(150, 260));
+    EnghelabIcon_shape.setPosition(sf::Vector2f(150, 287));
+    ValiAsarIcon_shape.setPosition(sf::Vector2f(150, 314));
+    JahadIcon_shape.setPosition(sf::Vector2f(150, 341));
+    ShohadaIcon_shape.setPosition(sf::Vector2f(150, 368));
+    MirdamadIcon_shape.setPosition(sf::Vector2f(150, 395));
+    ShiraziIcon_shape.setPosition(sf::Vector2f(150, 422));
+    MoniriyehIcon_shape.setPosition(sf::Vector2f(150, 449));
+    NabardIcon_shape.setPosition(sf::Vector2f(150, 479));
+    NiroIcon_shape.setPosition(sf::Vector2f(150, 503));
+    OstadIcon_shape.setPosition(sf::Vector2f(150, 530));
+    PanzdahIcon_shape.setPosition(sf::Vector2f(150, 557));
+    PayanehIcon_shape.setPosition(sf::Vector2f(150, 584));
+    piroziIcon_shape.setPosition(sf::Vector2f(150, 611));
+    RahahanIcon_shape.setPosition(sf::Vector2f(150, 638));
+    ShademanIcon_shape.setPosition(sf::Vector2f(150, 665));
+    GhodosiIcon_shape.setPosition(sf::Vector2f(38, 193));
+    BeheshtiIcon_shape.setPosition(sf::Vector2f(38, 220));
+    HaghaniIcon_shape.setPosition(sf::Vector2f(38, 247));
+    KolahdozIcon_shape.setPosition(sf::Vector2f(38, 274));
+    MofattehIcon_shape.setPosition(sf::Vector2f(38, 301));
+    RezaeiIcon_shape.setPosition(sf::Vector2f(38, 328));
+    SadrIcon_shape.setPosition(sf::Vector2f(38, 355));
+    ZeynoddinIcon_shape.setPosition(sf::Vector2f(38, 382));
+    ShariatiIcon_shape.setPosition(sf::Vector2f(38, 409));
+    ReyIcon_shape.setPosition(sf::Vector2f(38, 436));
+    ShoushIcon_shape.setPosition(sf::Vector2f(38, 463));
+    sohrevardiIcon_shape.setPosition(sf::Vector2f(38, 490));
+    TajrishIcon_shape.setPosition(sf::Vector2f(38, 517));
+    TaleghaniIcon_shape.setPosition(sf::Vector2f(38, 544));
+    TeaterIcon_shape.setPosition(sf::Vector2f(38, 571));
+    ParsIcon_shape.setPosition(sf::Vector2f(38, 598));
+    TowhidIcon_shape.setPosition(sf::Vector2f(38, 625));
+    YadegarIcon_shape.setPosition(sf::Vector2f(38, 652));
+    ZamzamIcon_shape.setPosition(sf::Vector2f(38, 679));
 
     graph.readGraphFromFile(filename);
 
@@ -289,8 +463,47 @@ void App::menu()
                 window.draw(haftIcon_shape);
                 window.draw(javadiyehIcon_shape);
                 window.draw(KashaniIcon_shape);
-                
-
+                window.draw(KahrizakIcon_shape);
+                window.draw(KhajehIcon_shape);
+                window.draw(KouhsarIcon_shape);
+                window.draw(JonoubIcon_shape);
+                window.draw(MahdiyehIcon_shape);
+                window.draw(AzadiIcon_shape);
+                window.draw(EnghelabIcon_shape);
+                window.draw(ValiAsarIcon_shape);
+                window.draw(JahadIcon_shape);
+                window.draw(ShademanIcon_shape);
+                window.draw(ShohadaIcon_shape);
+                window.draw(MirdamadIcon_shape);
+                window.draw(ShiraziIcon_shape);
+                window.draw(MoniriyehIcon_shape);
+                window.draw(NabardIcon_shape);
+                window.draw(NiroIcon_shape);
+                window.draw(OstadIcon_shape);
+                window.draw(PanzdahIcon_shape);
+                window.draw(PayanehIcon_shape);
+                window.draw(piroziIcon_shape);
+                window.draw(RahahanIcon_shape);
+                window.draw(ShademanIcon_shape);
+                window.draw(GhodosiIcon_shape);
+                window.draw(BeheshtiIcon_shape);
+                window.draw(HaghaniIcon_shape);
+                window.draw(KolahdozIcon_shape);
+                window.draw(MofattehIcon_shape);
+                window.draw(RezaeiIcon_shape);
+                window.draw(SadrIcon_shape);
+                window.draw(ZeynoddinIcon_shape);
+                window.draw(ShariatiIcon_shape);
+                window.draw(ReyIcon_shape);
+                window.draw(ShoushIcon_shape);
+                window.draw(sohrevardiIcon_shape);
+                window.draw(TajrishIcon_shape);
+                window.draw(TaleghaniIcon_shape);
+                window.draw(TeaterIcon_shape);
+                window.draw(ParsIcon_shape);
+                window.draw(TowhidIcon_shape);
+                window.draw(YadegarIcon_shape);
+                window.draw(ZamzamIcon_shape);
             }
             if (ArrowIcon_shape.getGlobalBounds().contains(mouse))
             {
