@@ -74,6 +74,7 @@ private:
     bool flag_056 = true;
     bool flag_057 = true;
     bool flag_058 = true;
+    bool type = true;
     string originName, destinationName;
     string filename = "input.txt";
     Graph graph;
