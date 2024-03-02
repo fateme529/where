@@ -514,7 +514,7 @@ void App::menu()
             }
             if (!flag_Arrow1)
             {
-
+                type = false;
                 window.clear();
                 window.draw(back_grand_shape);
                 window.draw(AghdasiyehIcon_shape);
@@ -587,46 +587,63 @@ void App::menu()
             }
             if (!flag_000 && !type && flag_Arrow1)
             {
+                window.clear();
 
+                window.draw(user_shape);
+                window.draw(ArrowIcon_shape);
+                window.draw(Arrow2Icon_shape);
                 window.draw(p000);
             }
 
-            // if (!flag_001)
-            // {
-            //     flag_Arrow1 = true;
+            if (!flag_001 && !type && flag_Arrow1)
+            {
+                window.clear();
+                window.draw(user_shape);
+                window.draw(ArrowIcon_shape);
+                window.draw(Arrow2Icon_shape);
+                window.draw(p001);
+            }
 
-            //     window.draw(p001);
-            // }
-
-            // if (!flag_002)
-            // {
-            //     flag_Arrow1 = true;
-
-            //     window.draw(p002);
-            // }
-            // if (!flag_003)
-            // {
-            //     flag_Arrow1 = true;
-
-            //     window.draw(p003);
-            // }
-            // if (!flag_004)
-            // {
-            //     flag_Arrow1 = true;
-
-            //     window.draw(p004);
-            // }
-            // if (!flag_005)
-            // {
-            //     flag_Arrow1 = true;
-
-            //     window.draw(p005);
-            // }
-            // if (!flag_006 )
-            // {
-
-            //     window.draw(p006);
-            // }
+            if (!flag_002 && !type && flag_Arrow1)
+            {
+                window.clear();
+                window.draw(user_shape);
+                window.draw(ArrowIcon_shape);
+                window.draw(Arrow2Icon_shape);
+                window.draw(p002);
+            }
+            if (!flag_003 && !type && flag_Arrow1)
+            {
+                window.clear();
+                window.draw(user_shape);
+                window.draw(ArrowIcon_shape);
+                window.draw(Arrow2Icon_shape);
+                window.draw(p003);
+            }
+            if (!flag_004 && !type && flag_Arrow1)
+            {
+                window.clear();
+                window.draw(user_shape);
+                window.draw(ArrowIcon_shape);
+                window.draw(Arrow2Icon_shape);
+                window.draw(p004);
+            }
+            if (!flag_005 && !type && flag_Arrow1)
+            {
+                window.clear();
+                window.draw(user_shape);
+                window.draw(ArrowIcon_shape);
+                window.draw(Arrow2Icon_shape);
+                window.draw(p005);
+            }
+            if (!flag_006 && !type && flag_Arrow1)
+            {
+                window.clear();
+                window.draw(user_shape);
+                window.draw(ArrowIcon_shape);
+                window.draw(Arrow2Icon_shape);
+                window.draw(p006);
+            }
             if (!flag_007 && !type && flag_Arrow1)
             {
                 window.clear();
@@ -635,30 +652,38 @@ void App::menu()
                 window.draw(Arrow2Icon_shape);
                 window.draw(p007);
             }
-            // if (!flag_008)
-            // {
-            //     flag_Arrow1 = true;
-
-            //     window.draw(p008);
-            // }
-            // if (!flag_009)
-            // {
-            //     flag_Arrow1 = true;
-
-            //     window.draw(p009);
-            // }
-            // if (!flag_010)
-            // {
-            //     flag_Arrow1 = true;
-
-            //     window.draw(p010);
-            // }
-            // if (!flag_011)
-            // {
-            //     flag_Arrow1 = true;
-
-            //     window.draw(p011);
-            // }
+            if (!flag_008 && !type && flag_Arrow1)
+            {
+                window.clear();
+                window.draw(user_shape);
+                window.draw(ArrowIcon_shape);
+                window.draw(Arrow2Icon_shape);
+                window.draw(p008);
+            }
+            if (!flag_009 && !type && flag_Arrow1)
+            {
+                window.clear();
+                window.draw(user_shape);
+                window.draw(ArrowIcon_shape);
+                window.draw(Arrow2Icon_shape);
+                window.draw(p009);
+            }
+            if (!flag_010 && !type && flag_Arrow1)
+            {
+                window.clear();
+                window.draw(user_shape);
+                window.draw(ArrowIcon_shape);
+                window.draw(Arrow2Icon_shape);
+                window.draw(p010);
+            }
+            if (!flag_011 && !type && flag_Arrow1)
+            {
+                window.clear();
+                window.draw(user_shape);
+                window.draw(ArrowIcon_shape);
+                window.draw(Arrow2Icon_shape);
+                window.draw(p011);
+            }
             if (AllamehIcon_shape.getGlobalBounds().contains(mouse))
             {
                 if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
@@ -672,6 +697,7 @@ void App::menu()
                 if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
                 {
                     flag_001 = false;
+                    flag_Arrow1 = true;
                 }
             }
             if (AzadeghanIcon_shape.getGlobalBounds().contains(mouse))
@@ -679,6 +705,7 @@ void App::menu()
                 if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
                 {
                     flag_002 = false;
+                    flag_Arrow1 = true;
                 }
             }
             if (BimehIcon_shape.getGlobalBounds().contains(mouse))
@@ -686,6 +713,7 @@ void App::menu()
                 if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
                 {
                     flag_003 = false;
+                    flag_Arrow1 = true;
                 }
             }
             if (BoostanIcon_shape.getGlobalBounds().contains(mouse))
@@ -693,6 +721,7 @@ void App::menu()
                 if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
                 {
                     flag_004 = false;
+                    flag_Arrow1 = true;
                 }
             }
             if (chaharIcon_shape.getGlobalBounds().contains(mouse))
@@ -700,6 +729,7 @@ void App::menu()
                 if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
                 {
                     flag_005 = false;
+                    flag_Arrow1 = true;
                 }
             }
             if (DowlatIcon_shape.getGlobalBounds().contains(mouse))
@@ -707,6 +737,7 @@ void App::menu()
                 if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
                 {
                     flag_006 = false;
+                    flag_Arrow1 = true;
                 }
             }
             if (ShemiranIcon_shape.getGlobalBounds().contains(mouse))
@@ -722,6 +753,7 @@ void App::menu()
                 if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
                 {
                     flag_008 = false;
+                    flag_Arrow1 = true;
                 }
             }
             if (HosseinIcon_shape.getGlobalBounds().contains(mouse))
@@ -729,6 +761,7 @@ void App::menu()
                 if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
                 {
                     flag_009 = false;
+                    flag_Arrow1 = true;
                 }
             }
             if (SabzIcon_shape.getGlobalBounds().contains(mouse))
@@ -736,6 +769,7 @@ void App::menu()
                 if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
                 {
                     flag_010 = false;
+                    flag_Arrow1 = true;
                 }
             }
             if (FerdowsiIcon_shape.getGlobalBounds().contains(mouse))
@@ -743,6 +777,7 @@ void App::menu()
                 if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
                 {
                     flag_011 = false;
+                    flag_Arrow1 = true;
                 }
             }
             if (Arrow_orginIcon_shape.getGlobalBounds().contains(mouse))
@@ -757,7 +792,6 @@ void App::menu()
                 if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
                 {
                     flag_Arrow1 = false;
-                    type = false;
                 }
             }
             if (Lets_go_Icon_shape.getGlobalBounds().contains(mouse))
