@@ -796,7 +796,6 @@ void App::menu()
             }
             if (!flag_Arrow1)
             {
-                type = false;
                 window.clear();
                 window.draw(back_grand_shape);
                 window.draw(AghdasiyehIcon_shape);
@@ -870,14 +869,13 @@ void App::menu()
             if (!flag_000 && !type && flag_Arrow1)
             {
                 window.clear();
-
                 window.draw(user_shape);
                 window.draw(ArrowIcon_shape);
                 window.draw(Arrow2Icon_shape);
                 window.draw(p000);
             }
 
-            if (!flag_001 && !type && flag_Arrow1)
+           else if (!flag_001 && !type && flag_Arrow1)
             {
                 window.clear();
                 window.draw(user_shape);
@@ -886,7 +884,7 @@ void App::menu()
                 window.draw(p001);
             }
 
-            if (!flag_002 && !type && flag_Arrow1)
+            else if (!flag_002 && !type && flag_Arrow1)
             {
                 window.clear();
                 window.draw(user_shape);
@@ -894,7 +892,7 @@ void App::menu()
                 window.draw(Arrow2Icon_shape);
                 window.draw(p002);
             }
-            if (!flag_003 && !type && flag_Arrow1)
+           else if (!flag_003 && !type && flag_Arrow1)
             {
                 window.clear();
                 window.draw(user_shape);
@@ -902,7 +900,7 @@ void App::menu()
                 window.draw(Arrow2Icon_shape);
                 window.draw(p003);
             }
-            if (!flag_004 && !type && flag_Arrow1)
+            else if (!flag_004 && !type && flag_Arrow1)
             {
                 window.clear();
                 window.draw(user_shape);
@@ -910,7 +908,7 @@ void App::menu()
                 window.draw(Arrow2Icon_shape);
                 window.draw(p004);
             }
-            if (!flag_005 && !type && flag_Arrow1)
+           else if (!flag_005 && !type && flag_Arrow1)
             {
                 window.clear();
                 window.draw(user_shape);
@@ -918,7 +916,7 @@ void App::menu()
                 window.draw(Arrow2Icon_shape);
                 window.draw(p005);
             }
-            if (!flag_006 && !type && flag_Arrow1)
+            else if (!flag_006 && !type && flag_Arrow1)
             {
                 window.clear();
                 window.draw(user_shape);
@@ -926,7 +924,7 @@ void App::menu()
                 window.draw(Arrow2Icon_shape);
                 window.draw(p006);
             }
-            if (!flag_007 && !type && flag_Arrow1)
+            else if (!flag_007 && !type && flag_Arrow1)
             {
                 window.clear();
                 window.draw(user_shape);
@@ -934,7 +932,7 @@ void App::menu()
                 window.draw(Arrow2Icon_shape);
                 window.draw(p007);
             }
-            if (!flag_008 && !type && flag_Arrow1)
+            else if (!flag_008 && !type && flag_Arrow1)
             {
                 window.clear();
                 window.draw(user_shape);
@@ -942,7 +940,7 @@ void App::menu()
                 window.draw(Arrow2Icon_shape);
                 window.draw(p008);
             }
-            if (!flag_009 && !type && flag_Arrow1)
+           else if (!flag_009 && !type && flag_Arrow1)
             {
                 window.clear();
                 window.draw(user_shape);
@@ -950,7 +948,7 @@ void App::menu()
                 window.draw(Arrow2Icon_shape);
                 window.draw(p009);
             }
-            if (!flag_010 && !type && flag_Arrow1)
+            else if (!flag_010 && !type && flag_Arrow1)
             {
                 window.clear();
                 window.draw(user_shape);
@@ -958,13 +956,389 @@ void App::menu()
                 window.draw(Arrow2Icon_shape);
                 window.draw(p010);
             }
-            if (!flag_011 && !type && flag_Arrow1)
+            else if (!flag_011 && !type && flag_Arrow1)
             {
                 window.clear();
                 window.draw(user_shape);
                 window.draw(ArrowIcon_shape);
                 window.draw(Arrow2Icon_shape);
                 window.draw(p011);
+            }
+           else  if (!flag_012 && !type && flag_Arrow1)
+            {
+                window.clear();
+                window.draw(user_shape);
+                window.draw(ArrowIcon_shape);
+                window.draw(Arrow2Icon_shape);
+                window.draw(p012);
+            }
+            else if (!flag_013 && !type && flag_Arrow1)
+            {
+                window.clear();
+                window.draw(user_shape);
+                window.draw(ArrowIcon_shape);
+                window.draw(Arrow2Icon_shape);
+                window.draw(p013);
+            }
+            else if (!flag_014 && !type && flag_Arrow1)
+            {
+                window.clear();
+                window.draw(user_shape);
+                window.draw(ArrowIcon_shape);
+                window.draw(Arrow2Icon_shape);
+                window.draw(p014);
+            }
+            else if (!flag_015 && !type && flag_Arrow1)
+            {
+                window.clear();
+                window.draw(user_shape);
+                window.draw(ArrowIcon_shape);
+                window.draw(Arrow2Icon_shape);
+                window.draw(p015);
+            }
+            else if (!flag_016 && !type && flag_Arrow1)
+            {
+                window.clear();
+                window.draw(user_shape);
+                window.draw(ArrowIcon_shape);
+                window.draw(Arrow2Icon_shape);
+                window.draw(p016);
+            }
+            else if (!flag_017 && !type && flag_Arrow1)
+            {
+                window.clear();
+                window.draw(user_shape);
+                window.draw(ArrowIcon_shape);
+                window.draw(Arrow2Icon_shape);
+                window.draw(p017);
+            }
+            else if (!flag_018 && !type && flag_Arrow1)
+            {
+                window.clear();
+                window.draw(user_shape);
+                window.draw(ArrowIcon_shape);
+                window.draw(Arrow2Icon_shape);
+                window.draw(p018);
+            }
+            else if (!flag_019 && !type && flag_Arrow1)
+            {
+                window.clear();
+                window.draw(user_shape);
+                window.draw(ArrowIcon_shape);
+                window.draw(Arrow2Icon_shape);
+                window.draw(p019);
+            }
+            else if (!flag_020 && !type && flag_Arrow1)
+            {
+                window.clear();
+                window.draw(user_shape);
+                window.draw(ArrowIcon_shape);
+                window.draw(Arrow2Icon_shape);
+                window.draw(p020);
+            }
+           else if (!flag_021 && !type && flag_Arrow1)
+            {
+                window.clear();
+                window.draw(user_shape);
+                window.draw(ArrowIcon_shape);
+                window.draw(Arrow2Icon_shape);
+                window.draw(p021);
+            }
+            else if (!flag_022 && !type && flag_Arrow1)
+            {
+                window.clear();
+                window.draw(user_shape);
+                window.draw(ArrowIcon_shape);
+                window.draw(Arrow2Icon_shape);
+                window.draw(p022);
+            }
+            else if (!flag_023 && !type && flag_Arrow1)
+            {
+                window.clear();
+                window.draw(user_shape);
+                window.draw(ArrowIcon_shape);
+                window.draw(Arrow2Icon_shape);
+                window.draw(p023);
+            }
+            else if (!flag_024 && !type && flag_Arrow1)
+            {
+                window.clear();
+                window.draw(user_shape);
+                window.draw(ArrowIcon_shape);
+                window.draw(Arrow2Icon_shape);
+                window.draw(p024);
+            }
+            else if (!flag_025 && !type && flag_Arrow1)
+            {
+                window.clear();
+                window.draw(user_shape);
+                window.draw(ArrowIcon_shape);
+                window.draw(Arrow2Icon_shape);
+                window.draw(p025);
+            }
+            else if (!flag_026 && !type && flag_Arrow1)
+            {
+                window.clear();
+                window.draw(user_shape);
+                window.draw(ArrowIcon_shape);
+                window.draw(Arrow2Icon_shape);
+                window.draw(p026);
+            }
+            else if (!flag_027 && !type && flag_Arrow1)
+            {
+                window.clear();
+                window.draw(user_shape);
+                window.draw(ArrowIcon_shape);
+                window.draw(Arrow2Icon_shape);
+                window.draw(p027);
+            }
+            else if (!flag_028 && !type && flag_Arrow1)
+            {
+                window.clear();
+                window.draw(user_shape);
+                window.draw(ArrowIcon_shape);
+                window.draw(Arrow2Icon_shape);
+                window.draw(p028);
+            }
+            else if (!flag_029 && !type && flag_Arrow1)
+            {
+                window.clear();
+                window.draw(user_shape);
+                window.draw(ArrowIcon_shape);
+                window.draw(Arrow2Icon_shape);
+                window.draw(p029);
+            }
+            else if (!flag_030 && !type && flag_Arrow1)
+            {
+                window.clear();
+                window.draw(user_shape);
+                window.draw(ArrowIcon_shape);
+                window.draw(Arrow2Icon_shape);
+                window.draw(p030);
+            }
+            else if (!flag_031 && !type && flag_Arrow1)
+            {
+                window.clear();
+                window.draw(user_shape);
+                window.draw(ArrowIcon_shape);
+                window.draw(Arrow2Icon_shape);
+                window.draw(p031);
+            }
+            else if (!flag_032 && !type && flag_Arrow1)
+            {
+                window.clear();
+                window.draw(user_shape);
+                window.draw(ArrowIcon_shape);
+                window.draw(Arrow2Icon_shape);
+                window.draw(p032);
+            }
+           else if (!flag_033 && !type && flag_Arrow1)
+            {
+                window.clear();
+                window.draw(user_shape);
+                window.draw(ArrowIcon_shape);
+                window.draw(Arrow2Icon_shape);
+                window.draw(p033);
+            }
+            else if (!flag_034 && !type && flag_Arrow1)
+            {
+                window.clear();
+                window.draw(user_shape);
+                window.draw(ArrowIcon_shape);
+                window.draw(Arrow2Icon_shape);
+                window.draw(p034);
+            }
+            else if (!flag_035 && !type && flag_Arrow1)
+            {
+                window.clear();
+                window.draw(user_shape);
+                window.draw(ArrowIcon_shape);
+                window.draw(Arrow2Icon_shape);
+                window.draw(p035);
+            }
+            else if (!flag_036 && !type && flag_Arrow1)
+            {
+                window.clear();
+                window.draw(user_shape);
+                window.draw(ArrowIcon_shape);
+                window.draw(Arrow2Icon_shape);
+                window.draw(p036);
+            }
+           else if (!flag_037 && !type && flag_Arrow1)
+            {
+                window.clear();
+                window.draw(user_shape);
+                window.draw(ArrowIcon_shape);
+                window.draw(Arrow2Icon_shape);
+                window.draw(p037);
+            }
+            else if (!flag_038 && !type && flag_Arrow1)
+            {
+                window.clear();
+                window.draw(user_shape);
+                window.draw(ArrowIcon_shape);
+                window.draw(Arrow2Icon_shape);
+                window.draw(p038);
+            }
+            else if (!flag_039 && !type && flag_Arrow1)
+            {
+                window.clear();
+                window.draw(user_shape);
+                window.draw(ArrowIcon_shape);
+                window.draw(Arrow2Icon_shape);
+                window.draw(p039);
+            }
+            else if (!flag_040 && !type && flag_Arrow1)
+            {
+                window.clear();
+                window.draw(user_shape);
+                window.draw(ArrowIcon_shape);
+                window.draw(Arrow2Icon_shape);
+                window.draw(p040);
+            }
+            else if (!flag_041 && !type && flag_Arrow1)
+            {
+                window.clear();
+                window.draw(user_shape);
+                window.draw(ArrowIcon_shape);
+                window.draw(Arrow2Icon_shape);
+                window.draw(p041);
+            }
+           else  if (!flag_042 && !type && flag_Arrow1)
+            {
+                window.clear();
+                window.draw(user_shape);
+                window.draw(ArrowIcon_shape);
+                window.draw(Arrow2Icon_shape);
+                window.draw(p042);
+            }
+           else if (!flag_043 && !type && flag_Arrow1)
+            {
+                window.clear();
+                window.draw(user_shape);
+                window.draw(ArrowIcon_shape);
+                window.draw(Arrow2Icon_shape);
+                window.draw(p043);
+            }
+            else if (!flag_044 && !type && flag_Arrow1)
+            {
+                window.clear();
+                window.draw(user_shape);
+                window.draw(ArrowIcon_shape);
+                window.draw(Arrow2Icon_shape);
+                window.draw(p044);
+            }
+            else if (!flag_045 && !type && flag_Arrow1)
+            {
+                window.clear();
+                window.draw(user_shape);
+                window.draw(ArrowIcon_shape);
+                window.draw(Arrow2Icon_shape);
+                window.draw(p045);
+            }
+           else if (!flag_046 && !type && flag_Arrow1)
+            {
+                window.clear();
+                window.draw(user_shape);
+                window.draw(ArrowIcon_shape);
+                window.draw(Arrow2Icon_shape);
+                window.draw(p046);
+            }
+            else if (!flag_047 && !type && flag_Arrow1)
+            {
+                window.clear();
+                window.draw(user_shape);
+                window.draw(ArrowIcon_shape);
+                window.draw(Arrow2Icon_shape);
+                window.draw(p047);
+            }
+           else if (!flag_048 && !type && flag_Arrow1)
+            {
+                window.clear();
+                window.draw(user_shape);
+                window.draw(ArrowIcon_shape);
+                window.draw(Arrow2Icon_shape);
+                window.draw(p048);
+            }
+            else if (!flag_049 && !type && flag_Arrow1)
+            {
+                window.clear();
+                window.draw(user_shape);
+                window.draw(ArrowIcon_shape);
+                window.draw(Arrow2Icon_shape);
+                window.draw(p049);
+            }
+            else if (!flag_050 && !type && flag_Arrow1)
+            {
+                window.clear();
+                window.draw(user_shape);
+                window.draw(ArrowIcon_shape);
+                window.draw(Arrow2Icon_shape);
+                window.draw(p050);
+            }
+            else if (!flag_051 && !type && flag_Arrow1)
+            {
+                window.clear();
+                window.draw(user_shape);
+                window.draw(ArrowIcon_shape);
+                window.draw(Arrow2Icon_shape);
+                window.draw(p051);
+            }
+            else if (!flag_052 && !type && flag_Arrow1)
+            {
+                window.clear();
+                window.draw(user_shape);
+                window.draw(ArrowIcon_shape);
+                window.draw(Arrow2Icon_shape);
+                window.draw(p052);
+            }
+            else if (!flag_053 && !type && flag_Arrow1)
+            {
+                window.clear();
+                window.draw(user_shape);
+                window.draw(ArrowIcon_shape);
+                window.draw(Arrow2Icon_shape);
+                window.draw(p053);
+            }
+            else if (!flag_054 && !type && flag_Arrow1)
+            {
+                window.clear();
+                window.draw(user_shape);
+                window.draw(ArrowIcon_shape);
+                window.draw(Arrow2Icon_shape);
+                window.draw(p054);
+            }
+            else if (!flag_055 && !type && flag_Arrow1)
+            {
+                window.clear();
+                window.draw(user_shape);
+                window.draw(ArrowIcon_shape);
+                window.draw(Arrow2Icon_shape);
+                window.draw(p055);
+            }
+            else if (!flag_056 && !type && flag_Arrow1)
+            {
+                window.clear();
+                window.draw(user_shape);
+                window.draw(ArrowIcon_shape);
+                window.draw(Arrow2Icon_shape);
+                window.draw(p056);
+            }
+            else if (!flag_057 && !type && flag_Arrow1)
+            {
+                window.clear();
+                window.draw(user_shape);
+                window.draw(ArrowIcon_shape);
+                window.draw(Arrow2Icon_shape);
+                window.draw(p057);
+            }
+            else if (!flag_058 && !type && flag_Arrow1)
+            {
+                window.clear();
+                window.draw(user_shape);
+                window.draw(ArrowIcon_shape);
+                window.draw(Arrow2Icon_shape);
+                window.draw(p058);
             }
             if (AllamehIcon_shape.getGlobalBounds().contains(mouse))
             {
@@ -1450,6 +1824,7 @@ void App::menu()
                 if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
                 {
                     flag_Arrow1 = false;
+                    type =false;
                 }
             }
             if (Lets_go_Icon_shape.getGlobalBounds().contains(mouse))
