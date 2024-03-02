@@ -874,7 +874,7 @@ void App::menu()
                 window.clear();
                 window.draw(user_shape);
                 flag_Arrow1 = false;
-
+                flag_just_one = false;
                 // window.draw(ArrowIcon_shape);
                  window.draw(Arrow2Icon_shape);
 
@@ -887,7 +887,7 @@ void App::menu()
                 window.clear();
                 window.draw(user_shape);
                 flag_Arrow1 = false;
-
+                flag_just_one = false;
                 // window.draw(ArrowIcon_shape);
                  window.draw(Arrow2Icon_shape);
 
@@ -900,6 +900,7 @@ void App::menu()
                 window.clear();
                 window.draw(user_shape);
                 flag_Arrow1 = false;
+                flag_just_one = false;
                 // flag_just_one=false;
 
              window.draw(Arrow2Icon_shape);
@@ -912,6 +913,7 @@ void App::menu()
                 window.clear();
                 window.draw(user_shape);
                 flag_Arrow1 = false;
+                flag_just_one = false;
                 // flag_just_one=false;
 
                  window.draw(Arrow2Icon_shape);
@@ -924,7 +926,7 @@ void App::menu()
                 window.clear();
                 window.draw(user_shape);
                 flag_Arrow1 = false;
-                // flag_just_one=false;
+                 flag_just_one=false;
 
                  window.draw(Arrow2Icon_shape);
 
@@ -936,7 +938,7 @@ void App::menu()
                 window.clear();
                 window.draw(user_shape);
                 flag_Arrow1 = false;
-                // flag_just_one=false;
+                 flag_just_one=false;
 
                  window.draw(Arrow2Icon_shape);
 
@@ -949,6 +951,7 @@ void App::menu()
                 window.clear();
                 window.draw(user_shape);
                 flag_Arrow1 = false;
+                flag_just_one = false;
                 //window.draw(ArrowIcon_shape);
                 window.draw(Arrow2Icon_shape);
                 window.draw(p006);
@@ -959,6 +962,7 @@ void App::menu()
                 window.clear();
                 window.draw(user_shape);
                 flag_Arrow1 = false;
+                flag_just_one = false;
                 //window.draw(ArrowIcon_shape);
                 window.draw(Arrow2Icon_shape);
                 window.draw(p007);
@@ -969,6 +973,7 @@ void App::menu()
                 window.clear();
                 window.draw(user_shape);
                 flag_Arrow1 = false;
+                flag_just_one = false;
                // window.draw(ArrowIcon_shape);
                 window.draw(Arrow2Icon_shape);
                 window.draw(p008);
@@ -979,6 +984,7 @@ void App::menu()
                 window.clear();
                 window.draw(user_shape);
                 flag_Arrow1 = false;
+                flag_just_one = false;
                 //window.draw(ArrowIcon_shape);
                 window.draw(Arrow2Icon_shape);
                 window.draw(p009);
@@ -989,6 +995,7 @@ void App::menu()
                 window.clear();
                 window.draw(user_shape);
                 flag_Arrow1 = false;
+                flag_just_one = false;
                 //window.draw(ArrowIcon_shape);
                 window.draw(Arrow2Icon_shape);
                 window.draw(p010);
@@ -1477,100 +1484,110 @@ void App::menu()
             {
                 if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
                 {
-                    flag_000 = false;
+                    if(flag_just_one)
+               {     flag_000 = false;
                     flag_Arrow1 = true;
-                    flag_just_one = false;
-                    type = false;
+                    
+                    type = false;}
                 }
             }
             if (AghdasiyehIcon_shape.getGlobalBounds().contains(mouse))
             {
                 if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
                 {
-                    flag_001 = false;
+                    if(flag_just_one)
+              {      flag_001 = false;
                     flag_Arrow1 = true;
-                    flag_just_one = false;
-                    type = false;
+                    //flag_just_one = false;
+                    type = false;}
                 }
             }
             if (AzadeghanIcon_shape.getGlobalBounds().contains(mouse))
             {
                 if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
                 {
-                    flag_002 = false;
+                    if(flag_just_one)
+                {    flag_002 = false;
                     flag_Arrow1 = true;
-                    flag_just_one = false;
-                    type = false;
+                    //flag_just_one = false;
+                    type = false;}
                 }
             }
             if (BimehIcon_shape.getGlobalBounds().contains(mouse))
             {
                 if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
                 {
-                    flag_003 = false;
+                    if(flag_just_one)
+            {        flag_003 = false;
                     flag_Arrow1 = true;
-                    flag_just_one = false;
-                    type = false;
+                    //flag_just_one = false;
+                    type = false;}
                 }
             }
             if (BoostanIcon_shape.getGlobalBounds().contains(mouse))
             {
                 if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
                 {
-                    flag_004 = false;
+                    if(flag_just_one)
+               {     flag_004 = false;
                     flag_Arrow1 = true;
-                    flag_just_one = false;
-                    type = false;
+                   // flag_just_one = false;
+                    type = false;}
                 }
             }
             if (chaharIcon_shape.getGlobalBounds().contains(mouse))
             {
                 if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
                 {
-                    flag_005 = false;
+                    if(flag_just_one)
+               {     flag_005 = false;
                     flag_Arrow1 = true;
-                    flag_just_one = false;
-                    type = false;
+                    //flag_just_one = false;
+                    type = false;}
                 }
             }
             if (DowlatIcon_shape.getGlobalBounds().contains(mouse))
             {
                 if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
                 {
-                    flag_006 = false;
+                    if(flag_just_one)
+                {    flag_006 = false;
                     flag_Arrow1 = true;
-                    flag_just_one = false;
-                    type = false;
+                    //flag_just_one = false;
+                    type = false;}
                 }
             }
             if (ShemiranIcon_shape.getGlobalBounds().contains(mouse))
             {
                 if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
                 {
-                    flag_007 = false;
+                    if(flag_just_one)
+                 {   flag_007 = false;
                     flag_Arrow1 = true;
-                    flag_just_one = false;
-                    type = false;
+                    //flag_just_one = false;
+                    type = false;}
                 }
             }
             if (SinaIcon_shape.getGlobalBounds().contains(mouse))
             {
                 if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
                 {
-                    flag_008 = false;
+                    if(flag_just_one)
+             {       flag_008 = false;
                     flag_Arrow1 = true;
-                    flag_just_one = false;
-                    type = false;
+                   // flag_just_one = false;
+                    type = false;}
                 }
             }
             if (HosseinIcon_shape.getGlobalBounds().contains(mouse))
             {
                 if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
                 {
+             {       if(flag_just_one)
                     flag_009 = false;
                     flag_Arrow1 = true;
-                    flag_just_one = false;
-                    type = false;
+                    //flag_just_one = false;
+                    type = false;}
                 }
             }
             if (SabzIcon_shape.getGlobalBounds().contains(mouse))
