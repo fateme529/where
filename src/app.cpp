@@ -1596,7 +1596,7 @@ void App::menu()
                 {
                     flag_010 = false;
                     flag_Arrow1 = true;
-                    flag_just_one = false;
+                  //  flag_just_one = false;
                     type = false;
                 }
             }
