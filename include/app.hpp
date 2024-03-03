@@ -14,8 +14,11 @@ private:
     bool flag_1_page = true; // vaghti zaman reste shod
     bool falg_user = true;
     bool flag_Arrow1 = true;
+    bool flag_Arrow2_destination = true;
     bool flag_Arrow_Back = true;
     bool flag_just_one = true;
+    bool flag_window = true;
+    bool flag_window2 = false;
     bool flag_000 = true;
     bool flag_001 = true;
     bool flag_002 = true;
