@@ -623,95 +623,144 @@ void App::window2()
             window2.draw(YadegarIcon_shape);
             window2.draw(ZamzamIcon_shape);
             // window2.draw(Arrow_orginIcon_shape);
-        }
 
-        if (event.type == sf::Event::MouseButtonPressed)
-        {
-            if (event.mouseButton.button == sf::Mouse::Left)
+            if (event.type == sf::Event::MouseButtonPressed)
             {
-                if (AllamehIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
+                if (event.mouseButton.button == sf::Mouse::Left)
                 {
-
-                    if (!destination)
+                    if (AllamehIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
                     {
-                        flag_0000 = false;
-                        window2.close();
+
+                        if (!destination)
+                        {
+                            flag_0000 = false;
+                            window2.close();
+                        }
+                        else
+                        {
+                            flag_000 = false;
+                            window2.close();
+                        }
                     }
-                    else
+                }
+            }
+
+            if (event.type == sf::Event::MouseButtonPressed)
+            {
+                if (event.mouseButton.button == sf::Mouse::Left)
+                {
+
+                    if (AghdasiyehIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
                     {
-                        flag_000 = false;
-                        window2.close();
+                        if (!destination)
+                        {
+                            flag_0001 = false;
+                            window2.close();
+                        }
+                        else
+                        {
+                            flag_001 = false;
+                            window2.close();
+                        }
                     }
                 }
             }
-        }
+            if (event.type == sf::Event::MouseButtonPressed)
+            {
+                if (event.mouseButton.button == sf::Mouse::Left)
+                {
+                    if (AzadeghanIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
+                    {
+                        if (!destination)
+                        {
+                            flag_0002 = false;
+                            window2.close();
+                        }
+                        else
+                        {
+                            flag_002 = false;
+                            window2.close();
+                        }
+                    }
+                }
+            }
+            if (event.type == sf::Event::MouseButtonPressed)
+            {
+                if (event.mouseButton.button == sf::Mouse::Left)
+                {
+                    if (BimehIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
+                    {
 
-        if (event.type == sf::Event::MouseButtonPressed)
-        {
-            if (event.mouseButton.button == sf::Mouse::Left)
-            {
+                        if (!destination)
+                        {
+                            flag_0003 = false;
+                            window2.close();
+                        }
+                        else
+                        {
+                            flag_003 = false;
+                            window2.close();
+                        }
+                    }
+                }
+            }
 
-                if (AghdasiyehIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
-                {
-                    flag_001 = false;
-                    window2.close();
-                }
-            }
-        }
-        if (event.type == sf::Event::MouseButtonPressed)
-        {
-            if (event.mouseButton.button == sf::Mouse::Left)
+            if (event.type == sf::Event::MouseButtonPressed)
             {
-                if (AzadeghanIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
+                if (event.mouseButton.button == sf::Mouse::Left)
                 {
-                    flag_002 = false;
-                    window2.close();
+                    if (BoostanIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
+                    {
+                        if (!destination)
+                        {
+                            flag_0004 = false;
+                            window2.close();
+                        }
+                        else
+                        {
+                            flag_004 = false;
+                            window2.close();
+                        }
+                    }
                 }
             }
-        }
-        if (event.type == sf::Event::MouseButtonPressed)
-        {
-            if (event.mouseButton.button == sf::Mouse::Left)
-            {
-                if (BimehIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
-                {
-                    flag_003 = false;
-                    window2.close();
-                }
-            }
-        }
 
-        if (event.type == sf::Event::MouseButtonPressed)
-        {
-            if (event.mouseButton.button == sf::Mouse::Left)
+            if (event.type == sf::Event::MouseButtonPressed)
             {
-                if (BoostanIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
+                if (event.mouseButton.button == sf::Mouse::Left)
                 {
-                    flag_004 = false;
-                    window2.close();
+                    if (chaharIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
+                    {
+                        if (!destination)
+                        {
+                            flag_0005 = false;
+                            window2.close();
+                        }
+                        else
+                        {
+                            flag_005 = false;
+                            window2.close();
+                        }
+                    }
                 }
             }
-        }
-
-        if (event.type == sf::Event::MouseButtonPressed)
-        {
-            if (event.mouseButton.button == sf::Mouse::Left)
+            if (event.type == sf::Event::MouseButtonPressed)
             {
-                if (chaharIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
+                if (event.mouseButton.button == sf::Mouse::Left)
                 {
-                    flag_005 = false;
-                    window2.close();
-                }
-            }
-        }
-        if (event.type == sf::Event::MouseButtonPressed)
-        {
-            if (event.mouseButton.button == sf::Mouse::Left)
-            {
-                if (DowlatIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
-                {
-                    flag_006 = false;
-                    window2.close();
+                    if (DowlatIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
+                    {
+                        if (!destination)
+                        {
+                            flag_0006 = false;
+                            window2.close();
+                        }
+                        else
+                        {
+                            flag_006 = false;
+                            window2.close();
+                        }
+                    }
                 }
             }
         }
@@ -721,8 +770,16 @@ void App::window2()
             {
                 if (ShemiranIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
                 {
-                    flag_007 = false;
-                    window2.close();
+                    if (!destination)
+                    {
+                        flag_0007 = false;
+                        window2.close();
+                    }
+                    else
+                    {
+                        flag_007 = false;
+                        window2.close();
+                    }
                 }
             }
         }
@@ -732,8 +789,16 @@ void App::window2()
             {
                 if (SinaIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
                 {
-                    flag_008 = false;
-                    window2.close();
+                    if (!destination)
+                    {
+                        flag_0008 = false;
+                        window2.close();
+                    }
+                    else
+                    {
+                        flag_008 = false;
+                        window2.close();
+                    }
                 }
             }
         }
@@ -743,8 +808,16 @@ void App::window2()
             {
                 if (HosseinIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
                 {
-                    flag_009 = false;
-                    window2.close();
+                    if (!destination)
+                    {
+                        flag_0009 = false;
+                        window2.close();
+                    }
+                    else
+                    {
+                        flag_009 = false;
+                        window2.close();
+                    }
                 }
             }
         }
@@ -754,8 +827,16 @@ void App::window2()
             {
                 if (SabzIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
                 {
-                    flag_010 = false;
-                    window2.close();
+                    if (!destination)
+                    {
+                        flag_0010 = false;
+                        window2.close();
+                    }
+                    else
+                    {
+                        flag_010 = false;
+                        window2.close();
+                    }
                 }
             }
         }
@@ -765,8 +846,16 @@ void App::window2()
             {
                 if (FerdowsiIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
                 {
-                    flag_011 = false;
-                    window2.close();
+                    if (!destination)
+                    {
+                        flag_0011 = false;
+                        window2.close();
+                    }
+                    else
+                    {
+                        flag_011 = false;
+                        window2.close();
+                    }
                 }
             }
         }
@@ -776,8 +865,16 @@ void App::window2()
             {
                 if (GhaemIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
                 {
-                    flag_012 = false;
-                    window2.close();
+                    if (!destination)
+                    {
+                        flag_0012 = false;
+                        window2.close();
+                    }
+                    else
+                    {
+                        flag_012 = false;
+                        window2.close();
+                    }
                 }
             }
         }
@@ -788,8 +885,16 @@ void App::window2()
             {
                 if (GheytariyehIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
                 {
-                    flag_013 = false;
-                    window2.close();
+                    if (!destination)
+                    {
+                        flag_0013 = false;
+                        window2.close();
+                    }
+                    else
+                    {
+                        flag_013 = false;
+                        window2.close();
+                    }
                 }
             }
         }
@@ -799,8 +904,16 @@ void App::window2()
             {
                 if (GolhakIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
                 {
-                    flag_014 = false;
-                    window2.close();
+                    if (!destination)
+                    {
+                        flag_0014 = false;
+                        window2.close();
+                    }
+                    else
+                    {
+                        flag_014 = false;
+                        window2.close();
+                    }
                 }
             }
         }
@@ -810,8 +923,16 @@ void App::window2()
             {
                 if (HarmIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
                 {
-                    flag_015 = false;
-                    window2.close();
+                    if (!destination)
+                    {
+                        flag_0015 = false;
+                        window2.close();
+                    }
+                    else
+                    {
+                        flag_015 = false;
+                        window2.close();
+                    }
                 }
             }
         }
@@ -821,8 +942,16 @@ void App::window2()
             {
                 if (haftIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
                 {
-                    flag_016 = false;
-                    window2.close();
+                    if (!destination)
+                    {
+                        flag_0016 = false;
+                        window2.close();
+                    }
+                    else
+                    {
+                        flag_016 = false;
+                        window2.close();
+                    }
                 }
             }
         }
@@ -832,8 +961,16 @@ void App::window2()
             {
                 if (javadiyehIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
                 {
-                    flag_017 = false;
-                    window2.close();
+                    if (!destination)
+                    {
+                        flag_0017 = false;
+                        window2.close();
+                    }
+                    else
+                    {
+                        flag_017 = false;
+                        window2.close();
+                    }
                 }
             }
         }
@@ -843,8 +980,16 @@ void App::window2()
             {
                 if (KashaniIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
                 {
-                    flag_018 = false;
-                    window2.close();
+                    if (!destination)
+                    {
+                        flag_0018 = false;
+                        window2.close();
+                    }
+                    else
+                    {
+                        flag_018 = false;
+                        window2.close();
+                    }
                 }
             }
         }
@@ -854,8 +999,16 @@ void App::window2()
             {
                 if (KahrizakIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
                 {
-                    flag_019 = false;
-                    window2.close();
+                    if (!destination)
+                    {
+                        flag_0019 = false;
+                        window2.close();
+                    }
+                    else
+                    {
+                        flag_019 = false;
+                        window2.close();
+                    }
                 }
             }
         }
@@ -865,8 +1018,16 @@ void App::window2()
             {
                 if (KhajehIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
                 {
-                    flag_020 = false;
-                    window2.close();
+                    if (!destination)
+                    {
+                        flag_0020 = false;
+                        window2.close();
+                    }
+                    else
+                    {
+                        flag_020 = false;
+                        window2.close();
+                    }
                 }
             }
         }
@@ -876,8 +1037,16 @@ void App::window2()
             {
                 if (JonoubIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
                 {
-                    flag_021 = false;
-                    window2.close();
+                    if (!destination)
+                    {
+                        flag_0021 = false;
+                        window2.close();
+                    }
+                    else
+                    {
+                        flag_021 = false;
+                        window2.close();
+                    }
                 }
             }
         }
@@ -888,8 +1057,16 @@ void App::window2()
             {
                 if (KouhsarIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
                 {
-                    flag_022 = false;
-                    window2.close();
+                    if (!destination)
+                    {
+                        flag_0022 = false;
+                        window2.close();
+                    }
+                    else
+                    {
+                        flag_022 = false;
+                        window2.close();
+                    }
                 }
             }
         }
@@ -900,8 +1077,16 @@ void App::window2()
             {
                 if (MahdiyehIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
                 {
-                    flag_023 = false;
-                    window2.close();
+                    if (!destination)
+                    {
+                        flag_0023 = false;
+                        window2.close();
+                    }
+                    else
+                    {
+                        flag_023 = false;
+                        window2.close();
+                    }
                 }
             }
         }
@@ -911,8 +1096,16 @@ void App::window2()
             {
                 if (AzadiIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
                 {
-                    flag_024 = false;
-                    window2.close();
+                    if (!destination)
+                    {
+                        flag_0024 = false;
+                        window2.close();
+                    }
+                    else
+                    {
+                        flag_024 = false;
+                        window2.close();
+                    }
                 }
             }
         }
@@ -922,8 +1115,16 @@ void App::window2()
             {
                 if (EnghelabIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
                 {
-                    flag_025 = false;
-                    window2.close();
+                    if (!destination)
+                    {
+                        flag_0025 = false;
+                        window2.close();
+                    }
+                    else
+                    {
+                        flag_025 = false;
+                        window2.close();
+                    }
                 }
             }
         }
@@ -933,8 +1134,16 @@ void App::window2()
             {
                 if (ValiAsarIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
                 {
-                    flag_026 = false;
-                    window2.close();
+                    if (!destination)
+                    {
+                        flag_0026 = false;
+                        window2.close();
+                    }
+                    else
+                    {
+                        flag_026 = false;
+                        window2.close();
+                    }
                 }
             }
         }
@@ -944,8 +1153,16 @@ void App::window2()
             {
                 if (JahadIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
                 {
-                    flag_027 = false;
-                    window2.close();
+                    if (!destination)
+                    {
+                        flag_0027 = false;
+                        window2.close();
+                    }
+                    else
+                    {
+                        flag_027 = false;
+                        window2.close();
+                    }
                 }
             }
         }
@@ -955,8 +1172,16 @@ void App::window2()
             {
                 if (ShohadaIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
                 {
-                    flag_028 = false;
-                    window2.close();
+                    if (!destination)
+                    {
+                        flag_0028 = false;
+                        window2.close();
+                    }
+                    else
+                    {
+                        flag_028 = false;
+                        window2.close();
+                    }
                 }
             }
         }
@@ -966,8 +1191,16 @@ void App::window2()
             {
                 if (MirdamadIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
                 {
-                    flag_029 = false;
-                    window2.close();
+                    if (!destination)
+                    {
+                        flag_0029 = false;
+                        window2.close();
+                    }
+                    else
+                    {
+                        flag_029 = false;
+                        window2.close();
+                    }
                 }
             }
         }
@@ -977,8 +1210,16 @@ void App::window2()
             {
                 if (ShiraziIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
                 {
-                    flag_030 = false;
-                    window2.close();
+                    if (!destination)
+                    {
+                        flag_0030 = false;
+                        window2.close();
+                    }
+                    else
+                    {
+                        flag_030 = false;
+                        window2.close();
+                    }
                 }
             }
         }
@@ -988,8 +1229,16 @@ void App::window2()
             {
                 if (MoniriyehIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
                 {
-                    flag_031 = false;
-                    window2.close();
+                    if (!destination)
+                    {
+                        flag_0031 = false;
+                        window2.close();
+                    }
+                    else
+                    {
+                        flag_031 = false;
+                        window2.close();
+                    }
                 }
             }
         }
@@ -999,8 +1248,16 @@ void App::window2()
             {
                 if (NabardIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
                 {
-                    flag_032 = false;
-                    window2.close();
+                    if (!destination)
+                    {
+                        flag_0032 = false;
+                        window2.close();
+                    }
+                    else
+                    {
+                        flag_032 = false;
+                        window2.close();
+                    }
                 }
             }
         }
@@ -1010,8 +1267,16 @@ void App::window2()
             {
                 if (NiroIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
                 {
-                    flag_033 = false;
-                    window2.close();
+                    if (!destination)
+                    {
+                        flag_0033 = false;
+                        window2.close();
+                    }
+                    else
+                    {
+                        flag_033 = false;
+                        window2.close();
+                    }
                 }
             }
         }
@@ -1021,8 +1286,16 @@ void App::window2()
             {
                 if (OstadIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
                 {
-                    flag_034 = false;
-                    window2.close();
+                    if (!destination)
+                    {
+                        flag_0034 = false;
+                        window2.close();
+                    }
+                    else
+                    {
+                        flag_034 = false;
+                        window2.close();
+                    }
                 }
             }
         }
@@ -1032,8 +1305,16 @@ void App::window2()
             {
                 if (PanzdahIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
                 {
-                    flag_035 = false;
-                    window2.close();
+                    if (!destination)
+                    {
+                        flag_0035 = false;
+                        window2.close();
+                    }
+                    else
+                    {
+                        flag_035 = false;
+                        window2.close();
+                    }
                 }
             }
         }
@@ -1043,8 +1324,16 @@ void App::window2()
             {
                 if (PayanehIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
                 {
-                    flag_036 = false;
-                    window2.close();
+                    if (!destination)
+                    {
+                        flag_0036 = false;
+                        window2.close();
+                    }
+                    else
+                    {
+                        flag_036 = false;
+                        window2.close();
+                    }
                 }
             }
         }
@@ -1054,8 +1343,16 @@ void App::window2()
             {
                 if (piroziIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
                 {
-                    flag_037 = false;
-                    window2.close();
+                    if (!destination)
+                    {
+                        flag_0037 = false;
+                        window2.close();
+                    }
+                    else
+                    {
+                        flag_037 = false;
+                        window2.close();
+                    }
                 }
             }
         }
@@ -1065,8 +1362,16 @@ void App::window2()
             {
                 if (RahahanIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
                 {
-                    flag_038 = false;
-                    window2.close();
+                    if (!destination)
+                    {
+                        flag_0038 = false;
+                        window2.close();
+                    }
+                    else
+                    {
+                        flag_038 = false;
+                        window2.close();
+                    }
                 }
             }
         }
@@ -1076,8 +1381,16 @@ void App::window2()
             {
                 if (ShademanIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
                 {
-                    flag_039 = false;
-                    window2.close();
+                    if (!destination)
+                    {
+                        flag_0039 = false;
+                        window2.close();
+                    }
+                    else
+                    {
+                        flag_039 = false;
+                        window2.close();
+                    }
                 }
             }
         }
@@ -1087,8 +1400,16 @@ void App::window2()
             {
                 if (GhodosiIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
                 {
-                    flag_040 = false;
-                    window2.close();
+                    if (!destination)
+                    {
+                        flag_0040 = false;
+                        window2.close();
+                    }
+                    else
+                    {
+                        flag_040 = false;
+                        window2.close();
+                    }
                 }
             }
         }
@@ -1098,8 +1419,16 @@ void App::window2()
             {
                 if (BeheshtiIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
                 {
-                    flag_041 = false;
-                    window2.close();
+                    if (!destination)
+                    {
+                        flag_0041 = false;
+                        window2.close();
+                    }
+                    else
+                    {
+                        flag_041 = false;
+                        window2.close();
+                    }
                 }
             }
         }
@@ -1109,8 +1438,16 @@ void App::window2()
             {
                 if (HaghaniIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
                 {
-                    flag_042 = false;
-                    window2.close();
+                    if (!destination)
+                    {
+                        flag_0042 = false;
+                        window2.close();
+                    }
+                    else
+                    {
+                        flag_042 = false;
+                        window2.close();
+                    }
                 }
             }
         }
@@ -1120,8 +1457,16 @@ void App::window2()
             {
                 if (KolahdozIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
                 {
-                    flag_043 = false;
-                    window2.close();
+                    if (!destination)
+                    {
+                        flag_0043 = false;
+                        window2.close();
+                    }
+                    else
+                    {
+                        flag_043 = false;
+                        window2.close();
+                    }
                 }
             }
         }
@@ -1131,8 +1476,16 @@ void App::window2()
             {
                 if (MofattehIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
                 {
-                    flag_044 = false;
-                    window2.close();
+                    if (!destination)
+                    {
+                        flag_0044 = false;
+                        window2.close();
+                    }
+                    else
+                    {
+                        flag_044 = false;
+                        window2.close();
+                    }
                 }
             }
         }
@@ -1142,8 +1495,16 @@ void App::window2()
             {
                 if (RezaeiIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
                 {
-                    flag_045 = false;
-                    window2.close();
+                    if (!destination)
+                    {
+                        flag_0045 = false;
+                        window2.close();
+                    }
+                    else
+                    {
+                        flag_045 = false;
+                        window2.close();
+                    }
                 }
             }
         }
@@ -1153,8 +1514,16 @@ void App::window2()
             {
                 if (SadrIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
                 {
-                    flag_046 = false;
-                    window2.close();
+                    if (!destination)
+                    {
+                        flag_0046 = false;
+                        window2.close();
+                    }
+                    else
+                    {
+                        flag_046 = false;
+                        window2.close();
+                    }
                 }
             }
         }
@@ -1164,8 +1533,16 @@ void App::window2()
             {
                 if (ZeynoddinIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
                 {
-                    flag_047 = false;
-                    window2.close();
+                    if (!destination)
+                    {
+                        flag_0047 = false;
+                        window2.close();
+                    }
+                    else
+                    {
+                        flag_047 = false;
+                        window2.close();
+                    }
                 }
             }
         }
@@ -1175,8 +1552,16 @@ void App::window2()
             {
                 if (ShariatiIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
                 {
-                    flag_048 = false;
-                    window2.close();
+                    if (!destination)
+                    {
+                        flag_0048 = false;
+                        window2.close();
+                    }
+                    else
+                    {
+                        flag_048 = false;
+                        window2.close();
+                    }
                 }
             }
         }
@@ -1186,8 +1571,16 @@ void App::window2()
             {
                 if (ReyIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
                 {
-                    flag_049 = false;
-                    window2.close();
+                    if (!destination)
+                    {
+                        flag_0049 = false;
+                        window2.close();
+                    }
+                    else
+                    {
+                        flag_049 = false;
+                        window2.close();
+                    }
                 }
             }
         }
@@ -1197,8 +1590,16 @@ void App::window2()
             {
                 if (ShoushIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
                 {
-                    flag_050 = false;
-                    window2.close();
+                    if (!destination)
+                    {
+                        flag_0050 = false;
+                        window2.close();
+                    }
+                    else
+                    {
+                        flag_050 = false;
+                        window2.close();
+                    }
                 }
             }
         }
@@ -1208,8 +1609,16 @@ void App::window2()
             {
                 if (sohrevardiIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
                 {
-                    flag_051 = false;
-                    window2.close();
+                    if (!destination)
+                    {
+                        flag_0051 = false;
+                        window2.close();
+                    }
+                    else
+                    {
+                        flag_051 = false;
+                        window2.close();
+                    }
                 }
             }
         }
@@ -1219,8 +1628,16 @@ void App::window2()
             {
                 if (TajrishIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
                 {
-                    flag_052 = false;
-                    window2.close();
+                    if (!destination)
+                    {
+                        flag_0052 = false;
+                        window2.close();
+                    }
+                    else
+                    {
+                        flag_052 = false;
+                        window2.close();
+                    }
                 }
             }
         }
@@ -1230,8 +1647,16 @@ void App::window2()
             {
                 if (TaleghaniIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
                 {
-                    flag_053 = false;
-                    window2.close();
+                    if (!destination)
+                    {
+                        flag_0053 = false;
+                        window2.close();
+                    }
+                    else
+                    {
+                        flag_053 = false;
+                        window2.close();
+                    }
                 }
             }
         }
@@ -1241,8 +1666,16 @@ void App::window2()
             {
                 if (TeaterIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
                 {
-                    flag_054 = false;
-                    window2.close();
+                    if (!destination)
+                    {
+                        flag_0054 = false;
+                        window2.close();
+                    }
+                    else
+                    {
+                        flag_054 = false;
+                        window2.close();
+                    }
                 }
             }
         }
@@ -1252,8 +1685,16 @@ void App::window2()
             {
                 if (ParsIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
                 {
-                    flag_055 = false;
-                    window2.close();
+                    if (!destination)
+                    {
+                        flag_0055 = false;
+                        window2.close();
+                    }
+                    else
+                    {
+                        flag_055 = false;
+                        window2.close();
+                    }
                 }
             }
         }
@@ -1263,8 +1704,16 @@ void App::window2()
             {
                 if (TowhidIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
                 {
-                    flag_056 = false;
-                    window2.close();
+                    if (!destination)
+                    {
+                        flag_0056 = false;
+                        window2.close();
+                    }
+                    else
+                    {
+                        flag_056 = false;
+                        window2.close();
+                    }
                 }
             }
         }
@@ -1274,8 +1723,16 @@ void App::window2()
             {
                 if (YadegarIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
                 {
-                    flag_057 = false;
-                    window2.close();
+                    if (!destination)
+                    {
+                        flag_0057 = false;
+                        window2.close();
+                    }
+                    else
+                    {
+                        flag_057 = false;
+                        window2.close();
+                    }
                 }
             }
         }
@@ -1285,8 +1742,16 @@ void App::window2()
             {
                 if (ZamzamIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
                 {
-                    flag_058 = false;
-                    window2.close();
+                    if (!destination)
+                    {
+                        flag_0058 = false;
+                        window2.close();
+                    }
+                    else
+                    {
+                        flag_058 = false;
+                        window2.close();
+                    }
                 }
             }
         }
@@ -1423,6 +1888,64 @@ void App::window3()
     sf::Text p058;
 
     sf::Text p0000;
+    sf::Text p0001;
+    sf::Text p0002;
+    sf::Text p0003;
+    sf::Text p0004;
+    sf::Text p0005;
+    sf::Text p0006;
+    sf::Text p0007;
+    sf::Text p0008;
+    sf::Text p0009;
+    sf::Text p0010;
+    sf::Text p0011;
+    sf::Text p0012;
+    sf::Text p0013;
+    sf::Text p0014;
+    sf::Text p0015;
+    sf::Text p0016;
+    sf::Text p0017;
+    sf::Text p0018;
+    sf::Text p0019;
+    sf::Text p0020;
+    sf::Text p0021;
+    sf::Text p0022;
+    sf::Text p0023;
+    sf::Text p0024;
+    sf::Text p0025;
+    sf::Text p0026;
+    sf::Text p0027;
+    sf::Text p0028;
+    sf::Text p0029;
+    sf::Text p0030;
+    sf::Text p0031;
+    sf::Text p0032;
+    sf::Text p0033;
+    sf::Text p0034;
+    sf::Text p0035;
+    sf::Text p0036;
+    sf::Text p0037;
+    sf::Text p0038;
+    sf::Text p0039;
+    sf::Text p0040;
+    sf::Text p0041;
+    sf::Text p0042;
+    sf::Text p0043;
+    sf::Text p0044;
+    sf::Text p0045;
+    sf::Text p0046;
+    sf::Text p0047;
+    sf::Text p0048;
+    sf::Text p0049;
+    sf::Text p0050;
+    sf::Text p0051;
+    sf::Text p0052;
+    sf::Text p0053;
+    sf::Text p0054;
+    sf::Text p0055;
+    sf::Text p0056;
+    sf::Text p0057;
+    sf::Text p0058;
 
     if (!font.loadFromFile("arial.ttf"))
     {
@@ -1488,6 +2011,63 @@ void App::window3()
     p058.setFont(font);
 
     p0000.setFont(font);
+    p0001.setFont(font);
+    p0002.setFont(font);
+    p0003.setFont(font);
+    p0004.setFont(font);
+    p0005.setFont(font);
+    p0006.setFont(font);
+    p0007.setFont(font);
+    p0008.setFont(font);
+    p0009.setFont(font);
+    p0010.setFont(font);
+    p0011.setFont(font);
+    p0012.setFont(font);
+    p0013.setFont(font);
+    p0014.setFont(font);
+    p0015.setFont(font);
+    p0016.setFont(font);
+    p0017.setFont(font);
+    p0018.setFont(font);
+    p0019.setFont(font);
+    p0020.setFont(font);
+    p0021.setFont(font);
+    p0022.setFont(font);
+    p0023.setFont(font);
+    p0024.setFont(font);
+    p0025.setFont(font);
+    p0026.setFont(font);
+    p0027.setFont(font);
+    p0028.setFont(font);
+    p0029.setFont(font);
+    p0030.setFont(font);
+    p0031.setFont(font);
+    p0032.setFont(font);
+    p0033.setFont(font);
+    p0034.setFont(font);
+    p0035.setFont(font);
+    p0036.setFont(font);
+    p0037.setFont(font);
+    p0038.setFont(font);
+    p0039.setFont(font);
+    p0040.setFont(font);
+    p0041.setFont(font);
+    p0042.setFont(font);
+    p0043.setFont(font);
+    p0044.setFont(font);
+    p0045.setFont(font);
+    p0046.setFont(font);
+    p0047.setFont(font);
+    p0048.setFont(font);
+    p0050.setFont(font);
+    p0051.setFont(font);
+    p0052.setFont(font);
+    p0053.setFont(font);
+    p0054.setFont(font);
+    p0055.setFont(font);
+    p0056.setFont(font);
+    p0057.setFont(font);
+    p0058.setFont(font);
 
     p000.setCharacterSize(16);
     p001.setCharacterSize(16);
@@ -1549,6 +2129,63 @@ void App::window3()
     p058.setCharacterSize(16);
 
     p0000.setCharacterSize(16);
+    p0001.setCharacterSize(16);
+    p0002.setCharacterSize(16);
+    p0003.setCharacterSize(16);
+    p0004.setCharacterSize(16);
+    p0005.setCharacterSize(16);
+    p0006.setCharacterSize(16);
+    p0007.setCharacterSize(16);
+    p0008.setCharacterSize(16);
+    p0009.setCharacterSize(16);
+    p0010.setCharacterSize(16);
+    p0011.setCharacterSize(16);
+    p0012.setCharacterSize(16);
+    p0013.setCharacterSize(16);
+    p0014.setCharacterSize(16);
+    p0015.setCharacterSize(16);
+    p0016.setCharacterSize(16);
+    p0017.setCharacterSize(16);
+    p0018.setCharacterSize(16);
+    p0019.setCharacterSize(16);
+    p0020.setCharacterSize(16);
+    p0021.setCharacterSize(16);
+    p0022.setCharacterSize(16);
+    p0023.setCharacterSize(16);
+    p0024.setCharacterSize(16);
+    p0025.setCharacterSize(16);
+    p0026.setCharacterSize(16);
+    p0027.setCharacterSize(16);
+    p0028.setCharacterSize(16);
+    p0029.setCharacterSize(16);
+    p0030.setCharacterSize(16);
+    p0031.setCharacterSize(16);
+    p0032.setCharacterSize(16);
+    p0033.setCharacterSize(16);
+    p0034.setCharacterSize(16);
+    p0035.setCharacterSize(16);
+    p0036.setCharacterSize(16);
+    p0037.setCharacterSize(16);
+    p0038.setCharacterSize(16);
+    p0039.setCharacterSize(16);
+    p0040.setCharacterSize(16);
+    p0041.setCharacterSize(16);
+    p0042.setCharacterSize(16);
+    p0043.setCharacterSize(16);
+    p0044.setCharacterSize(16);
+    p0045.setCharacterSize(16);
+    p0046.setCharacterSize(16);
+    p0047.setCharacterSize(16);
+    p0048.setCharacterSize(16);
+    p0049.setCharacterSize(16);
+    p0050.setCharacterSize(16);
+    p0051.setCharacterSize(16);
+    p0052.setCharacterSize(16);
+    p0053.setCharacterSize(16);
+    p0054.setCharacterSize(16);
+    p0056.setCharacterSize(16);
+    p0057.setCharacterSize(16);
+    p0058.setCharacterSize(16);
 
     p000.setFillColor(sf::Color::Black);
     p001.setFillColor(sf::Color::Black);
@@ -1611,6 +2248,64 @@ void App::window3()
     p058.setFillColor(sf::Color::Black);
 
     p0000.setFillColor(sf::Color::Black);
+    p0001.setFillColor(sf::Color::Black);
+    p0002.setFillColor(sf::Color::Black);
+    p0003.setFillColor(sf::Color::Black);
+    p0004.setFillColor(sf::Color::Black);
+    p0005.setFillColor(sf::Color::Black);
+    p0006.setFillColor(sf::Color::Black);
+    p0007.setFillColor(sf::Color::Black);
+    p0008.setFillColor(sf::Color::Black);
+    p0009.setFillColor(sf::Color::Black);
+    p0010.setFillColor(sf::Color::Black);
+    p0011.setFillColor(sf::Color::Black);
+    p0012.setFillColor(sf::Color::Black);
+    p0013.setFillColor(sf::Color::Black);
+    p0014.setFillColor(sf::Color::Black);
+    p0015.setFillColor(sf::Color::Black);
+    p0016.setFillColor(sf::Color::Black);
+    p0017.setFillColor(sf::Color::Black);
+    p0018.setFillColor(sf::Color::Black);
+    p0019.setFillColor(sf::Color::Black);
+    p0020.setFillColor(sf::Color::Black);
+    p0021.setFillColor(sf::Color::Black);
+    p0022.setFillColor(sf::Color::Black);
+    p0023.setFillColor(sf::Color::Black);
+    p0024.setFillColor(sf::Color::Black);
+    p0025.setFillColor(sf::Color::Black);
+    p0026.setFillColor(sf::Color::Black);
+    p0027.setFillColor(sf::Color::Black);
+    p0028.setFillColor(sf::Color::Black);
+    p0029.setFillColor(sf::Color::Black);
+    p0030.setFillColor(sf::Color::Black);
+    p0031.setFillColor(sf::Color::Black);
+    p0032.setFillColor(sf::Color::Black);
+    p0033.setFillColor(sf::Color::Black);
+    p0034.setFillColor(sf::Color::Black);
+    p0035.setFillColor(sf::Color::Black);
+    p0036.setFillColor(sf::Color::Black);
+    p0037.setFillColor(sf::Color::Black);
+    p0038.setFillColor(sf::Color::Black);
+    p0039.setFillColor(sf::Color::Black);
+    p0040.setFillColor(sf::Color::Black);
+    p0041.setFillColor(sf::Color::Black);
+    p0042.setFillColor(sf::Color::Black);
+    p0043.setFillColor(sf::Color::Black);
+    p0044.setFillColor(sf::Color::Black);
+    p0045.setFillColor(sf::Color::Black);
+    p0046.setFillColor(sf::Color::Black);
+    p0047.setFillColor(sf::Color::Black);
+    p0048.setFillColor(sf::Color::Black);
+    p0049.setFillColor(sf::Color::Black);
+    p0050.setFillColor(sf::Color::Black);
+    p0051.setFillColor(sf::Color::Black);
+    p0052.setFillColor(sf::Color::Black);
+    p0053.setFillColor(sf::Color::Black);
+    p0054.setFillColor(sf::Color::Black);
+    p0055.setFillColor(sf::Color::Black);
+    p0056.setFillColor(sf::Color::Black);
+    p0057.setFillColor(sf::Color::Black);
+    p0058.setFillColor(sf::Color::Black);
 
     p000.setPosition(66, 245);
     p001.setPosition(66, 245);
@@ -1673,6 +2368,64 @@ void App::window3()
     p058.setPosition(66, 245);
 
     p0000.setPosition(66, 312);
+    p0001.setPosition(66, 312);
+    p0002.setPosition(66, 312);
+    p0003.setPosition(66, 312);
+    p0004.setPosition(66, 312);
+    p0005.setPosition(66, 312);
+    p0006.setPosition(66, 312);
+    p0007.setPosition(66, 312);
+    p0008.setPosition(66, 312);
+    p0009.setPosition(66, 312);
+    p0010.setPosition(66, 312);
+    p0011.setPosition(66, 312);
+    p0012.setPosition(66, 312);
+    p0013.setPosition(66, 312);
+    p0014.setPosition(66, 312);
+    p0015.setPosition(66, 312);
+    p0016.setPosition(66, 312);
+    p0017.setPosition(66, 312);
+    p0018.setPosition(66, 312);
+    p0019.setPosition(66, 312);
+    p0020.setPosition(66, 312);
+    p0021.setPosition(66, 312);
+    p0022.setPosition(66, 312);
+    p0023.setPosition(66, 312);
+    p0024.setPosition(66, 312);
+    p0025.setPosition(66, 312);
+    p0026.setPosition(66, 312);
+    p0027.setPosition(66, 312);
+    p0028.setPosition(66, 312);
+    p0029.setPosition(66, 312);
+    p0030.setPosition(66, 312);
+    p0031.setPosition(66, 312);
+    p0032.setPosition(66, 312);
+    p0033.setPosition(66, 312);
+    p0034.setPosition(66, 312);
+    p0035.setPosition(66, 312);
+    p0036.setPosition(66, 312);
+    p0037.setPosition(66, 312);
+    p0038.setPosition(66, 312);
+    p0039.setPosition(66, 312);
+    p0040.setPosition(66, 312);
+    p0041.setPosition(66, 312);
+    p0042.setPosition(66, 312);
+    p0043.setPosition(66, 312);
+    p0044.setPosition(66, 312);
+    p0045.setPosition(66, 312);
+    p0046.setPosition(66, 312);
+    p0047.setPosition(66, 312);
+    p0048.setPosition(66, 312);
+    p0049.setPosition(66, 312);
+    p0050.setPosition(66, 312);
+    p0051.setPosition(66, 312);
+    p0052.setPosition(66, 312);
+    p0053.setPosition(66, 312);
+    p0054.setPosition(66, 312);
+    p0055.setPosition(66, 312);
+    p0056.setPosition(66, 312);
+    p0057.setPosition(66, 312);
+    p0058.setPosition(66, 312);
 
     p000.setString("Allameh Jafari");
     p001.setString("Aghdasiyeh");
@@ -1735,6 +2488,64 @@ void App::window3()
     p058.setString("Zamzam");
 
     p0000.setString("Allameh Jafari");
+    p0001.setString("Aghdasiyeh");
+    p0002.setString("Azadeghan");
+    p0003.setString("Bimeh");
+    p0004.setString("Boostan-e laleh");
+    p0005.setString("Chaharbagh");
+    p0006.setString("Darvazeh Dowlat");
+    p0007.setString("Darvazeh Shemiran");
+    p0008.setString("Ebn-e Sina");
+    p0009.setString("Emam Hossein");
+    p0010.setString("EramSabz");
+    p0011.setString("Ferdowsi");
+    p0012.setString("Gha'em");
+    p0013.setString("Gheytariyeh");
+    p0014.setString("Gholhak");
+    p0015.setString("Haram-e Hazrat Abdolazim");
+    p0016.setString("Haftom-e Tir");
+    p0017.setString("Javadiyeh");
+    p0018.setString("Kashani");
+    p0019.setString("Kahrizak");
+    p0020.setString("Khajeh Abdollah-e Ansari");
+    p0021.setString("Jonoub Terminal");
+    p0022.setString("Kouhsar");
+    p0023.setString("Mahdiyeh");
+    p0024.setString("Meydan Azadi");
+    p0025.setString("Meydan-e Enghlab Eslami");
+    p0026.setString("Meydan-e Hazrat-e ValiAsr");
+    p0027.setString("Meydan-e Jahad");
+    p0028.setString("Meydan-e Shohada");
+    p0029.setString("Mirdamad");
+    p0030.setString("Mirza-ye Shirazi");
+    p0031.setString("Moniriyeh");
+    p0032.setString("Nabard");
+    p0033.setString("Niro Havaei");
+    p0034.setString("Ostad Mo'in");
+    p0035.setString("Panzdah-e Khordad");
+    p0036.setString("Payaneh Javanmard");
+    p0037.setString("Pirozi");
+    p0038.setString("Rahahan");
+    p0039.setString("Shademan");
+    p0040.setString("Shahid Ghodousi");
+    p0041.setString("Shahid Beheshti");
+    p0042.setString("Shahid Haghani");
+    p0043.setString("Shahid Kolahdoz");
+    p0044.setString("Shahid Mofatteh");
+    p0045.setString("Shahid Rezaei");
+    p0046.setString("Shahid Sadr");
+    p0047.setString("Shahid Zeynoddin");
+    p0048.setString("Shahrak-e Shari'ati");
+    p0049.setString("Shahr-e Rey");
+    p050.setString("Shoush");
+    p0051.setString("sohrevardi");
+    p052.setString("Tajrish");
+    p0053.setString("Taleghani");
+    p0054.setString("Teatr-e Shahr");
+    p0055.setString("Tehran Pars");
+    p0056.setString("Towhid");
+    p0057.setString("Yadegar-e Emam");
+    p0058.setString("Zamzam");
 
     while (window3.isOpen())
     {
@@ -1744,424 +2555,1010 @@ void App::window3()
             if (event.type == sf::Event::Closed)
                 window3.close();
         }
-        if (!flag_000)
-        {
-            window3.clear();
-            window3.draw(user_shape);
-            window3.draw(p000);
-            window3.draw(Arrow2Icon_shape);
-        }
-        else if (!flag_001)
-        {
-            window3.clear();
-            window3.draw(user_shape);
-            window3.draw(p001);
-            window3.draw(Arrow2Icon_shape);
-        }
-        else if (!flag_002)
-        {
-            window3.clear();
-            window3.draw(user_shape);
-            window3.draw(p002);
-            window3.draw(Arrow2Icon_shape);
-        }
-        else if (!flag_003)
-        {
-            window3.clear();
-            window3.draw(user_shape);
-            window3.draw(p003);
-            window3.draw(Arrow2Icon_shape);
-        }
-        else if (!flag_004)
-        {
-            window3.clear();
-            window3.draw(user_shape);
-            window3.draw(p004);
-            window3.draw(Arrow2Icon_shape);
-        }
-        else if (!flag_005)
-        {
-            window3.clear();
-            window3.draw(user_shape);
-            window3.draw(p005);
-            window3.draw(Arrow2Icon_shape);
-        }
-        else if (!flag_006)
-        {
-            window3.clear();
-            window3.draw(user_shape);
-            window3.draw(p006);
-            window3.draw(Arrow2Icon_shape);
-        }
-        else if (!flag_007)
-        {
-            window3.clear();
-            window3.draw(user_shape);
-            window3.draw(p007);
-            window3.draw(Arrow2Icon_shape);
-        }
-        else if (!flag_008)
-        {
-            window3.clear();
-            window3.draw(user_shape);
-            window3.draw(p008);
-            window3.draw(Arrow2Icon_shape);
-        }
-        else if (!flag_009)
-        {
-            window3.clear();
-            window3.draw(user_shape);
-            window3.draw(p009);
-            window3.draw(Arrow2Icon_shape);
-        }
-        else if (!flag_010)
-        {
-            window3.clear();
-            window3.draw(user_shape);
-            window3.draw(p010);
-            window3.draw(Arrow2Icon_shape);
-        }
-        else if (!flag_011)
-        {
-            window3.clear();
-            window3.draw(user_shape);
-            window3.draw(p011);
-            window3.draw(Arrow2Icon_shape);
-        }
-        else if (!flag_012)
-        {
-            window3.clear();
-            window3.draw(user_shape);
-            window3.draw(p012);
-            window3.draw(Arrow2Icon_shape);
-        }
-        else if (!flag_013)
-        {
-            window3.clear();
-            window3.draw(user_shape);
-            window3.draw(p013);
-            window3.draw(Arrow2Icon_shape);
-        }
-        else if (!flag_014)
-        {
-            window3.clear();
-            window3.draw(user_shape);
-            window3.draw(p014);
-            window3.draw(Arrow2Icon_shape);
-        }
-        else if (!flag_015)
-        {
-            window3.clear();
-            window3.draw(user_shape);
-            window3.draw(p015);
-            window3.draw(Arrow2Icon_shape);
-        }
-        else if (!flag_016)
-        {
-            window3.clear();
-            window3.draw(user_shape);
-            window3.draw(p016);
-            window3.draw(Arrow2Icon_shape);
-        }
-        else if (!flag_017)
-        {
-            window3.clear();
-            window3.draw(user_shape);
-            window3.draw(p017);
-            window3.draw(Arrow2Icon_shape);
-        }
-        else if (!flag_018)
-        {
-            window3.clear();
-            window3.draw(user_shape);
-            window3.draw(p018);
-            window3.draw(Arrow2Icon_shape);
-        }
-        else if (!flag_019)
-        {
-            window3.clear();
-            window3.draw(user_shape);
-            window3.draw(p019);
-            window3.draw(Arrow2Icon_shape);
-        }
-        else if (!flag_020)
-        {
-            window3.clear();
-            window3.draw(user_shape);
-            window3.draw(p020);
-            window3.draw(Arrow2Icon_shape);
-        }
-        else if (!flag_021)
-        {
-            window3.clear();
-            window3.draw(user_shape);
-            window3.draw(p021);
-            window3.draw(Arrow2Icon_shape);
-        }
-        else if (!flag_022)
-        {
-            window3.clear();
-            window3.draw(user_shape);
-            window3.draw(p022);
-            window3.draw(Arrow2Icon_shape);
-        }
-        else if (!flag_023)
-        {
-            window3.clear();
-            window3.draw(user_shape);
-            window3.draw(p023);
-            window3.draw(Arrow2Icon_shape);
-        }
-        else if (!flag_024)
-        {
-            window3.clear();
-            window3.draw(user_shape);
-            window3.draw(p024);
-            window3.draw(Arrow2Icon_shape);
-        }
-        else if (!flag_025)
-        {
-            window3.clear();
-            window3.draw(user_shape);
-            window3.draw(p025);
-            window3.draw(Arrow2Icon_shape);
-        }
-        else if (!flag_026)
-        {
-            window3.clear();
-            window3.draw(user_shape);
-            window3.draw(p026);
-            window3.draw(Arrow2Icon_shape);
-        }
-        else if (!flag_027)
-        {
-            window3.clear();
-            window3.draw(user_shape);
-            window3.draw(p027);
-            window3.draw(Arrow2Icon_shape);
-        }
-        else if (!flag_028)
-        {
-            window3.clear();
-            window3.draw(user_shape);
-            window3.draw(p028);
-            window3.draw(Arrow2Icon_shape);
-        }
-        else if (!flag_029)
-        {
-            window3.clear();
-            window3.draw(user_shape);
-            window3.draw(p029);
-            window3.draw(Arrow2Icon_shape);
-        }
-        else if (!flag_030)
-        {
-            window3.clear();
-            window3.draw(user_shape);
-            window3.draw(p030);
-            window3.draw(Arrow2Icon_shape);
-        }
-        else if (!flag_031)
-        {
-            window3.clear();
-            window3.draw(user_shape);
-            window3.draw(p031);
-            window3.draw(Arrow2Icon_shape);
-        }
-        else if (!flag_032)
-        {
-            window3.clear();
-            window3.draw(user_shape);
-            window3.draw(p032);
-            window3.draw(Arrow2Icon_shape);
-        }
-        else if (!flag_033)
-        {
-            window3.clear();
-            window3.draw(user_shape);
-            window3.draw(p033);
-            window3.draw(Arrow2Icon_shape);
-        }
-        else if (!flag_034)
-        {
-            window3.clear();
-            window3.draw(user_shape);
-            window3.draw(p034);
-            window3.draw(Arrow2Icon_shape);
-        }
-        else if (!flag_035)
-        {
-            window3.clear();
-            window3.draw(user_shape);
-            window3.draw(p035);
-            window3.draw(Arrow2Icon_shape);
-        }
-        else if (!flag_036)
-        {
-            window3.clear();
-            window3.draw(user_shape);
-            window3.draw(p036);
-            window3.draw(Arrow2Icon_shape);
-        }
-        else if (!flag_037)
-        {
-            window3.clear();
-            window3.draw(user_shape);
-            window3.draw(p037);
-            window3.draw(Arrow2Icon_shape);
-        }
-        else if (!flag_038)
-        {
-            window3.clear();
-            window3.draw(user_shape);
-            window3.draw(p038);
-            window3.draw(Arrow2Icon_shape);
-        }
-        else if (!flag_039)
-        {
-            window3.clear();
-            window3.draw(user_shape);
-            window3.draw(p039);
-            window3.draw(Arrow2Icon_shape);
-        }
-        else if (!flag_040)
-        {
-            window3.clear();
-            window3.draw(user_shape);
-            window3.draw(p040);
-            window3.draw(Arrow2Icon_shape);
-        }
-        else if (!flag_041)
-        {
-            window3.clear();
-            window3.draw(user_shape);
-            window3.draw(p041);
-            window3.draw(Arrow2Icon_shape);
-        }
-        else if (!flag_042)
-        {
-            window3.clear();
-            window3.draw(user_shape);
-            window3.draw(p042);
-            window3.draw(Arrow2Icon_shape);
-        }
-        else if (!flag_043)
-        {
-            window3.clear();
-            window3.draw(user_shape);
-            window3.draw(p043);
-            window3.draw(Arrow2Icon_shape);
-        }
-        else if (!flag_044)
-        {
-            window3.clear();
-            window3.draw(user_shape);
-            window3.draw(p044);
-            window3.draw(Arrow2Icon_shape);
-        }
-        else if (!flag_045)
-        {
-            window3.clear();
-            window3.draw(user_shape);
-            window3.draw(p045);
-            window3.draw(Arrow2Icon_shape);
-        }
-        else if (!flag_046)
-        {
-            window3.clear();
-            window3.draw(user_shape);
-            window3.draw(p046);
-            window3.draw(Arrow2Icon_shape);
-        }
-        else if (!flag_047)
-        {
-            window3.clear();
-            window3.draw(user_shape);
-            window3.draw(p047);
-            window3.draw(Arrow2Icon_shape);
-        }
-        else if (!flag_048)
-        {
-            window3.clear();
-            window3.draw(user_shape);
-            window3.draw(p048);
-            window3.draw(Arrow2Icon_shape);
-        }
-        else if (!flag_049)
-        {
-            window3.clear();
-            window3.draw(user_shape);
-            window3.draw(p049);
-            window3.draw(Arrow2Icon_shape);
-        }
-        else if (!flag_050)
-        {
-            window3.clear();
-            window3.draw(user_shape);
-            window3.draw(p050);
-            window3.draw(Arrow2Icon_shape);
-        }
-        else if (!flag_051)
-        {
-            window3.clear();
-            window3.draw(user_shape);
-            window3.draw(p051);
-            window3.draw(Arrow2Icon_shape);
-        }
-        else if (!flag_052)
-        {
-            window3.clear();
-            window3.draw(user_shape);
-            window3.draw(p052);
-            window3.draw(Arrow2Icon_shape);
-        }
-        else if (!flag_053)
-        {
-            window3.clear();
-            window3.draw(user_shape);
-            window3.draw(p053);
-            window3.draw(Arrow2Icon_shape);
-        }
-        else if (!flag_054)
-        {
-            window3.clear();
-            window3.draw(user_shape);
-            window3.draw(p054);
-            window3.draw(Arrow2Icon_shape);
-        }
-        else if (!flag_055)
-        {
-            window3.clear();
-            window3.draw(user_shape);
-            window3.draw(p055);
-            window3.draw(Arrow2Icon_shape);
-        }
-        else if (!flag_056)
-        {
-            window3.clear();
-            window3.draw(user_shape);
-            window3.draw(p056);
-            window3.draw(Arrow2Icon_shape);
-        }
-        else if (!flag_057)
-        {
-            window3.clear();
-            window3.draw(user_shape);
-            window3.draw(p057);
-            window3.draw(Arrow2Icon_shape);
-        }
-        else if (!flag_058)
-        {
-            window3.clear();
-            window3.draw(user_shape);
-            window3.draw(p058);
-            window3.draw(Arrow2Icon_shape);
-        }
+        // if (destination)
+        // {
+        //     if (!flag_000)
+        //     {
+        //         window3.clear();
+        //         window3.draw(user_shape);
+        //         window3.draw(p000);
+        //     }
+        //     else if (!flag_001)
+        //     {
+        //         window3.clear();
+        //         window3.draw(user_shape);
+        //         window3.draw(p001);
+        //     }
+        //     else if (!flag_002)
+        //     {
+        //         window3.clear();
+        //         window3.draw(user_shape);
+        //         window3.draw(p002);
+        //     }
+        //     else if (!flag_003)
+        //     {
+        //         window3.clear();
+        //         window3.draw(user_shape);
+        //         window3.draw(p003);
+        //     }
+        //     else if (!flag_004)
+        //     {
+        //         window3.clear();
+        //         window3.draw(user_shape);
+        //         window3.draw(p004);
+        //     }
+        //     else if (!flag_005)
+        //     {
+        //         window3.clear();
+        //         window3.draw(user_shape);
+        //         window3.draw(p005);
+        //     }
+        //     else if (!flag_006)
+        //     {
+        //         window3.clear();
+        //         window3.draw(user_shape);
+        //         window3.draw(p006);
+        //     }
+        //     else if (!flag_007)
+        //     {
+        //         window3.clear();
+        //         window3.draw(user_shape);
+        //         window3.draw(p007);
+        //     }
+        //     else if (!flag_008)
+        //     {
+        //         window3.clear();
+        //         window3.draw(user_shape);
+        //         window3.draw(p008);
+        //     }
+        //     else if (!flag_009)
+        //     {
+        //         window3.clear();
+        //         window3.draw(user_shape);
+        //         window3.draw(p009);
+        //     }
+        //     else if (!flag_010)
+        //     {
+        //         window3.clear();
+        //         window3.draw(user_shape);
+        //         window3.draw(p010);
+        //     }
+        //     else if (!flag_011)
+        //     {
+        //         window3.clear();
+        //         window3.draw(user_shape);
+        //         window3.draw(p011);
+        //     }
+        //     else if (!flag_012)
+        //     {
+        //         window3.clear();
+        //         window3.draw(user_shape);
+        //         window3.draw(p012);
+        //     }
+        //     else if (!flag_013)
+        //     {
+        //         window3.clear();
+        //         window3.draw(user_shape);
+        //         window3.draw(p013);
+        //     }
+        //     else if (!flag_014)
+        //     {
+        //         window3.clear();
+        //         window3.draw(user_shape);
+        //         window3.draw(p014);
+        //     }
+        //     else if (!flag_015)
+        //     {
+        //         window3.clear();
+        //         window3.draw(user_shape);
+        //         window3.draw(p015);
+        //     }
+        //     else if (!flag_016)
+        //     {
+        //         window3.clear();
+        //         window3.draw(user_shape);
+        //         window3.draw(p016);
+        //     }
+        //     else if (!flag_017)
+        //     {
+        //         window3.clear();
+        //         window3.draw(user_shape);
+        //         window3.draw(p017);
+        //     }
+        //     else if (!flag_018)
+        //     {
+        //         window3.clear();
+        //         window3.draw(user_shape);
+        //         window3.draw(p018);
+        //     }
+        //     else if (!flag_019)
+        //     {
+        //         window3.clear();
+        //         window3.draw(user_shape);
+        //         window3.draw(p019);
+        //     }
+        //     else if (!flag_020)
+        //     {
+        //         window3.clear();
+        //         window3.draw(user_shape);
+        //         window3.draw(p020);
+        //     }
+        //     else if (!flag_021)
+        //     {
+        //         window3.clear();
+        //         window3.draw(user_shape);
+        //         window3.draw(p021);
+        //     }
+        //     else if (!flag_022)
+        //     {
+        //         window3.clear();
+        //         window3.draw(user_shape);
+        //         window3.draw(p022);
+        //     }
+        //     else if (!flag_023)
+        //     {
+        //         window3.clear();
+        //         window3.draw(user_shape);
+        //         window3.draw(p023);
+        //     }
+        //     else if (!flag_024)
+        //     {
+        //         window3.clear();
+        //         window3.draw(user_shape);
+        //         window3.draw(p024);
+        //     }
+        //     else if (!flag_025)
+        //     {
+        //         window3.clear();
+        //         window3.draw(user_shape);
+        //         window3.draw(p025);
+        //     }
+        //     else if (!flag_026)
+        //     {
+        //         window3.clear();
+        //         window3.draw(user_shape);
+        //         window3.draw(p026);
+        //     }
+        //     else if (!flag_027)
+        //     {
+        //         window3.clear();
+        //         window3.draw(user_shape);
+        //         window3.draw(p027);
+        //     }
+        //     else if (!flag_028)
+        //     {
+        //         window3.clear();
+        //         window3.draw(user_shape);
+        //         window3.draw(p028);
+        //     }
+        //     else if (!flag_029)
+        //     {
+        //         window3.clear();
+        //         window3.draw(user_shape);
+        //         window3.draw(p029);
+        //     }
+        //     else if (!flag_030)
+        //     {
+        //         window3.clear();
+        //         window3.draw(user_shape);
+        //         window3.draw(p030);
+        //     }
+        //     else if (!flag_031)
+        //     {
+        //         window3.clear();
+        //         window3.draw(user_shape);
+        //         window3.draw(p031);
+        //     }
+        //     else if (!flag_032)
+        //     {
+        //         window3.clear();
+        //         window3.draw(user_shape);
+        //         window3.draw(p032);
+        //     }
+        //     else if (!flag_033)
+        //     {
+        //         window3.clear();
+        //         window3.draw(user_shape);
+        //         window3.draw(p033);
+        //     }
+        //     else if (!flag_034)
+        //     {
+        //         window3.clear();
+        //         window3.draw(user_shape);
+        //         window3.draw(p034);
+        //     }
+        //     else if (!flag_035)
+        //     {
+        //         window3.clear();
+        //         window3.draw(user_shape);
+        //         window3.draw(p035);
+        //     }
+        //     else if (!flag_036)
+        //     {
+        //         window3.clear();
+        //         window3.draw(user_shape);
+        //         window3.draw(p036);
+        //     }
+        //     else if (!flag_037)
+        //     {
+        //         window3.clear();
+        //         window3.draw(user_shape);
+        //         window3.draw(p037);
+        //     }
+        //     else if (!flag_038)
+        //     {
+        //         window3.clear();
+        //         window3.draw(user_shape);
+        //         window3.draw(p038);
+        //     }
+        //     else if (!flag_039)
+        //     {
+        //         window3.clear();
+        //         window3.draw(user_shape);
+        //         window3.draw(p039);
+        //     }
+        //     else if (!flag_040)
+        //     {
+        //         window3.clear();
+        //         window3.draw(user_shape);
+        //         window3.draw(p040);
+        //     }
+        //     else if (!flag_041)
+        //     {
+        //         window3.clear();
+        //         window3.draw(user_shape);
+        //         window3.draw(p041);
+        //     }
+        //     else if (!flag_042)
+        //     {
+        //         window3.clear();
+        //         window3.draw(user_shape);
+        //         window3.draw(p042);
+        //     }
+        //     else if (!flag_043)
+        //     {
+        //         window3.clear();
+        //         window3.draw(user_shape);
+        //         window3.draw(p043);
+        //     }
+        //     else if (!flag_044)
+        //     {
+        //         window3.clear();
+        //         window3.draw(user_shape);
+        //         window3.draw(p044);
+        //     }
+        //     else if (!flag_045)
+        //     {
+        //         window3.clear();
+        //         window3.draw(user_shape);
+        //         window3.draw(p045);
+        //     }
+        //     else if (!flag_046)
+        //     {
+        //         window3.clear();
+        //         window3.draw(user_shape);
+        //         window3.draw(p046);
+        //     }
+        //     else if (!flag_047)
+        //     {
+        //         window3.clear();
+        //         window3.draw(user_shape);
+        //         window3.draw(p047);
+        //     }
+        //     else if (!flag_048)
+        //     {
+        //         window3.clear();
+        //         window3.draw(user_shape);
+        //         window3.draw(p048);
+        //     }
+        //     else if (!flag_049)
+        //     {
+        //         window3.clear();
+        //         window3.draw(user_shape);
+        //         window3.draw(p049);
+        //     }
+        //     else if (!flag_050)
+        //     {
+        //         window3.clear();
+        //         window3.draw(user_shape);
+        //         window3.draw(p050);
+        //     }
+        //     else if (!flag_051)
+        //     {
+        //         window3.clear();
+        //         window3.draw(user_shape);
+        //         window3.draw(p051);
+        //     }
+        //     else if (!flag_052)
+        //     {
+        //         window3.clear();
+        //         window3.draw(user_shape);
+        //         window3.draw(p052);
+        //     }
+        //     else if (!flag_053)
+        //     {
+        //         window3.clear();
+        //         window3.draw(user_shape);
+        //         window3.draw(p053);
+        //     }
+        //     else if (!flag_054)
+        //     {
+        //         window3.clear();
+        //         window3.draw(user_shape);
+        //         window3.draw(p054);
+        //     }
+        //     else if (!flag_055)
+        //     {
+        //         window3.clear();
+        //         window3.draw(user_shape);
+        //         window3.draw(p055);
+        //     }
+        //     else if (!flag_056)
+        //     {
+        //         window3.clear();
+        //         window3.draw(user_shape);
+        //         window3.draw(p056);
+        //     }
+        //     else if (!flag_057)
+        //     {
+        //         window3.clear();
+        //         window3.draw(user_shape);
+        //         window3.draw(p057);
+        //     }
+        //     else if (!flag_058)
+        //     {
+        //         window3.clear();
+        //         window3.draw(user_shape);
+        //         window3.draw(p058);
+        //     }
+        // }
+    
+        
+            if (!flag_000)
+            {
+                window3.clear();
+                window3.draw(user_shape);
+                window3.draw(p000);
+                window3.draw(Arrow2Icon_shape);
+            }
+            else if (!flag_001)
+            {
+                window3.clear();
+                window3.draw(user_shape);
+                window3.draw(p001);
+                window3.draw(Arrow2Icon_shape);
+            }
+            else if (!flag_002)
+            {
+                window3.clear();
+                window3.draw(user_shape);
+                window3.draw(p002);
+                window3.draw(Arrow2Icon_shape);
+            }
+            else if (!flag_003)
+            {
+                window3.clear();
+                window3.draw(user_shape);
+                window3.draw(p003);
+                window3.draw(Arrow2Icon_shape);
+            }
+            else if (!flag_004)
+            {
+                window3.clear();
+                window3.draw(user_shape);
+                window3.draw(p004);
+                window3.draw(Arrow2Icon_shape);
+            }
+            else if (!flag_005)
+            {
+                window3.clear();
+                window3.draw(user_shape);
+                window3.draw(p005);
+                window3.draw(Arrow2Icon_shape);
+            }
+            else if (!flag_006)
+            {
+                window3.clear();
+                window3.draw(user_shape);
+                window3.draw(p006);
+                window3.draw(Arrow2Icon_shape);
+            }
+            else if (!flag_007)
+            {
+                window3.clear();
+                window3.draw(user_shape);
+                window3.draw(p007);
+                window3.draw(Arrow2Icon_shape);
+            }
+            else if (!flag_008)
+            {
+                window3.clear();
+                window3.draw(user_shape);
+                window3.draw(p008);
+                window3.draw(Arrow2Icon_shape);
+            }
+            else if (!flag_009)
+            {
+                window3.clear();
+                window3.draw(user_shape);
+                window3.draw(p009);
+                window3.draw(Arrow2Icon_shape);
+            }
+            else if (!flag_010)
+            {
+                window3.clear();
+                window3.draw(user_shape);
+                window3.draw(p010);
+                window3.draw(Arrow2Icon_shape);
+            }
+            else if (!flag_011)
+            {
+                window3.clear();
+                window3.draw(user_shape);
+                window3.draw(p011);
+                window3.draw(Arrow2Icon_shape);
+            }
+            else if (!flag_012)
+            {
+                window3.clear();
+                window3.draw(user_shape);
+                window3.draw(p012);
+                window3.draw(Arrow2Icon_shape);
+            }
+            else if (!flag_013)
+            {
+                window3.clear();
+                window3.draw(user_shape);
+                window3.draw(p013);
+                window3.draw(Arrow2Icon_shape);
+            }
+            else if (!flag_014)
+            {
+                window3.clear();
+                window3.draw(user_shape);
+                window3.draw(p014);
+                window3.draw(Arrow2Icon_shape);
+            }
+            else if (!flag_015)
+            {
+                window3.clear();
+                window3.draw(user_shape);
+                window3.draw(p015);
+                window3.draw(Arrow2Icon_shape);
+            }
+            else if (!flag_016)
+            {
+                window3.clear();
+                window3.draw(user_shape);
+                window3.draw(p016);
+                window3.draw(Arrow2Icon_shape);
+            }
+            else if (!flag_017)
+            {
+                window3.clear();
+                window3.draw(user_shape);
+                window3.draw(p017);
+                window3.draw(Arrow2Icon_shape);
+            }
+            else if (!flag_018)
+            {
+                window3.clear();
+                window3.draw(user_shape);
+                window3.draw(p018);
+                window3.draw(Arrow2Icon_shape);
+            }
+            else if (!flag_019)
+            {
+                window3.clear();
+                window3.draw(user_shape);
+                window3.draw(p019);
+                window3.draw(Arrow2Icon_shape);
+            }
+            else if (!flag_020)
+            {
+                window3.clear();
+                window3.draw(user_shape);
+                window3.draw(p020);
+                window3.draw(Arrow2Icon_shape);
+            }
+            else if (!flag_021)
+            {
+                window3.clear();
+                window3.draw(user_shape);
+                window3.draw(p021);
+                window3.draw(Arrow2Icon_shape);
+            }
+            else if (!flag_022)
+            {
+                window3.clear();
+                window3.draw(user_shape);
+                window3.draw(p022);
+                window3.draw(Arrow2Icon_shape);
+            }
+            else if (!flag_023)
+            {
+                window3.clear();
+                window3.draw(user_shape);
+                window3.draw(p023);
+                window3.draw(Arrow2Icon_shape);
+            }
+            else if (!flag_024)
+            {
+                window3.clear();
+                window3.draw(user_shape);
+                window3.draw(p024);
+                window3.draw(Arrow2Icon_shape);
+            }
+            else if (!flag_025)
+            {
+                window3.clear();
+                window3.draw(user_shape);
+                window3.draw(p025);
+                window3.draw(Arrow2Icon_shape);
+            }
+            else if (!flag_026)
+            {
+                window3.clear();
+                window3.draw(user_shape);
+                window3.draw(p026);
+                window3.draw(Arrow2Icon_shape);
+            }
+            else if (!flag_027)
+            {
+                window3.clear();
+                window3.draw(user_shape);
+                window3.draw(p027);
+                window3.draw(Arrow2Icon_shape);
+            }
+            else if (!flag_028)
+            {
+                window3.clear();
+                window3.draw(user_shape);
+                window3.draw(p028);
+                window3.draw(Arrow2Icon_shape);
+            }
+            else if (!flag_029)
+            {
+                window3.clear();
+                window3.draw(user_shape);
+                window3.draw(p029);
+                window3.draw(Arrow2Icon_shape);
+            }
+            else if (!flag_030)
+            {
+                window3.clear();
+                window3.draw(user_shape);
+                window3.draw(p030);
+                window3.draw(Arrow2Icon_shape);
+            }
+            else if (!flag_031)
+            {
+                window3.clear();
+                window3.draw(user_shape);
+                window3.draw(p031);
+                window3.draw(Arrow2Icon_shape);
+            }
+            else if (!flag_032)
+            {
+                window3.clear();
+                window3.draw(user_shape);
+                window3.draw(p032);
+                window3.draw(Arrow2Icon_shape);
+            }
+            else if (!flag_033)
+            {
+                window3.clear();
+                window3.draw(user_shape);
+                window3.draw(p033);
+                window3.draw(Arrow2Icon_shape);
+            }
+            else if (!flag_034)
+            {
+                window3.clear();
+                window3.draw(user_shape);
+                window3.draw(p034);
+                window3.draw(Arrow2Icon_shape);
+            }
+            else if (!flag_035)
+            {
+                window3.clear();
+                window3.draw(user_shape);
+                window3.draw(p035);
+                window3.draw(Arrow2Icon_shape);
+            }
+            else if (!flag_036)
+            {
+                window3.clear();
+                window3.draw(user_shape);
+                window3.draw(p036);
+                window3.draw(Arrow2Icon_shape);
+            }
+            else if (!flag_037)
+            {
+                window3.clear();
+                window3.draw(user_shape);
+                window3.draw(p037);
+                window3.draw(Arrow2Icon_shape);
+            }
+            else if (!flag_038)
+            {
+                window3.clear();
+                window3.draw(user_shape);
+                window3.draw(p038);
+                window3.draw(Arrow2Icon_shape);
+            }
+            else if (!flag_039)
+            {
+                window3.clear();
+                window3.draw(user_shape);
+                window3.draw(p039);
+                window3.draw(Arrow2Icon_shape);
+            }
+            else if (!flag_040)
+            {
+                window3.clear();
+                window3.draw(user_shape);
+                window3.draw(p040);
+                window3.draw(Arrow2Icon_shape);
+            }
+            else if (!flag_041)
+            {
+                window3.clear();
+                window3.draw(user_shape);
+                window3.draw(p041);
+                window3.draw(Arrow2Icon_shape);
+            }
+            else if (!flag_042)
+            {
+                window3.clear();
+                window3.draw(user_shape);
+                window3.draw(p042);
+                window3.draw(Arrow2Icon_shape);
+            }
+            else if (!flag_043)
+            {
+                window3.clear();
+                window3.draw(user_shape);
+                window3.draw(p043);
+                window3.draw(Arrow2Icon_shape);
+            }
+            else if (!flag_044)
+            {
+                window3.clear();
+                window3.draw(user_shape);
+                window3.draw(p044);
+                window3.draw(Arrow2Icon_shape);
+            }
+            else if (!flag_045)
+            {
+                window3.clear();
+                window3.draw(user_shape);
+                window3.draw(p045);
+                window3.draw(Arrow2Icon_shape);
+            }
+            else if (!flag_046)
+            {
+                window3.clear();
+                window3.draw(user_shape);
+                window3.draw(p046);
+                window3.draw(Arrow2Icon_shape);
+            }
+            else if (!flag_047)
+            {
+                window3.clear();
+                window3.draw(user_shape);
+                window3.draw(p047);
+                window3.draw(Arrow2Icon_shape);
+            }
+            else if (!flag_048)
+            {
+                window3.clear();
+                window3.draw(user_shape);
+                window3.draw(p048);
+                window3.draw(Arrow2Icon_shape);
+            }
+            else if (!flag_049)
+            {
+                window3.clear();
+                window3.draw(user_shape);
+                window3.draw(p049);
+                window3.draw(Arrow2Icon_shape);
+            }
+            else if (!flag_050)
+            {
+                window3.clear();
+                window3.draw(user_shape);
+                window3.draw(p050);
+                window3.draw(Arrow2Icon_shape);
+            }
+            else if (!flag_051)
+            {
+                window3.clear();
+                window3.draw(user_shape);
+                window3.draw(p051);
+                window3.draw(Arrow2Icon_shape);
+            }
+            else if (!flag_052)
+            {
+                window3.clear();
+                window3.draw(user_shape);
+                window3.draw(p052);
+                window3.draw(Arrow2Icon_shape);
+            }
+            else if (!flag_053)
+            {
+                window3.clear();
+                window3.draw(user_shape);
+                window3.draw(p053);
+                window3.draw(Arrow2Icon_shape);
+            }
+            else if (!flag_054)
+            {
+                window3.clear();
+                window3.draw(user_shape);
+                window3.draw(p054);
+            }
+            else if (!flag_055)
+            {
+                window3.clear();
+                window3.draw(user_shape);
+                window3.draw(p055);
+            }
+            else if (!flag_056)
+            {
+                window3.clear();
+                window3.draw(user_shape);
+                window3.draw(p056);
+            }
+            else if (!flag_057)
+            {
+                window3.clear();
+                window3.draw(user_shape);
+                window3.draw(p057);
+            }
+            else if (!flag_058)
+            {
+                window3.clear();
+                window3.draw(user_shape);
+                window3.draw(p058);
+            }
         if (!destination)
         {
             if (!flag_0000)
             {
-                 window3.draw(p0000);
+                window3.draw(p0000);
+            }
+            if (!flag_0001)
+            {
+                window3.draw(p0001);
+            }
+            if (!flag_0002)
+            {
+                window3.draw(p0002);
+            }
+            if (!flag_0003)
+            {
+                window3.draw(p0003);
+            }
+            if (!flag_0004)
+            {
+                window3.draw(p0004);
+            }
+            if (!flag_0005)
+            {
+                window3.draw(p0005);
+            }
+            if (!flag_0006)
+            {
+                window3.draw(p0006);
+            }
+            if (!flag_0007)
+            {
+                window3.draw(p0007);
+            }
+            if (!flag_0008)
+            {
+                window3.draw(p0008);
+            }
+            if (!flag_0009)
+            {
+                window3.draw(p0009);
+            }
+            if (!flag_0010)
+            {
+                window3.draw(p0010);
+            }
+            if (!flag_0011)
+            {
+                window3.draw(p0011);
+            }
+            if (!flag_0012)
+            {
+                window3.draw(p0012);
+            }
+            if (!flag_0013)
+            {
+                window3.draw(p0013);
+            }
+            if (!flag_0014)
+            {
+                window3.draw(p0014);
+            }
+            if (!flag_0015)
+            {
+                window3.draw(p0015);
+            }
+            if (!flag_0016)
+            {
+                window3.draw(p0016);
+            }
+            if (!flag_0017)
+            {
+                window3.draw(p0017);
+            }
+            if (!flag_0018)
+            {
+                window3.draw(p0018);
+            }
+            if (!flag_0019)
+            {
+                window3.draw(p0019);
+            }
+            if (!flag_0020)
+            {
+                window3.draw(p0020);
+            }
+            if (!flag_0021)
+            {
+                window3.draw(p0021);
+            }
+            if (!flag_0022)
+            {
+                window3.draw(p0022);
+            }
+            if (!flag_0023)
+            {
+                window3.draw(p0023);
+            }
+            if (!flag_0024)
+            {
+                window3.draw(p0024);
+            }
+            if (!flag_0025)
+            {
+                window3.draw(p0025);
+            }
+            if (!flag_0026)
+            {
+                window3.draw(p0026);
+            }
+            if (!flag_0027)
+            {
+                window3.draw(p0027);
+            }
+            if (!flag_0028)
+            {
+                window3.draw(p0028);
+            }
+            if (!flag_0029)
+            {
+                window3.draw(p0029);
+            }
+            if (!flag_0030)
+            {
+                window3.draw(p0030);
+            }
+            if (!flag_0031)
+            {
+                window3.draw(p0031);
+            }
+            if (!flag_0032)
+            {
+                window3.draw(p0032);
+            }
+            if (!flag_0033)
+            {
+                window3.draw(p0033);
+            }
+            if (!flag_0034)
+            {
+                window3.draw(p0034);
+            }
+            if (!flag_0035)
+            {
+                window3.draw(p0035);
+            }
+            if (!flag_036)
+            {
+                window3.draw(p0036);
+            }
+            if (!flag_0037)
+            {
+                window3.draw(p0037);
+            }
+            if (!flag_0038)
+            {
+                window3.draw(p0038);
+            }
+            if (!flag_0039)
+            {
+                window3.draw(p0039);
+            }
+            if (!flag_0040)
+            {
+                window3.draw(p0040);
+            }
+            if (!flag_0041)
+            {
+                window3.draw(p0041);
+            }
+            if (!flag_0042)
+            {
+                window3.draw(p0042);
+            }
+            if (!flag_0043)
+            {
+                window3.draw(p0043);
+            }
+            if (!flag_0044)
+            {
+                window3.draw(p0043);
+            }
+            if (!flag_0045)
+            {
+                window3.draw(p0045);
+            }
+            if (!flag_0046)
+            {
+                window3.draw(p0046);
+            }
+            if (!flag_0047)
+            {
+                window3.draw(p0047);
+            }
+            if (!flag_0048)
+            {
+                window3.draw(p0048);
+            }
+            if (!flag_0049)
+            {
+                window3.draw(p0049);
+            }
+            if (!flag_0050)
+            {
+                window3.draw(p0050);
+            }
+            if (!flag_0051)
+            {
+                window3.draw(p0051);
+            }
+            if (!flag_0052)
+            {
+                window3.draw(p0052);
+            }
+            if (!flag_0053)
+            {
+                window3.draw(p0053);
+            }
+            if (!flag_0054)
+            {
+                window3.draw(p0054);
+            }
+            if (!flag_0055)
+            {
+                window3.draw(p0055);
+            }
+            if (!flag_0056)
+            {
+                window3.draw(p0056);
+            }
+            if (!flag_0057)
+            {
+                window3.draw(p0057);
+            }
+            if (!flag_0058)
+            {
+                window3.draw(p0058);
             }
         }
         if (event.type == sf::Event::MouseButtonPressed)
