@@ -29,65 +29,6 @@ void App::menu()
     sf::Texture Arrow_icon;
     sf::Texture Arrow2_icon;
     sf::Texture Arrow_orgin_icon;
-    // sf::Texture Aghdasiyeh_icon;
-    // sf::Texture Allameh_icon;
-    // sf::Texture Azadeghan_icon;
-    // sf::Texture Bimeh_icon;
-    // sf::Texture Boostan_icon;
-    // sf::Texture chahar_icon;
-    // sf::Texture Dowlat_icon;
-    // sf::Texture Shemiran_icon;
-    // sf::Texture sina_icon;
-    // sf::Texture Hossein_icon;
-    // sf::Texture sabz_icon;
-    // sf::Texture Ferdowsi_icon;
-    // sf::Texture Ghaem_icon;
-    // sf::Texture gheytariyeh_icon;
-    // sf::Texture Gholhak_icon;
-    // sf::Texture Haram_icon;
-    // sf::Texture haft_icon;
-    // sf::Texture javadiyeh_icon;
-    // sf::Texture Kashani_icon;
-    // sf::Texture Kahrizak_icon;
-    // sf::Texture Khajeh_icon;
-    // sf::Texture Kouhsar_icon;
-    // sf::Texture Jonoub_icon;
-    // sf::Texture Mahdiyeh_icon;
-    // sf::Texture Azadi_icon;
-    // sf::Texture Enghelab_icon;
-    // sf::Texture ValiAsar_icon;
-    // sf::Texture Jahad_icon;
-    // sf::Texture Shohada_icon;
-    // sf::Texture Mirdamad_icon;
-    // sf::Texture Shirazi_icon;
-    // sf::Texture Moniriyeh_icon;
-    // sf::Texture Nabard_icon;
-    // sf::Texture Niro_icon;
-    // sf::Texture Ostad_icon;
-    // sf::Texture Panzdah_icon;
-    // sf::Texture Payaneh_icon;
-    // sf::Texture pirozi_icon;
-    // sf::Texture Rahahan_icon;
-    // sf::Texture Shademan_icon;
-    // sf::Texture Ghodosi_icon;
-    // sf::Texture Beheshti_icon;
-    // sf::Texture Haghani_icon;
-    // sf::Texture Kolahdoz_icon;
-    // sf::Texture Mofatteh_icon;
-    // sf::Texture Rezaei_icon;
-    // sf::Texture Sadr_icon;
-    // sf::Texture Zeynoddin_icon;
-    // sf::Texture Shariati_icon;
-    // sf::Texture Rey_icon;
-    // sf::Texture Shoush_icon;
-    // sf::Texture sohrevardi_icon;
-    // sf::Texture Tajrish_icon;
-    // sf::Texture Taleghani_icon;
-    // sf::Texture Teater_icon;
-    // sf::Texture Pars_icon;
-    // sf::Texture Towhid_icon;
-    // sf::Texture Yadegar_icon;
-    // sf::Texture Zamzam_icon;
 
     try
     {
@@ -105,65 +46,7 @@ void App::menu()
         next_icon.loadFromFile("picture/next.png");
         Arrow_icon.loadFromFile("picture/Arrow.png");
         Arrow2_icon.loadFromFile("picture/Arrow.png");
-        Aghdasiyeh_icon.loadFromFile("picture/001.png");
-        Azadeghan_icon.loadFromFile("picture/002.png");
-        Bimeh_icon.loadFromFile("picture/003.png");
-        Allameh_icon.loadFromFile("picture/000.png");
-        Boostan_icon.loadFromFile("picture/004.png");
-        chahar_icon.loadFromFile("picture/005.png");
-        Dowlat_icon.loadFromFile("picture/006.png");
-        Shemiran_icon.loadFromFile("picture/007.png");
-        sina_icon.loadFromFile("picture/008.png");
-        Hossein_icon.loadFromFile("picture/009.png");
-        sabz_icon.loadFromFile("picture/010.png");
-        Ferdowsi_icon.loadFromFile("picture/011.png");
-        Ghaem_icon.loadFromFile("picture/012.png");
-        gheytariyeh_icon.loadFromFile("picture/013.png");
-        Gholhak_icon.loadFromFile("picture/014.png");
-        Haram_icon.loadFromFile("picture/015.png");
-        haft_icon.loadFromFile("picture/016.png");
-        javadiyeh_icon.loadFromFile("picture/017.png");
-        Kashani_icon.loadFromFile("picture/018.png");
-        Kahrizak_icon.loadFromFile("picture/019.png");
-        Khajeh_icon.loadFromFile("picture/020.png");
-        Kouhsar_icon.loadFromFile("picture/022.png");
-        Jonoub_icon.loadFromFile("picture/021.png");
-        Mahdiyeh_icon.loadFromFile("picture/023.png");
-        Azadi_icon.loadFromFile("picture/024.png");
-        Enghelab_icon.loadFromFile("picture/025.png");
-        ValiAsar_icon.loadFromFile("picture/026.png");
-        Jahad_icon.loadFromFile("picture/027.png");
-        Shohada_icon.loadFromFile("picture/028.png");
-        Mirdamad_icon.loadFromFile("picture/029.png");
-        Shirazi_icon.loadFromFile("picture/030.png");
-        Moniriyeh_icon.loadFromFile("picture/031.png");
-        Nabard_icon.loadFromFile("picture/032.png");
-        Niro_icon.loadFromFile("picture/033.png");
-        Ostad_icon.loadFromFile("picture/034.png");
-        Panzdah_icon.loadFromFile("picture/035.png");
-        Payaneh_icon.loadFromFile("picture/036.png");
-        pirozi_icon.loadFromFile("picture/037.png");
-        Rahahan_icon.loadFromFile("picture/038.png");
-        Shademan_icon.loadFromFile("picture/039.png");
-        Ghodosi_icon.loadFromFile("picture/040.png");
-        Beheshti_icon.loadFromFile("picture/041.png");
-        Haghani_icon.loadFromFile("picture/042.png");
-        Kolahdoz_icon.loadFromFile("picture/043.png");
-        Mofatteh_icon.loadFromFile("picture/044.png");
-        Rezaei_icon.loadFromFile("picture/045.png");
-        Sadr_icon.loadFromFile("picture/046.png");
-        Zeynoddin_icon.loadFromFile("picture/047.png");
-        Shariati_icon.loadFromFile("picture/048.png");
-        Rey_icon.loadFromFile("picture/049.png");
-        Shoush_icon.loadFromFile("picture/050.png");
-        sohrevardi_icon.loadFromFile("picture/051.png");
-        Tajrish_icon.loadFromFile("picture/052.png");
-        Taleghani_icon.loadFromFile("picture/053.png");
-        Teater_icon.loadFromFile("picture/054.png");
-        Pars_icon.loadFromFile("picture/055.png");
-        Towhid_icon.loadFromFile("picture/056.png");
-        Yadegar_icon.loadFromFile("picture/057.png");
-        Zamzam_icon.loadFromFile("picture/058.png");
+
         Arrow_orgin_icon.loadFromFile("picture/b1.png");
     }
     catch (const std::exception &e)
@@ -184,6 +67,305 @@ void App::menu()
     sf::RectangleShape nextIcon_shape(sf::Vector2f(199, 39));
     sf::RectangleShape ArrowIcon_shape(sf::Vector2f(17, 16));  // orgin
     sf::RectangleShape Arrow2Icon_shape(sf::Vector2f(17, 16)); // destination
+
+    sf::RectangleShape Arrow_orginIcon_shape(sf::Vector2f(17, 16));
+
+    texture_shape.setTexture(&texture);
+    // texture2_shape.setTexture(&texture);
+    pag_2_shape.setTexture(&pag_2);
+    help_shape.setTexture(&help);
+    welcome_shape.setTexture(&welcome);
+    user_shape.setTexture(&user);
+    back_grand_shape.setTexture(&back_grand);
+    Lets_go_Icon_shape.setTexture(&Lets_go_icon);
+    exitIcon_shape.setTexture(&exit_icon);
+    helpIcon_shape.setTexture(&help_icon);
+    BackIcon_shape.setTexture(&Back_icon);
+    nextIcon_shape.setTexture(&next_icon);
+    ArrowIcon_shape.setTexture(&Arrow_icon);
+    Arrow2Icon_shape.setTexture(&Arrow_icon);
+
+    Arrow_orginIcon_shape.setTexture(&Arrow_orgin_icon);
+
+    Lets_go_Icon_shape.setPosition(sf::Vector2f(24, 360));
+    exitIcon_shape.setPosition(sf::Vector2f(24, 438));
+    helpIcon_shape.setPosition(sf::Vector2f(24, 512));
+    BackIcon_shape.setPosition(sf::Vector2f(22, 741));
+    nextIcon_shape.setPosition(sf::Vector2f(90, 710));
+    ArrowIcon_shape.setPosition(sf::Vector2f(337, 251));
+    Arrow2Icon_shape.setPosition(sf::Vector2f(337, 328));
+    Arrow_orginIcon_shape.setPosition(sf::Vector2f(38, 782));
+
+    // graph.readGraphFromFile(filename);
+
+    while (window.isOpen())
+    {
+        sf ::Event event;
+        sf::Vector2f mouse = window.mapPixelToCoords(sf::Mouse::getPosition(window));
+
+        while (window.pollEvent(event))
+        {
+            if (event.type == sf::Event::EventType::Closed)
+            {
+                window.close();
+            }
+        }
+        // while (window2.pollEvent(event2))
+        // {
+        //     if (event.type == sf::Event::EventType::Closed)
+        //     {
+        //         window2.close();
+        //     }
+        // }
+        if (clock.getElapsedTime() < sf::seconds(2) && flag_1_page)
+        {
+            window.clear();
+            window.draw(texture_shape);
+            // window2.draw(texture_shape);
+        }
+        else
+        {
+            flag_1_page = false;
+            if (!flag)
+            {
+                window.clear();
+                window.draw(help_shape);
+                // window.setFramerateLimit(1);
+                window.draw(BackIcon_shape);
+            }
+            else if (flag)
+            {
+                window.clear();
+                window.draw(pag_2_shape);
+                window.draw(Lets_go_Icon_shape);
+                window.draw(exitIcon_shape);
+                window.draw(helpIcon_shape);
+            }
+            if (!flag_w)
+            {
+                window.clear();
+                window.draw(welcome_shape);
+                window.draw(nextIcon_shape);
+            }
+            if (!falg_user)
+            {
+
+                window.clear();
+                window.draw(user_shape);
+                window.draw(ArrowIcon_shape);
+                window.draw(Arrow2Icon_shape);
+                // window.draw(orgin);
+            }
+            if (!flag_Arrow1)
+            {
+
+                window.close(); // بستن صفحه اول
+                break;
+                // window2.clear();
+            }
+            // if (!flag_Arrow_Back)
+            // {
+            //     falg_user = false;
+            //     flag_Arrow1 = true;
+            //     flag_Arrow_Back = true;
+            // }
+
+            if (Arrow_orginIcon_shape.getGlobalBounds().contains(mouse))
+            {
+                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
+                {
+                    flag_Arrow_Back = false;
+                }
+            }
+            if (ArrowIcon_shape.getGlobalBounds().contains(mouse))
+            {
+                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
+                {
+                    flag_Arrow1 = false;
+
+                    // falg_user = true;
+                }
+            }
+            if (Lets_go_Icon_shape.getGlobalBounds().contains(mouse))
+            {
+                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
+                {
+                    flag_w = false;
+                }
+            }
+            if (exitIcon_shape.getGlobalBounds().contains(mouse))
+            {
+                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
+                {
+                    window.close();
+                }
+            }
+            if (BackIcon_shape.getGlobalBounds().contains(mouse))
+            {
+                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
+                {
+
+                    flag = true;
+                }
+            }
+            if (helpIcon_shape.getGlobalBounds().contains(mouse))
+            {
+                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
+                {
+                    flag = false;
+                }
+            }
+            if (nextIcon_shape.getGlobalBounds().contains(mouse))
+            {
+                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
+                {
+                    falg_user = false;
+                }
+            }
+        }
+
+        window.display();
+        // window2.display();
+    }
+}
+
+void App::window2()
+{
+    sf::RenderWindow window2(sf::VideoMode(x_SIZE, y_SIZE), "Window 2");
+    sf ::Event event;
+    sf::Vector2f mouse = window2.mapPixelToCoords(sf::Mouse::getPosition(window2));
+
+    while (window2.pollEvent(event))
+    {
+        if (event.type == sf::Event::EventType::Closed)
+        {
+            window2.close();
+        }
+    }
+    sf::Texture texture2;
+    sf::Texture user;
+    sf::Texture Aghdasiyeh_icon;
+    sf::Texture Allameh_icon;
+    sf::Texture Azadeghan_icon;
+    sf::Texture Bimeh_icon;
+    sf::Texture Boostan_icon;
+    sf::Texture chahar_icon;
+    sf::Texture Dowlat_icon;
+    sf::Texture Shemiran_icon;
+    sf::Texture sina_icon;
+    sf::Texture Hossein_icon;
+    sf::Texture sabz_icon;
+    sf::Texture Ferdowsi_icon;
+    sf::Texture Ghaem_icon;
+    sf::Texture gheytariyeh_icon;
+    sf::Texture Gholhak_icon;
+    sf::Texture Haram_icon;
+    sf::Texture haft_icon;
+    sf::Texture javadiyeh_icon;
+    sf::Texture Kashani_icon;
+    sf::Texture Kahrizak_icon;
+    sf::Texture Khajeh_icon;
+    sf::Texture Kouhsar_icon;
+    sf::Texture Jonoub_icon;
+    sf::Texture Mahdiyeh_icon;
+    sf::Texture Azadi_icon;
+    sf::Texture Enghelab_icon;
+    sf::Texture ValiAsar_icon;
+    sf::Texture Jahad_icon;
+    sf::Texture Shohada_icon;
+    sf::Texture Mirdamad_icon;
+    sf::Texture Shirazi_icon;
+    sf::Texture Moniriyeh_icon;
+    sf::Texture Nabard_icon;
+    sf::Texture Niro_icon;
+    sf::Texture Ostad_icon;
+    sf::Texture Panzdah_icon;
+    sf::Texture Payaneh_icon;
+    sf::Texture pirozi_icon;
+    sf::Texture Rahahan_icon;
+    sf::Texture Shademan_icon;
+    sf::Texture Ghodosi_icon;
+    sf::Texture Beheshti_icon;
+    sf::Texture Haghani_icon;
+    sf::Texture Kolahdoz_icon;
+    sf::Texture Mofatteh_icon;
+    sf::Texture Rezaei_icon;
+    sf::Texture Sadr_icon;
+    sf::Texture Zeynoddin_icon;
+    sf::Texture Shariati_icon;
+    sf::Texture Rey_icon;
+    sf::Texture Shoush_icon;
+    sf::Texture sohrevardi_icon;
+    sf::Texture Tajrish_icon;
+    sf::Texture Taleghani_icon;
+    sf::Texture Teater_icon;
+    sf::Texture Pars_icon;
+    sf::Texture Towhid_icon;
+    sf::Texture Yadegar_icon;
+    sf::Texture Zamzam_icon;
+    texture2.loadFromFile("picture/back1.png"); // need  edit
+    user.loadFromFile("picture/6.png");
+    Aghdasiyeh_icon.loadFromFile("picture/001.png");
+    Azadeghan_icon.loadFromFile("picture/002.png");
+    Bimeh_icon.loadFromFile("picture/003.png");
+    Allameh_icon.loadFromFile("picture/000.png");
+    Boostan_icon.loadFromFile("picture/004.png");
+    chahar_icon.loadFromFile("picture/005.png");
+    Dowlat_icon.loadFromFile("picture/006.png");
+    Shemiran_icon.loadFromFile("picture/007.png");
+    sina_icon.loadFromFile("picture/008.png");
+    Hossein_icon.loadFromFile("picture/009.png");
+    sabz_icon.loadFromFile("picture/010.png");
+    Ferdowsi_icon.loadFromFile("picture/011.png");
+    Ghaem_icon.loadFromFile("picture/012.png");
+    gheytariyeh_icon.loadFromFile("picture/013.png");
+    Gholhak_icon.loadFromFile("picture/014.png");
+    Haram_icon.loadFromFile("picture/015.png");
+    haft_icon.loadFromFile("picture/016.png");
+    javadiyeh_icon.loadFromFile("picture/017.png");
+    Kashani_icon.loadFromFile("picture/018.png");
+    Kahrizak_icon.loadFromFile("picture/019.png");
+    Khajeh_icon.loadFromFile("picture/020.png");
+    Kouhsar_icon.loadFromFile("picture/022.png");
+    Jonoub_icon.loadFromFile("picture/021.png");
+    Mahdiyeh_icon.loadFromFile("picture/023.png");
+    Azadi_icon.loadFromFile("picture/024.png");
+    Enghelab_icon.loadFromFile("picture/025.png");
+    ValiAsar_icon.loadFromFile("picture/026.png");
+    Jahad_icon.loadFromFile("picture/027.png");
+    Shohada_icon.loadFromFile("picture/028.png");
+    Mirdamad_icon.loadFromFile("picture/029.png");
+    Shirazi_icon.loadFromFile("picture/030.png");
+    Moniriyeh_icon.loadFromFile("picture/031.png");
+    Nabard_icon.loadFromFile("picture/032.png");
+    Niro_icon.loadFromFile("picture/033.png");
+    Ostad_icon.loadFromFile("picture/034.png");
+    Panzdah_icon.loadFromFile("picture/035.png");
+    Payaneh_icon.loadFromFile("picture/036.png");
+    pirozi_icon.loadFromFile("picture/037.png");
+    Rahahan_icon.loadFromFile("picture/038.png");
+    Shademan_icon.loadFromFile("picture/039.png");
+    Ghodosi_icon.loadFromFile("picture/040.png");
+    Beheshti_icon.loadFromFile("picture/041.png");
+    Haghani_icon.loadFromFile("picture/042.png");
+    Kolahdoz_icon.loadFromFile("picture/043.png");
+    Mofatteh_icon.loadFromFile("picture/044.png");
+    Rezaei_icon.loadFromFile("picture/045.png");
+    Sadr_icon.loadFromFile("picture/046.png");
+    Zeynoddin_icon.loadFromFile("picture/047.png");
+    Shariati_icon.loadFromFile("picture/048.png");
+    Rey_icon.loadFromFile("picture/049.png");
+    Shoush_icon.loadFromFile("picture/050.png");
+    sohrevardi_icon.loadFromFile("picture/051.png");
+    Tajrish_icon.loadFromFile("picture/052.png");
+    Taleghani_icon.loadFromFile("picture/053.png");
+    Teater_icon.loadFromFile("picture/054.png");
+    Pars_icon.loadFromFile("picture/055.png");
+    Towhid_icon.loadFromFile("picture/056.png");
+    Yadegar_icon.loadFromFile("picture/057.png");
+    Zamzam_icon.loadFromFile("picture/058.png");
+
+    sf::RectangleShape user_shape(sf::Vector2f(x_SIZE, y_SIZE));
     sf::RectangleShape AghdasiyehIcon_shape(sf::Vector2f(82, 21));
     sf::RectangleShape AzadeghanIcon_shape(sf::Vector2f(82, 21));
     sf::RectangleShape BimehIcon_shape(sf::Vector2f(82, 21));
@@ -243,22 +425,10 @@ void App::menu()
     sf::RectangleShape TowhidIcon_shape(sf::Vector2f(82, 21));
     sf::RectangleShape YadegarIcon_shape(sf::Vector2f(82, 21));
     sf::RectangleShape ZamzamIcon_shape(sf::Vector2f(82, 21));
-    sf::RectangleShape Arrow_orginIcon_shape(sf::Vector2f(17, 16));
+    sf::RectangleShape texture2_shape(sf::Vector2f(x_SIZE, y_SIZE));
 
-    texture_shape.setTexture(&texture);
-    // texture2_shape.setTexture(&texture);
-    pag_2_shape.setTexture(&pag_2);
-    help_shape.setTexture(&help);
-    welcome_shape.setTexture(&welcome);
+    texture2_shape.setTexture(&texture2);
     user_shape.setTexture(&user);
-    back_grand_shape.setTexture(&back_grand);
-    Lets_go_Icon_shape.setTexture(&Lets_go_icon);
-    exitIcon_shape.setTexture(&exit_icon);
-    helpIcon_shape.setTexture(&help_icon);
-    BackIcon_shape.setTexture(&Back_icon);
-    nextIcon_shape.setTexture(&next_icon);
-    ArrowIcon_shape.setTexture(&Arrow_icon);
-    Arrow2Icon_shape.setTexture(&Arrow_icon);
     AghdasiyehIcon_shape.setTexture(&Aghdasiyeh_icon);
     AzadeghanIcon_shape.setTexture(&Azadeghan_icon);
     BimehIcon_shape.setTexture(&Bimeh_icon);
@@ -318,15 +488,7 @@ void App::menu()
     TowhidIcon_shape.setTexture(&Towhid_icon);
     YadegarIcon_shape.setTexture(&Yadegar_icon);
     ZamzamIcon_shape.setTexture(&Zamzam_icon);
-    Arrow_orginIcon_shape.setTexture(&Arrow_orgin_icon);
 
-    Lets_go_Icon_shape.setPosition(sf::Vector2f(24, 360));
-    exitIcon_shape.setPosition(sf::Vector2f(24, 438));
-    helpIcon_shape.setPosition(sf::Vector2f(24, 512));
-    BackIcon_shape.setPosition(sf::Vector2f(22, 741));
-    nextIcon_shape.setPosition(sf::Vector2f(90, 710));
-    ArrowIcon_shape.setPosition(sf::Vector2f(337, 251));
-    Arrow2Icon_shape.setPosition(sf::Vector2f(337, 328));
     AghdasiyehIcon_shape.setPosition(sf::Vector2f(261, 62));
     AzadeghanIcon_shape.setPosition(sf::Vector2f(261, 116));
     BimehIcon_shape.setPosition(sf::Vector2f(261, 143));
@@ -386,9 +548,6 @@ void App::menu()
     TowhidIcon_shape.setPosition(sf::Vector2f(38, 625));
     YadegarIcon_shape.setPosition(sf::Vector2f(38, 652));
     ZamzamIcon_shape.setPosition(sf::Vector2f(38, 679));
-    Arrow_orginIcon_shape.setPosition(sf::Vector2f(38, 782));
-
-    graph.readGraphFromFile(filename);
     sf::Font font;
     sf::Text p000;
     sf::Text p001;
@@ -750,1506 +909,6 @@ void App::menu()
     p057.setString("Yadegar-e Emam");
     p058.setString("Zamzam");
 
-    while (window.isOpen() )
-    {
-        sf ::Event event, event2;
-        sf::Vector2f mouse = window.mapPixelToCoords(sf::Mouse::getPosition(window));
-
-        while (window.pollEvent(event))
-        {
-            if (event.type == sf::Event::EventType::Closed)
-            {
-                window.close();
-            }
-        }
-        // while (window2.pollEvent(event2))
-        // {
-        //     if (event.type == sf::Event::EventType::Closed)
-        //     {
-        //         window2.close();
-        //     }
-        // }
-        if (clock.getElapsedTime() < sf::seconds(2) && flag_1_page)
-        {
-            window.clear();
-            window.draw(texture_shape);
-            //window2.draw(texture_shape);
-        }
-        else
-        {
-            flag_1_page = false;
-            if (!flag)
-            {
-                window.clear();
-                window.draw(help_shape);
-                // window.setFramerateLimit(1);
-                window.draw(BackIcon_shape);
-            }
-            else if (flag)
-            {
-                window.clear();
-                window.draw(pag_2_shape);
-                window.draw(Lets_go_Icon_shape);
-                window.draw(exitIcon_shape);
-                window.draw(helpIcon_shape);
-            }
-            if (!flag_w)
-            {
-                window.clear();
-                window.draw(welcome_shape);
-                window.draw(nextIcon_shape);
-            }
-            if (!falg_user)
-            {
-
-                window.clear();
-                window.draw(user_shape);
-                window.draw(ArrowIcon_shape);
-                window.draw(Arrow2Icon_shape);
-                // window.draw(orgin);
-            }
-            if (!flag_Arrow1)
-            {
-
-                window.close(); // بستن صفحه اول
-                break;
-                // window2.clear();
-                // window2.draw(back_grand_shape);
-                // window2.draw(AghdasiyehIcon_shape);
-                // window2.draw(AzadeghanIcon_shape);
-                // window2.draw(BimehIcon_shape);
-                // window2.draw(AllamehIcon_shape);
-                // window2.draw(BoostanIcon_shape);
-                // window2.draw(chaharIcon_shape);
-                // window2.draw(DowlatIcon_shape);
-                // window2.draw(ShemiranIcon_shape);
-                // window2.draw(SinaIcon_shape);
-                // window2.draw(HosseinIcon_shape);
-                // window2.draw(SabzIcon_shape);
-                // window2.draw(FerdowsiIcon_shape);
-                // window2.draw(GhaemIcon_shape);
-                // window2.draw(GheytariyehIcon_shape);
-                // window2.draw(GolhakIcon_shape);
-                // window2.draw(HarmIcon_shape);
-                // window2.draw(haftIcon_shape);
-                // window2.draw(javadiyehIcon_shape);
-                // window2.draw(KashaniIcon_shape);
-                // window2.draw(KahrizakIcon_shape);
-                // window2.draw(KhajehIcon_shape);
-                // window2.draw(KouhsarIcon_shape);
-                // window2.draw(JonoubIcon_shape);
-                // window2.draw(MahdiyehIcon_shape);
-                // window2.draw(AzadiIcon_shape);
-                // window2.draw(EnghelabIcon_shape);
-                // window2.draw(ValiAsarIcon_shape);
-                // window2.draw(JahadIcon_shape);
-                // window2.draw(ShademanIcon_shape);
-                // window2.draw(ShohadaIcon_shape);
-                // window2.draw(MirdamadIcon_shape);
-                // window2.draw(ShiraziIcon_shape);
-                // window2.draw(MoniriyehIcon_shape);
-                // window2.draw(NabardIcon_shape);
-                // window2.draw(NiroIcon_shape);
-                // window2.draw(OstadIcon_shape);
-                // window2.draw(PanzdahIcon_shape);
-                // window2.draw(PayanehIcon_shape);
-                // window2.draw(piroziIcon_shape);
-                // window2.draw(RahahanIcon_shape);
-                // window2.draw(ShademanIcon_shape);
-                // window2.draw(GhodosiIcon_shape);
-                // window2.draw(BeheshtiIcon_shape);
-                // window2.draw(HaghaniIcon_shape);
-                // window2.draw(KolahdozIcon_shape);
-                // window2.draw(MofattehIcon_shape);
-                // window2.draw(RezaeiIcon_shape);
-                // window2.draw(SadrIcon_shape);
-                // window2.draw(ZeynoddinIcon_shape);
-                // window2.draw(ShariatiIcon_shape);
-                // window2.draw(ReyIcon_shape);
-                // window2.draw(ShoushIcon_shape);
-                // window2.draw(sohrevardiIcon_shape);
-                // window2.draw(TajrishIcon_shape);
-                // window2.draw(TaleghaniIcon_shape);
-                // window2.draw(TeaterIcon_shape);
-                // window2.draw(ParsIcon_shape);
-                // window2.draw(TowhidIcon_shape);
-                // window2.draw(YadegarIcon_shape);
-                // window2.draw(ZamzamIcon_shape);
-                // window2.draw(Arrow_orginIcon_shape);
-            }
-            // if (!flag_Arrow_Back)
-            // {
-            //     falg_user = false;
-            //     flag_Arrow1 = true;
-            //     flag_Arrow_Back = true;
-            // }
-
-            if (!flag_000)
-            {
-                // flag_Arrow_Back=false;
-                window.clear();
-                // window2.close();
-                window.draw(user_shape);
-                // flag_Arrow1 = false;
-                // flag_just_one = false;
-                // window.draw(ArrowIcon_shape);
-                window.draw(Arrow2Icon_shape);
-
-                window.draw(p000);
-            }
-
-            else if (!flag_001)
-            {
-                // flag_Arrow_Back=false;
-                window.clear();
-                //window2.close();
-                window.draw(user_shape);
-                // flag_Arrow1 = false;
-                // flag_just_one = false;
-                // window.draw(ArrowIcon_shape);
-                window.draw(Arrow2Icon_shape);
-
-                window.draw(p001);
-            }
-
-            else if (!flag_002)
-            {
-                // flag_Arrow_Back=false;
-                window.clear();
-                window.draw(user_shape);
-                // flag_Arrow1 = false;
-                // flag_just_one = false;
-                // flag_just_one=false;
-
-                window.draw(Arrow2Icon_shape);
-
-                window.draw(p002);
-            }
-            else if (!flag_003)
-            {
-                //  flag_Arrow_Back=false;
-                window.clear();
-                window.draw(user_shape);
-                // flag_Arrow1 = false;
-                // flag_just_one = false;
-                // flag_just_one=false;
-
-                window.draw(Arrow2Icon_shape);
-
-                window.draw(p003);
-            }
-            else if (!flag_004)
-            {
-                // flag_Arrow_Back=false;
-                window.clear();
-                window.draw(user_shape);
-                // flag_Arrow1 = false;
-                // flag_just_one = false;
-
-                window.draw(Arrow2Icon_shape);
-
-                window.draw(p004);
-            }
-            else if (!flag_005)
-            {
-                // flag_Arrow_Back=false;
-                window.clear();
-                window.draw(user_shape);
-                // flag_Arrow1 = false;
-                // flag_just_one = false;
-
-                window.draw(Arrow2Icon_shape);
-
-                window.draw(p005);
-            }
-
-            // else if (!flag_006 && !type )
-            // {
-            //     //flag_Arrow_Back = false;
-            //     window.clear();
-            //     window.draw(user_shape);
-            //     flag_Arrow1 = false;
-            //     flag_just_one = false;
-            //     //window.draw(ArrowIcon_shape);
-            //     window.draw(Arrow2Icon_shape);
-            //     window.draw(p006);
-            // }
-            // else if (!flag_007 && !type )
-            // {
-            //     //flag_Arrow_Back = false;
-            //     window.clear();
-            //     window.draw(user_shape);
-            //     flag_Arrow1 = false;
-            //     flag_just_one = false;
-            //     //window.draw(ArrowIcon_shape);
-            //     window.draw(Arrow2Icon_shape);
-            //     window.draw(p007);
-            // }
-            // else if (!flag_008 && !type )
-            // {
-            //     //flag_Arrow_Back = false;
-            //     window.clear();
-            //     window.draw(user_shape);
-            //     flag_Arrow1 = false;
-            //     flag_just_one = false;
-            //    // window.draw(ArrowIcon_shape);
-            //     window.draw(Arrow2Icon_shape);
-            //     window.draw(p008);
-            // }
-            // else if (!flag_009 && !type)
-            // {
-            //     //flag_Arrow_Back = false;
-            //     window.clear();
-            //     window.draw(user_shape);
-            //     flag_Arrow1 = false;
-            //     flag_just_one = false;
-            //     //window.draw(ArrowIcon_shape);
-            //     window.draw(Arrow2Icon_shape);
-            //     window.draw(p009);
-            // }
-            // else if (!flag_010 && !type )
-            // {
-            //     //flag_Arrow_Back = false;
-            //     window.clear();
-            //     window.draw(user_shape);
-            //     flag_Arrow1 = false;
-            //     flag_just_one = false;
-            //     //window.draw(ArrowIcon_shape);
-            //     window.draw(Arrow2Icon_shape);
-            //     window.draw(p010);
-            // }
-            // else if (!flag_011 && !type )
-            // {
-            //     //flag_Arrow_Back = false;
-            //     window.clear();
-            //     window.draw(user_shape);
-            //     flag_Arrow1 = false;
-            //      flag_just_one = false;
-            //     //window.draw(ArrowIcon_shape);
-            //     window.draw(Arrow2Icon_shape);
-            //     window.draw(p011);
-            // }
-            // else if (!flag_012 && !type )
-            // {
-            //     //flag_Arrow_Back = false;
-            //     window.clear();
-            //     window.draw(user_shape);
-            //     flag_Arrow1 = false;
-            //      flag_just_one = false;
-            //    // window.draw(ArrowIcon_shape);
-            //     window.draw(Arrow2Icon_shape);
-            //     window.draw(p012);
-            // }
-            // else if (!flag_013 && !type )
-            // {
-            //     //flag_Arrow_Back = false;
-            //     window.clear();
-            //     window.draw(user_shape);
-            //     flag_Arrow1 = false;
-            //      flag_just_one = false;
-            //    // window.draw(ArrowIcon_shape);
-            //     window.draw(Arrow2Icon_shape);
-            //     window.draw(p013);
-            // }
-            // else if (!flag_014 && !type )
-            // {
-            //     //flag_Arrow_Back = false;
-            //     window.clear();
-            //     window.draw(user_shape);
-            //     flag_Arrow1 = false;
-            //      flag_just_one = false;
-            //    // window.draw(ArrowIcon_shape);
-            //     window.draw(Arrow2Icon_shape);
-            //     window.draw(p014);
-            // }
-            // else if (!flag_015 && !type )
-            // {
-            //     //flag_Arrow_Back = false;
-            //     window.clear();
-            //     window.draw(user_shape);
-            //     flag_Arrow1 = false;
-            //      flag_just_one = false;
-            //     //window.draw(ArrowIcon_shape);
-            //     window.draw(Arrow2Icon_shape);
-            //     window.draw(p015);
-            // }
-            // else if (!flag_016 && !type )
-            // {
-            //     //flag_Arrow_Back = false;
-            //     window.clear();
-            //     window.draw(user_shape);
-            //     flag_Arrow1 = false;
-            //      flag_just_one = false;
-            //     //window.draw(ArrowIcon_shape);
-            //     window.draw(Arrow2Icon_shape);
-            //     window.draw(p016);
-            // }
-            // else if (!flag_017 && !type )
-            // {
-            //     //flag_Arrow_Back = false;
-            //     window.clear();
-            //     window.draw(user_shape);
-            //     flag_Arrow1 = false;
-            //      flag_just_one = false;
-            //     //window.draw(ArrowIcon_shape);
-            //     window.draw(Arrow2Icon_shape);
-            //     window.draw(p017);
-            // }
-            // else if (!flag_018 && !type )
-            // {
-            //     //flag_Arrow_Back = false;
-            //     window.clear();
-            //     window.draw(user_shape);
-            //     flag_Arrow1 = false;
-            //      flag_just_one = false;
-            //     //window.draw(ArrowIcon_shape);
-            //     window.draw(Arrow2Icon_shape);
-            //     window.draw(p018);
-            // }
-            // else if (!flag_019 && !type )
-            // {
-            //     //flag_Arrow_Back = false;
-            //     window.clear();
-            //     window.draw(user_shape);
-            //     flag_Arrow1 = false;
-            //      flag_just_one = false;
-            //     //window.draw(ArrowIcon_shape);
-            //     window.draw(Arrow2Icon_shape);
-            //     window.draw(p019);
-            // }
-            // else if (!flag_020 && !type )
-            // {
-            //     //flag_Arrow_Back = false;
-            //     window.clear();
-            //     window.draw(user_shape);
-            //     flag_Arrow1 = false;
-            //      flag_just_one = false;
-            //    // window.draw(ArrowIcon_shape);
-            //     window.draw(Arrow2Icon_shape);
-            //     window.draw(p020);
-            // }
-            // else if (!flag_021 && !type )
-            // {
-            //     //flag_Arrow_Back = false;
-            //     window.clear();
-            //     window.draw(user_shape);
-            //     flag_Arrow1 = false;
-            //      flag_just_one = false;
-            //     //window.draw(ArrowIcon_shape);
-            //     window.draw(Arrow2Icon_shape);
-            //     window.draw(p021);
-            // }
-            // else if (!flag_022 && !type )
-            // {
-            //     //flag_Arrow_Back = false;
-            //     window.clear();
-            //     window.draw(user_shape);
-            //     flag_Arrow1 = false;
-            //      flag_just_one = false;
-            //     //window.draw(ArrowIcon_shape);
-            //     window.draw(Arrow2Icon_shape);
-            //     window.draw(p022);
-            // }
-            // else if (!flag_023 && !type )
-            // {
-            //     //flag_Arrow_Back = false;
-            //     window.clear();
-            //     window.draw(user_shape);
-            //     flag_Arrow1 = false;
-            //      flag_just_one = false;
-            //     //window.draw(ArrowIcon_shape);
-            //     window.draw(Arrow2Icon_shape);
-            //     window.draw(p023);
-            // }
-            // else if (!flag_024 && !type )
-            // {
-            //     //flag_Arrow_Back = false;
-            //     window.clear();
-            //     window.draw(user_shape);
-            //     flag_Arrow1 = false;
-            //      flag_just_one = false;
-            //    // window.draw(ArrowIcon_shape);
-            //     window.draw(Arrow2Icon_shape);
-            //     window.draw(p024);
-            // }
-            // else if (!flag_025 && !type )
-            // {
-            //     //flag_Arrow_Back = false;
-            //     window.clear();
-            //     window.draw(user_shape);
-            //     flag_Arrow1 = false;
-            //      flag_just_one = false;
-            //     //window.draw(ArrowIcon_shape);
-            //     window.draw(Arrow2Icon_shape);
-            //     window.draw(p025);
-            // }
-            // else if (!flag_026 && !type)
-            // {
-            //     //flag_Arrow_Back = false;
-            //     window.clear();
-            //     window.draw(user_shape);
-            //     flag_Arrow1 = false;
-            //      flag_just_one = false;
-            //     //window.draw(ArrowIcon_shape);
-            //     window.draw(Arrow2Icon_shape);
-            //     window.draw(p026);
-            // }
-            // else if (!flag_027 && !type )
-            // {
-            //     //flag_Arrow_Back = false;
-            //     window.clear();
-            //     window.draw(user_shape);
-            //     flag_Arrow1 = false;
-            //      flag_just_one = false;
-            //     //window.draw(ArrowIcon_shape);
-            //     window.draw(Arrow2Icon_shape);
-            //     window.draw(p027);
-            // }
-            // else if (!flag_028 && !type )
-            // {
-            //     //flag_Arrow_Back = false;
-            //     window.clear();
-            //     window.draw(user_shape);
-            //     flag_Arrow1 = false;
-            //      flag_just_one = false;
-            //    // window.draw(ArrowIcon_shape);
-            //     window.draw(Arrow2Icon_shape);
-            //     window.draw(p028);
-            // }
-            // else if (!flag_029 && !type )
-            // {
-            //     //flag_Arrow_Back = false;
-            //     window.clear();
-            //     window.draw(user_shape);
-            //     flag_Arrow1 = false;
-            //      flag_just_one = false;
-            //     //window.draw(ArrowIcon_shape);
-            //     window.draw(Arrow2Icon_shape);
-            //     window.draw(p029);
-            // }
-            // else if (!flag_030 && !type )
-            // {
-            //     //flag_Arrow_Back = false;
-            //     window.clear();
-            //     window.draw(user_shape);
-            //     flag_Arrow1 = false;
-            //      flag_just_one = false;
-            //    // window.draw(ArrowIcon_shape);
-            //     window.draw(Arrow2Icon_shape);
-            //     window.draw(p030);
-            // }
-            // else if (!flag_031 && !type )
-            // {
-            //     //flag_Arrow_Back = false;
-            //     window.clear();
-            //     window.draw(user_shape);
-            //     flag_Arrow1 = false;
-            //      flag_just_one = false;
-            //     //window.draw(ArrowIcon_shape);
-            //     window.draw(Arrow2Icon_shape);
-            //     window.draw(p031);
-            // }
-            // else if (!flag_032 && !type )
-            // {
-            //     //flag_Arrow_Back = false;
-            //     window.clear();
-            //     window.draw(user_shape);
-            //     flag_Arrow1 = false;
-            //      flag_just_one = false;
-            //     window.draw(ArrowIcon_shape);
-            //    // window.draw(Arrow2Icon_shape);
-            //     window.draw(p032);
-            // }
-            // else if (!flag_033 && !type )
-            // {
-            //     //flag_Arrow_Back = false;
-            //     window.clear();
-            //     window.draw(user_shape);
-            //     flag_Arrow1 = false;
-            //      flag_just_one = false;
-            //     //window.draw(ArrowIcon_shape);
-            //     window.draw(Arrow2Icon_shape);
-            //     window.draw(p033);
-            // }
-            // else if (!flag_034 && !type )
-            // {
-            //     //flag_Arrow_Back = false;
-            //     window.clear();
-            //     window.draw(user_shape);
-            //     flag_Arrow1 = false;
-            //      flag_just_one = false;
-            //    // window.draw(ArrowIcon_shape);
-            //     window.draw(Arrow2Icon_shape);
-            //     window.draw(p034);
-            // }
-            // else if (!flag_035 && !type )
-            // {
-            //     //flag_Arrow_Back = false;
-            //     window.clear();
-            //     window.draw(user_shape);
-            //     flag_Arrow1 = false;
-            //      flag_just_one = false;
-            //     //window.draw(ArrowIcon_shape);
-            //     window.draw(Arrow2Icon_shape);
-            //     window.draw(p035);
-            // }
-            // else if (!flag_036 && !type )
-            // {
-            //     //flag_Arrow_Back = false;
-            //     window.clear();
-            //     window.draw(user_shape);
-            //     flag_Arrow1 = false;
-            //      flag_just_one = false;
-            //     //window.draw(ArrowIcon_shape);
-            //     window.draw(Arrow2Icon_shape);
-            //     window.draw(p036);
-            // }
-            // else if (!flag_037 && !type )
-            // {
-            //     //flag_Arrow_Back = false;
-            //     window.clear();
-            //     window.draw(user_shape);
-            //     flag_Arrow1 = false;
-            //      flag_just_one = false;
-            //     //window.draw(ArrowIcon_shape);
-            //     window.draw(Arrow2Icon_shape);
-            //     window.draw(p037);
-            // }
-            // else if (!flag_038 && !type )
-            // {
-            //     //flag_Arrow_Back = false;
-            //     window.clear();
-            //     window.draw(user_shape);
-            //     flag_Arrow1 = false;
-            //      flag_just_one = false;
-            //    // window.draw(ArrowIcon_shape);
-            //     window.draw(Arrow2Icon_shape);
-            //     window.draw(p038);
-            // }
-            // else if (!flag_039 && !type )
-            // {
-            //     //flag_Arrow_Back = false;
-            //     window.clear();
-            //     window.draw(user_shape);
-            //     flag_Arrow1 = false;
-
-            //      flag_just_one = false;
-            //     //window.draw(ArrowIcon_shape);
-            //     window.draw(Arrow2Icon_shape);
-            //     window.draw(p039);
-            // }
-            // else if (!flag_040 && !type )
-            // {
-            //     //flag_Arrow_Back = false;
-            //     window.clear();
-            //     window.draw(user_shape);
-            //     flag_Arrow1 = false;
-            //      flag_just_one = false;
-            //     //window.draw(ArrowIcon_shape);
-            //     window.draw(Arrow2Icon_shape);
-            //     window.draw(p040);
-            // }
-            // else if (!flag_041 && !type )
-            // {
-            //     //flag_Arrow_Back = false;
-            //     window.clear();
-            //     window.draw(user_shape);
-            //     flag_Arrow1 = false;
-            //      flag_just_one = false;
-            //     //window.draw(ArrowIcon_shape);
-            //     window.draw(Arrow2Icon_shape);
-            //     window.draw(p041);
-            // }
-            // else if (!flag_042 && !type )
-            // {
-            //     //flag_Arrow_Back = false;
-            //     window.clear();
-            //     window.draw(user_shape);
-            //     flag_Arrow1 = false;
-            //      flag_just_one = false;
-            //     //window.draw(ArrowIcon_shape);
-            //     window.draw(Arrow2Icon_shape);
-            //     window.draw(p042);
-            // }
-            // else if (!flag_043 && !type )
-            // {
-            //     //flag_Arrow_Back = false;
-            //     window.clear();
-            //     window.draw(user_shape);
-            //     flag_Arrow1 = false;
-            //      flag_just_one = false;
-            //     //window.draw(ArrowIcon_shape);
-            //     window.draw(Arrow2Icon_shape);
-            //     window.draw(p043);
-            // }
-            // else if (!flag_044 && !type )
-            // {
-            //     //flag_Arrow_Back = false;
-            //     window.clear();
-            //     window.draw(user_shape);
-            //     flag_Arrow1 = false;
-            //      flag_just_one = false;
-            //     //window.draw(ArrowIcon_shape);
-            //     window.draw(Arrow2Icon_shape);
-            //     window.draw(p044);
-            // }
-            // else if (!flag_045 && !type )
-            // {
-            //     //flag_Arrow_Back = false;
-            //     window.clear();
-            //     window.draw(user_shape);
-            //     flag_Arrow1 = false;
-            //      flag_just_one = false;
-            //     //window.draw(ArrowIcon_shape);
-            //     window.draw(Arrow2Icon_shape);
-            //     window.draw(p045);
-            // }
-            // else if (!flag_046 && !type )
-            // {
-            //     //flag_Arrow_Back = false;
-            //     window.clear();
-            //     window.draw(user_shape);
-            //     flag_Arrow1 = false;
-            //      flag_just_one = false;
-            //    // window.draw(ArrowIcon_shape);
-            //     window.draw(Arrow2Icon_shape);
-            //     window.draw(p046);
-            // }
-            // else if (!flag_047 && !type )
-            // {
-            //     //flag_Arrow_Back = false;
-            //     window.clear();
-            //     window.draw(user_shape);
-            //     flag_Arrow1 = false;
-            //      flag_just_one = false;
-            //     //window.draw(ArrowIcon_shape);
-            //     window.draw(Arrow2Icon_shape);
-            //     window.draw(p047);
-            // }
-            // else if (!flag_048 && !type )
-            // {
-            //     //flag_Arrow_Back = false;
-            //     window.clear();
-            //     window.draw(user_shape);
-            //     flag_Arrow1 = false;
-            //      flag_just_one = false;
-            //    // window.draw(ArrowIcon_shape);
-            //     window.draw(Arrow2Icon_shape);
-            //     window.draw(p048);
-            // }
-            // else if (!flag_049 && !type )
-            // {
-            //     //flag_Arrow_Back = false;
-            //     window.clear();
-            //     window.draw(user_shape);
-            //     flag_Arrow1 = false;
-            //      flag_just_one = false;
-            //     //window.draw(ArrowIcon_shape);
-            //     window.draw(Arrow2Icon_shape);
-            //     window.draw(p049);
-            // }
-            // else if (!flag_050 && !type )
-            // {
-            //     //flag_Arrow_Back = false;
-            //     window.clear();
-            //     window.draw(user_shape);
-            //     flag_Arrow1 = false;
-            //      flag_just_one = false;
-            //     //window.draw(ArrowIcon_shape);
-            //     window.draw(Arrow2Icon_shape);
-            //     window.draw(p050);
-            // }
-            // else if (!flag_051 && !type)
-            // {
-            //     //flag_Arrow_Back = false;
-            //     window.clear();
-            //     window.draw(user_shape);
-            //     flag_Arrow1 = false;
-            //      flag_just_one = false;
-            //    // window.draw(ArrowIcon_shape);
-            //     window.draw(Arrow2Icon_shape);
-            //     window.draw(p051);
-            // }
-            // else if (!flag_052 && !type )
-            // {
-            //     //flag_Arrow_Back = false;
-            //     window.clear();
-            //     window.draw(user_shape);
-            //     flag_Arrow1 = false;
-            //      flag_just_one = false;
-            //     //window.draw(ArrowIcon_shape);
-            //     window.draw(Arrow2Icon_shape);
-            //     window.draw(p052);
-            // }
-            // else if (!flag_053 && !type )
-            // {
-            //     //flag_Arrow_Back = false;
-            //     window.clear();
-            //     window.draw(user_shape);
-            //     flag_Arrow1 = false;
-            //      flag_just_one = false;
-            //     //window.draw(ArrowIcon_shape);
-            //     window.draw(Arrow2Icon_shape);
-            //     window.draw(p053);
-            // }
-            // else if (!flag_054 && !type )
-            // {
-            //     //flag_Arrow_Back = false;
-            //     window.clear();
-            //     window.draw(user_shape);
-            //     flag_Arrow1 = false;
-            //      flag_just_one = false;
-            //     //window.draw(ArrowIcon_shape);
-            //     window.draw(Arrow2Icon_shape);
-            //     window.draw(p054);
-            // }
-            // else if (!flag_055 && !type )
-            // {
-            //     //flag_Arrow_Back = false;
-            //     window.clear();
-            //     window.draw(user_shape);
-            //     flag_Arrow1 = false;
-            //      flag_just_one = false;
-            //    // window.draw(ArrowIcon_shape);
-            //     window.draw(Arrow2Icon_shape);
-            //     window.draw(p055);
-            // }
-            // else if (!flag_056 && !type )
-            // {
-            //     //flag_Arrow_Back = false;
-            //     window.clear();
-            //     window.draw(user_shape);
-            //     flag_Arrow1 = false;
-            //      flag_just_one = false;
-            //     //window.draw(ArrowIcon_shape);
-            //     window.draw(Arrow2Icon_shape);
-            //     window.draw(p056);
-            // }
-            // else if (!flag_057 && !type )
-            // {
-            //     //flag_Arrow_Back = false;
-            //     window.clear();
-            //     window.draw(user_shape);
-            //     flag_Arrow1 = false;
-
-            //     //window.draw(ArrowIcon_shape);
-            //     window.draw(Arrow2Icon_shape);
-            //     window.draw(p057);
-            // }
-            // else if (!flag_058 && !type )
-            // {
-            //     //flag_Arrow_Back = false;
-            //     window.clear();
-            //     window.draw(user_shape);
-            //     flag_Arrow1 = false;
-            //    // window.draw(ArrowIcon_shape);
-            //     window.draw(Arrow2Icon_shape);
-            //     window.draw(p058);
-            // }
-
-            // if (event2.type == sf::Event::MouseButtonPressed)
-            // {
-            //     if (event2.mouseButton.button == sf::Mouse::Left)
-            //     {
-            //         sf::Vector2i mousePos = sf::Mouse::getPosition(window2);
-            //         sf::FloatRect iconBounds = AllamehIcon_shape.getGlobalBounds();
-            //         if (iconBounds.contains(mousePos.x, mousePos.y))
-            //         {
-
-            //             flag_000 = false;
-            //             flag_Arrow1 = true;
-            //         }
-            //     }
-            // }
-
-            // if (event2.type == sf::Event::MouseButtonPressed)
-            // {
-            //     if (AllamehIcon_shape.getGlobalBounds().contains(mouse))
-            //     {
-            //         if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
-            //         {
-            //             // if(flag_just_one)
-            //             flag_000 = false;
-            //             flag_Arrow1 = true;
-
-            //             //  type = false;
-            //         }
-            //     }
-            // }
-            if (AghdasiyehIcon_shape.getGlobalBounds().contains(mouse))
-            {
-                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
-                {
-                    // if(flag_just_one)
-                    flag_001 = false;
-                    flag_Arrow1 = true;
-
-                    // flag_just_one = false;
-                    // type = false;
-                }
-            }
-            if (AzadeghanIcon_shape.getGlobalBounds().contains(mouse))
-            {
-                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
-                {
-                    // if(flag_just_one)
-                    flag_002 = false;
-                    flag_Arrow1 = true;
-
-                    // flag_just_one = false;
-                    // type = false;
-                }
-            }
-            if (BimehIcon_shape.getGlobalBounds().contains(mouse))
-            {
-                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
-                {
-                    // if(flag_just_one)
-                    {
-                        flag_003 = false;
-                        flag_Arrow1 = true;
-
-                        // flag_just_one = false;
-                        // type = false;
-                    }
-                }
-            }
-            if (BoostanIcon_shape.getGlobalBounds().contains(mouse))
-            {
-                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
-                {
-                    // if(flag_just_one)
-                    flag_004 = false;
-                    flag_Arrow1 = true;
-
-                    // flag_just_one = false;
-                    // type = false;
-                }
-            }
-            if (chaharIcon_shape.getGlobalBounds().contains(mouse))
-            {
-                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
-                {
-                    // if(flag_just_one)
-                    flag_005 = false;
-                    flag_Arrow1 = true;
-
-                    // flag_just_one = false;
-                    // type = false;
-                }
-            }
-            if (DowlatIcon_shape.getGlobalBounds().contains(mouse))
-            {
-                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
-                {
-                    if (flag_just_one)
-                    {
-                        flag_006 = false;
-                        flag_Arrow1 = true;
-                        // flag_just_one = false;
-                        // type = false;
-                    }
-                }
-            }
-            if (ShemiranIcon_shape.getGlobalBounds().contains(mouse))
-            {
-                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
-                {
-                    if (flag_just_one)
-                    {
-                        flag_007 = false;
-                        flag_Arrow1 = true;
-                        // flag_just_one = false;
-                        // type = false;
-                    }
-                }
-            }
-            if (SinaIcon_shape.getGlobalBounds().contains(mouse))
-            {
-                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
-                {
-                    if (flag_just_one)
-                    {
-                        flag_008 = false;
-                        flag_Arrow1 = true;
-                        // flag_just_one = false;
-                        type = false;
-                    }
-                }
-            }
-            if (HosseinIcon_shape.getGlobalBounds().contains(mouse))
-            {
-                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
-                {
-                    {
-                        if (flag_just_one)
-                            flag_009 = false;
-                        flag_Arrow1 = true;
-                        // flag_just_one = false;
-                        // type = false;
-                    }
-                }
-            }
-            if (SabzIcon_shape.getGlobalBounds().contains(mouse))
-            {
-                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
-                {
-                    flag_010 = false;
-                    flag_Arrow1 = true;
-                    //  flag_just_one = false;
-                    // type = false;
-                }
-            }
-            if (FerdowsiIcon_shape.getGlobalBounds().contains(mouse))
-            {
-                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
-                {
-                    flag_011 = false;
-                    flag_Arrow1 = true;
-                    //  flag_just_one = false;
-                    // type = false;
-                }
-            }
-            if (GhaemIcon_shape.getGlobalBounds().contains(mouse))
-            {
-                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
-                {
-                    flag_012 = false;
-                    flag_Arrow1 = true;
-                    // flag_just_one = false;
-                    // type = false;
-                }
-            }
-            if (GheytariyehIcon_shape.getGlobalBounds().contains(mouse))
-            {
-                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
-                {
-                    flag_013 = false;
-                    flag_Arrow1 = true;
-                    // flag_just_one = false;
-                    // type = false;
-                }
-            }
-            if (GolhakIcon_shape.getGlobalBounds().contains(mouse))
-            {
-                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
-                {
-                    flag_014 = false;
-                    flag_Arrow1 = true;
-                    // flag_just_one = false;
-                    // type = false;
-                }
-            }
-            if (HarmIcon_shape.getGlobalBounds().contains(mouse))
-            {
-                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
-                {
-                    flag_015 = false;
-                    flag_Arrow1 = true;
-                    flag_just_one = false;
-                    type = false;
-                }
-            }
-            if (haftIcon_shape.getGlobalBounds().contains(mouse))
-            {
-                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
-                {
-                    flag_016 = false;
-                    flag_Arrow1 = true;
-                    flag_just_one = false;
-                    type = false;
-                }
-            }
-            if (javadiyehIcon_shape.getGlobalBounds().contains(mouse))
-            {
-                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
-                {
-                    flag_017 = false;
-                    flag_Arrow1 = true;
-                    flag_just_one = false;
-                    type = false;
-                }
-            }
-            if (KashaniIcon_shape.getGlobalBounds().contains(mouse))
-            {
-                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
-                {
-                    flag_018 = false;
-                    flag_Arrow1 = true;
-                    flag_just_one = false;
-                    type = false;
-                }
-            }
-            if (KahrizakIcon_shape.getGlobalBounds().contains(mouse))
-            {
-                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
-                {
-                    flag_019 = false;
-                    flag_Arrow1 = true;
-                    flag_just_one = false;
-                    type = false;
-                }
-            }
-            if (KhajehIcon_shape.getGlobalBounds().contains(mouse))
-            {
-                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
-                {
-                    flag_020 = false;
-                    flag_Arrow1 = true;
-                    flag_just_one = false;
-                    type = false;
-                }
-            }
-            if (JonoubIcon_shape.getGlobalBounds().contains(mouse))
-            {
-                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
-                {
-                    flag_021 = false;
-                    flag_Arrow1 = true;
-                    flag_just_one = false;
-                    type = false;
-                }
-            }
-            if (KouhsarIcon_shape.getGlobalBounds().contains(mouse))
-            {
-                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
-                {
-                    flag_022 = false;
-                    flag_Arrow1 = true;
-                    flag_just_one = false;
-                    type = false;
-                }
-            }
-            if (MahdiyehIcon_shape.getGlobalBounds().contains(mouse))
-            {
-                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
-                {
-                    flag_023 = false;
-                    flag_Arrow1 = true;
-                    flag_just_one = false;
-                    type = false;
-                }
-            }
-            if (AzadiIcon_shape.getGlobalBounds().contains(mouse))
-            {
-                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
-                {
-                    flag_024 = false;
-                    flag_Arrow1 = true;
-                    flag_just_one = false;
-                    type = false;
-                }
-            }
-            if (EnghelabIcon_shape.getGlobalBounds().contains(mouse))
-            {
-                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
-                {
-                    flag_025 = false;
-                    flag_Arrow1 = true;
-                    flag_just_one = false;
-                    type = false;
-                }
-            }
-            if (ValiAsarIcon_shape.getGlobalBounds().contains(mouse))
-            {
-                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
-                {
-                    flag_026 = false;
-                    flag_Arrow1 = true;
-                    flag_just_one = false;
-                    type = false;
-                }
-            }
-            if (JahadIcon_shape.getGlobalBounds().contains(mouse))
-            {
-                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
-                {
-                    flag_027 = false;
-                    flag_Arrow1 = true;
-                    flag_just_one = false;
-                    type = false;
-                }
-            }
-            if (ShohadaIcon_shape.getGlobalBounds().contains(mouse))
-            {
-                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
-                {
-                    flag_028 = false;
-                    flag_Arrow1 = true;
-                    flag_just_one = false;
-                    type = false;
-                }
-            }
-            if (MirdamadIcon_shape.getGlobalBounds().contains(mouse))
-            {
-                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
-                {
-                    flag_029 = false;
-                    flag_Arrow1 = true;
-                    flag_just_one = false;
-                    type = false;
-                }
-            }
-            if (ShiraziIcon_shape.getGlobalBounds().contains(mouse))
-            {
-                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
-                {
-                    flag_030 = false;
-                    flag_Arrow1 = true;
-                    flag_just_one = false;
-                    type = false;
-                }
-            }
-            if (MoniriyehIcon_shape.getGlobalBounds().contains(mouse))
-            {
-                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
-                {
-                    flag_031 = false;
-                    flag_Arrow1 = true;
-                    flag_just_one = false;
-                    type = false;
-                }
-            }
-            if (NabardIcon_shape.getGlobalBounds().contains(mouse))
-            {
-                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
-                {
-                    flag_032 = false;
-                    flag_Arrow1 = true;
-                    flag_just_one = false;
-                    type = false;
-                }
-            }
-            if (NiroIcon_shape.getGlobalBounds().contains(mouse))
-            {
-                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
-                {
-                    flag_033 = false;
-                    flag_Arrow1 = true;
-                    flag_just_one = false;
-                    type = false;
-                }
-            }
-            if (OstadIcon_shape.getGlobalBounds().contains(mouse))
-            {
-                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
-                {
-                    flag_034 = false;
-                    flag_Arrow1 = true;
-                    flag_just_one = false;
-                    type = false;
-                }
-            }
-            if (PanzdahIcon_shape.getGlobalBounds().contains(mouse))
-            {
-                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
-                {
-                    flag_035 = false;
-                    flag_Arrow1 = true;
-                    flag_just_one = false;
-                    type = false;
-                }
-            }
-            if (PayanehIcon_shape.getGlobalBounds().contains(mouse))
-            {
-                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
-                {
-                    flag_036 = false;
-                    flag_Arrow1 = true;
-                    flag_just_one = false;
-                    type = false;
-                }
-            }
-            if (piroziIcon_shape.getGlobalBounds().contains(mouse))
-            {
-                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
-                {
-                    flag_037 = false;
-                    flag_Arrow1 = true;
-                    flag_just_one = false;
-                    type = false;
-                }
-            }
-            if (RahahanIcon_shape.getGlobalBounds().contains(mouse))
-            {
-                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
-                {
-                    flag_038 = false;
-                    flag_Arrow1 = true;
-                    flag_just_one = false;
-                    type = false;
-                }
-            }
-            if (ShademanIcon_shape.getGlobalBounds().contains(mouse))
-            {
-                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
-                {
-                    flag_039 = false;
-                    flag_Arrow1 = true;
-                    flag_just_one = false;
-                    type = false;
-                }
-            }
-            if (GhodosiIcon_shape.getGlobalBounds().contains(mouse))
-            {
-                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
-                {
-                    flag_040 = false;
-                    flag_Arrow1 = true;
-                    flag_just_one = false;
-                    type = false;
-                }
-            }
-            if (BeheshtiIcon_shape.getGlobalBounds().contains(mouse))
-            {
-                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
-                {
-                    flag_041 = false;
-                    flag_Arrow1 = true;
-                    flag_just_one = false;
-                    type = false;
-                }
-            }
-            if (HaghaniIcon_shape.getGlobalBounds().contains(mouse))
-            {
-                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
-                {
-                    flag_042 = false;
-                    flag_Arrow1 = true;
-                    flag_just_one = false;
-                    type = false;
-                }
-            }
-            if (KolahdozIcon_shape.getGlobalBounds().contains(mouse))
-            {
-                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
-                {
-                    flag_043 = false;
-                    flag_Arrow1 = true;
-                    flag_just_one = false;
-                    type = false;
-                }
-            }
-            if (MofattehIcon_shape.getGlobalBounds().contains(mouse))
-            {
-                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
-                {
-                    flag_044 = false;
-                    flag_Arrow1 = true;
-                    flag_just_one = false;
-                    type = false;
-                }
-            }
-            if (RezaeiIcon_shape.getGlobalBounds().contains(mouse))
-            {
-                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
-                {
-                    flag_045 = false;
-                    flag_Arrow1 = true;
-                    flag_just_one = false;
-                    type = false;
-                }
-            }
-            if (SadrIcon_shape.getGlobalBounds().contains(mouse))
-            {
-                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
-                {
-                    flag_046 = false;
-                    flag_Arrow1 = true;
-                    flag_just_one = false;
-                    type = false;
-                }
-            }
-            if (ZeynoddinIcon_shape.getGlobalBounds().contains(mouse))
-            {
-                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
-                {
-                    flag_047 = false;
-                    flag_Arrow1 = true;
-                    flag_just_one = false;
-                    type = false;
-                }
-            }
-            if (ShariatiIcon_shape.getGlobalBounds().contains(mouse))
-            {
-                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
-                {
-                    flag_048 = false;
-                    flag_Arrow1 = true;
-                    flag_just_one = false;
-                    type = false;
-                }
-            }
-            if (ReyIcon_shape.getGlobalBounds().contains(mouse))
-            {
-                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
-                {
-                    flag_049 = false;
-                    flag_Arrow1 = true;
-                    flag_just_one = false;
-                    type = false;
-                }
-            }
-            if (ShoushIcon_shape.getGlobalBounds().contains(mouse))
-            {
-                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
-                {
-                    flag_050 = false;
-                    flag_Arrow1 = true;
-                    flag_just_one = false;
-                    type = false;
-                }
-            }
-            if (sohrevardiIcon_shape.getGlobalBounds().contains(mouse))
-            {
-                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
-                {
-                    flag_051 = false;
-                    flag_Arrow1 = true;
-                    flag_just_one = false;
-                    type = false;
-                }
-            }
-            if (TajrishIcon_shape.getGlobalBounds().contains(mouse))
-            {
-                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
-                {
-                    flag_052 = false;
-                    flag_Arrow1 = true;
-                    flag_just_one = false;
-                    type = false;
-                }
-            }
-            if (TaleghaniIcon_shape.getGlobalBounds().contains(mouse))
-            {
-                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
-                {
-                    flag_053 = false;
-                    flag_Arrow1 = true;
-                    flag_just_one = false;
-                    type = false;
-                }
-            }
-            if (TeaterIcon_shape.getGlobalBounds().contains(mouse))
-            {
-                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
-                {
-                    flag_054 = false;
-                    flag_Arrow1 = true;
-                    flag_just_one = false;
-                    type = false;
-                }
-            }
-            if (ParsIcon_shape.getGlobalBounds().contains(mouse))
-            {
-                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
-                {
-                    flag_055 = false;
-                    flag_Arrow1 = true;
-                    flag_just_one = false;
-                    type = false;
-                }
-            }
-            if (TowhidIcon_shape.getGlobalBounds().contains(mouse))
-            {
-                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
-                {
-                    flag_056 = false;
-                    flag_Arrow1 = true;
-                    flag_just_one = false;
-                    type = false;
-                }
-            }
-            if (YadegarIcon_shape.getGlobalBounds().contains(mouse))
-            {
-                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
-                {
-                    flag_057 = false;
-                    flag_Arrow1 = true;
-                    flag_just_one = false;
-                    type = false;
-                }
-            }
-            if (ZamzamIcon_shape.getGlobalBounds().contains(mouse))
-            {
-                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
-                {
-                    flag_058 = false;
-                    flag_Arrow1 = true;
-                    flag_just_one = false;
-                    type = false;
-                }
-            }
-            if (Arrow_orginIcon_shape.getGlobalBounds().contains(mouse))
-            {
-                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
-                {
-                    flag_Arrow_Back = false;
-                }
-            }
-            if (ArrowIcon_shape.getGlobalBounds().contains(mouse))
-            {
-                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
-                {
-                    flag_Arrow1 = false;
-
-                    // falg_user = true;
-                }
-            }
-            if (Lets_go_Icon_shape.getGlobalBounds().contains(mouse))
-            {
-                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
-                {
-                    flag_w = false;
-                }
-            }
-            if (exitIcon_shape.getGlobalBounds().contains(mouse))
-            {
-                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
-                {
-                    window.close();
-                }
-            }
-            if (BackIcon_shape.getGlobalBounds().contains(mouse))
-            {
-                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
-                {
-
-                    flag = true;
-                }
-            }
-            if (helpIcon_shape.getGlobalBounds().contains(mouse))
-            {
-                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
-                {
-                    flag = false;
-                }
-            }
-            if (nextIcon_shape.getGlobalBounds().contains(mouse))
-            {
-                if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
-                {
-                    falg_user = false;
-                }
-            }
-        }
-
-        window.display();
-        //window2.display();
-    }
-}
-
-void App:: window2()
-{
-    sf::RenderWindow window2(sf::VideoMode(x_SIZE, y_SIZE), "Window 2");
-
-   // sf::RectangleShape page2(sf::Vector2f(x_SIZE, y_SIZE));
-    sf::Texture texture2;
-    texture2.loadFromFile("picture/back1.png"); // need  edit
-    sf::RectangleShape texture2_shape(sf::Vector2f(x_SIZE, y_SIZE));
-    texture2_shape.setTexture(&texture2);
-    //page2.setFillColor(sf::Color::Green);
-
     while (window2.isOpen())
     {
         sf::Event event;
@@ -2258,9 +917,1394 @@ void App:: window2()
             if (event.type == sf::Event::Closed)
                 window2.close();
         }
+        if (!flag_Arrow1)
+        {
+            window2.clear();
+            window2.draw(texture2_shape);
+            // window2.draw(back_grand_shape);
+            window2.draw(AghdasiyehIcon_shape);
+            window2.draw(AzadeghanIcon_shape);
+            window2.draw(BimehIcon_shape);
+            window2.draw(AllamehIcon_shape);
+            window2.draw(BoostanIcon_shape);
+            window2.draw(chaharIcon_shape);
+            window2.draw(DowlatIcon_shape);
+            window2.draw(ShemiranIcon_shape);
+            window2.draw(SinaIcon_shape);
+            window2.draw(HosseinIcon_shape);
+            window2.draw(SabzIcon_shape);
+            window2.draw(FerdowsiIcon_shape);
+            window2.draw(GhaemIcon_shape);
+            window2.draw(GheytariyehIcon_shape);
+            window2.draw(GolhakIcon_shape);
+            window2.draw(HarmIcon_shape);
+            window2.draw(haftIcon_shape);
+            window2.draw(javadiyehIcon_shape);
+            window2.draw(KashaniIcon_shape);
+            window2.draw(KahrizakIcon_shape);
+            window2.draw(KhajehIcon_shape);
+            window2.draw(KouhsarIcon_shape);
+            window2.draw(JonoubIcon_shape);
+            window2.draw(MahdiyehIcon_shape);
+            window2.draw(AzadiIcon_shape);
+            window2.draw(EnghelabIcon_shape);
+            window2.draw(ValiAsarIcon_shape);
+            window2.draw(JahadIcon_shape);
+            window2.draw(ShademanIcon_shape);
+            window2.draw(ShohadaIcon_shape);
+            window2.draw(MirdamadIcon_shape);
+            window2.draw(ShiraziIcon_shape);
+            window2.draw(MoniriyehIcon_shape);
+            window2.draw(NabardIcon_shape);
+            window2.draw(NiroIcon_shape);
+            window2.draw(OstadIcon_shape);
+            window2.draw(PanzdahIcon_shape);
+            window2.draw(PayanehIcon_shape);
+            window2.draw(piroziIcon_shape);
+            window2.draw(RahahanIcon_shape);
+            window2.draw(ShademanIcon_shape);
+            window2.draw(GhodosiIcon_shape);
+            window2.draw(BeheshtiIcon_shape);
+            window2.draw(HaghaniIcon_shape);
+            window2.draw(KolahdozIcon_shape);
+            window2.draw(MofattehIcon_shape);
+            window2.draw(RezaeiIcon_shape);
+            window2.draw(SadrIcon_shape);
+            window2.draw(ZeynoddinIcon_shape);
+            window2.draw(ShariatiIcon_shape);
+            window2.draw(ReyIcon_shape);
+            window2.draw(ShoushIcon_shape);
+            window2.draw(sohrevardiIcon_shape);
+            window2.draw(TajrishIcon_shape);
+            window2.draw(TaleghaniIcon_shape);
+            window2.draw(TeaterIcon_shape);
+            window2.draw(ParsIcon_shape);
+            window2.draw(TowhidIcon_shape);
+            window2.draw(YadegarIcon_shape);
+            window2.draw(ZamzamIcon_shape);
+            // window2.draw(Arrow_orginIcon_shape);
+        }
+        // else if(!flag_000)
+        // {
+        //     // flag_Arrow_Back=false;
+        //     window2.clear();
+        //     window2.close();
+        //     break;
+        //     // window2.close();
+        //    // window2.draw(user_shape);
+        //     // flag_Arrow1 = false;
+        //     // flag_just_one = false;
+        //     // window.draw(ArrowIcon_shape);
+        //    // window.draw(Arrow2Icon_shape);
 
-        window2.clear();
-         window2.draw(texture2_shape);
+        //    // window2.draw(p000);
+        // }
+
+        // else if (!flag_001)
+        // {
+        //     // flag_Arrow_Back=false;
+        //     window2.clear();
+        //     // window2.close();
+        //     window.draw(user_shape);
+        //     // flag_Arrow1 = false;
+        //     // flag_just_one = false;
+        //     // window.draw(ArrowIcon_shape);
+        //     window.draw(Arrow2Icon_shape);
+
+        //     window.draw(p001);
+        // }
+
+        // else if (!flag_002)
+        // {
+        //     // flag_Arrow_Back=false;
+        //     window.clear();
+        //     window.draw(user_shape);
+        //     // flag_Arrow1 = false;
+        //     // flag_just_one = false;
+        //     // flag_just_one=false;
+
+        //     window.draw(Arrow2Icon_shape);
+
+        //     window.draw(p002);
+        // }
+        // else if (!flag_003)
+        // {
+        //     //  flag_Arrow_Back=false;
+        //     window.clear();
+        //     window.draw(user_shape);
+        //     // flag_Arrow1 = false;
+        //     // flag_just_one = false;
+        //     // flag_just_one=false;
+
+        //     window.draw(Arrow2Icon_shape);
+
+        //     window.draw(p003);
+        // }
+        // else if (!flag_004)
+        // {
+        //     // flag_Arrow_Back=false;
+        //     window.clear();
+        //     window.draw(user_shape);
+        //     // flag_Arrow1 = false;
+        //     // flag_just_one = false;
+
+        //     window.draw(Arrow2Icon_shape);
+
+        //     window.draw(p004);
+        // }
+        // else if (!flag_005)
+        // {
+        //     // flag_Arrow_Back=false;
+        //     window.clear();
+        //     window.draw(user_shape);
+        //     // flag_Arrow1 = false;
+        //     // flag_just_one = false;
+
+        //     window.draw(Arrow2Icon_shape);
+
+        //     window.draw(p005);
+        // }
+
+        // else if (!flag_006 && !type )
+        // {
+        //     //flag_Arrow_Back = false;
+        //     window.clear();
+        //     window.draw(user_shape);
+        //     flag_Arrow1 = false;
+        //     flag_just_one = false;
+        //     //window.draw(ArrowIcon_shape);
+        //     window.draw(Arrow2Icon_shape);
+        //     window.draw(p006);
+        // }
+        // else if (!flag_007 && !type )
+        // {
+        //     //flag_Arrow_Back = false;
+        //     window.clear();
+        //     window.draw(user_shape);
+        //     flag_Arrow1 = false;
+        //     flag_just_one = false;
+        //     //window.draw(ArrowIcon_shape);
+        //     window.draw(Arrow2Icon_shape);
+        //     window.draw(p007);
+        // }
+        // else if (!flag_008 && !type )
+        // {
+        //     //flag_Arrow_Back = false;
+        //     window.clear();
+        //     window.draw(user_shape);
+        //     flag_Arrow1 = false;
+        //     flag_just_one = false;
+        //    // window.draw(ArrowIcon_shape);
+        //     window.draw(Arrow2Icon_shape);
+        //     window.draw(p008);
+        // }
+        // else if (!flag_009 && !type)
+        // {
+        //     //flag_Arrow_Back = false;
+        //     window.clear();
+        //     window.draw(user_shape);
+        //     flag_Arrow1 = false;
+        //     flag_just_one = false;
+        //     //window.draw(ArrowIcon_shape);
+        //     window.draw(Arrow2Icon_shape);
+        //     window.draw(p009);
+        // }
+        // else if (!flag_010 && !type )
+        // {
+        //     //flag_Arrow_Back = false;
+        //     window.clear();
+        //     window.draw(user_shape);
+        //     flag_Arrow1 = false;
+        //     flag_just_one = false;
+        //     //window.draw(ArrowIcon_shape);
+        //     window.draw(Arrow2Icon_shape);
+        //     window.draw(p010);
+        // }
+        // else if (!flag_011 && !type )
+        // {
+        //     //flag_Arrow_Back = false;
+        //     window.clear();
+        //     window.draw(user_shape);
+        //     flag_Arrow1 = false;
+        //      flag_just_one = false;
+        //     //window.draw(ArrowIcon_shape);
+        //     window.draw(Arrow2Icon_shape);
+        //     window.draw(p011);
+        // }
+        // else if (!flag_012 && !type )
+        // {
+        //     //flag_Arrow_Back = false;
+        //     window.clear();
+        //     window.draw(user_shape);
+        //     flag_Arrow1 = false;
+        //      flag_just_one = false;
+        //    // window.draw(ArrowIcon_shape);
+        //     window.draw(Arrow2Icon_shape);
+        //     window.draw(p012);
+        // }
+        // else if (!flag_013 && !type )
+        // {
+        //     //flag_Arrow_Back = false;
+        //     window.clear();
+        //     window.draw(user_shape);
+        //     flag_Arrow1 = false;
+        //      flag_just_one = false;
+        //    // window.draw(ArrowIcon_shape);
+        //     window.draw(Arrow2Icon_shape);
+        //     window.draw(p013);
+        // }
+        // else if (!flag_014 && !type )
+        // {
+        //     //flag_Arrow_Back = false;
+        //     window.clear();
+        //     window.draw(user_shape);
+        //     flag_Arrow1 = false;
+        //      flag_just_one = false;
+        //    // window.draw(ArrowIcon_shape);
+        //     window.draw(Arrow2Icon_shape);
+        //     window.draw(p014);
+        // }
+        // else if (!flag_015 && !type )
+        // {
+        //     //flag_Arrow_Back = false;
+        //     window.clear();
+        //     window.draw(user_shape);
+        //     flag_Arrow1 = false;
+        //      flag_just_one = false;
+        //     //window.draw(ArrowIcon_shape);
+        //     window.draw(Arrow2Icon_shape);
+        //     window.draw(p015);
+        // }
+        // else if (!flag_016 && !type )
+        // {
+        //     //flag_Arrow_Back = false;
+        //     window.clear();
+        //     window.draw(user_shape);
+        //     flag_Arrow1 = false;
+        //      flag_just_one = false;
+        //     //window.draw(ArrowIcon_shape);
+        //     window.draw(Arrow2Icon_shape);
+        //     window.draw(p016);
+        // }
+        // else if (!flag_017 && !type )
+        // {
+        //     //flag_Arrow_Back = false;
+        //     window.clear();
+        //     window.draw(user_shape);
+        //     flag_Arrow1 = false;
+        //      flag_just_one = false;
+        //     //window.draw(ArrowIcon_shape);
+        //     window.draw(Arrow2Icon_shape);
+        //     window.draw(p017);
+        // }
+        // else if (!flag_018 && !type )
+        // {
+        //     //flag_Arrow_Back = false;
+        //     window.clear();
+        //     window.draw(user_shape);
+        //     flag_Arrow1 = false;
+        //      flag_just_one = false;
+        //     //window.draw(ArrowIcon_shape);
+        //     window.draw(Arrow2Icon_shape);
+        //     window.draw(p018);
+        // }
+        // else if (!flag_019 && !type )
+        // {
+        //     //flag_Arrow_Back = false;
+        //     window.clear();
+        //     window.draw(user_shape);
+        //     flag_Arrow1 = false;
+        //      flag_just_one = false;
+        //     //window.draw(ArrowIcon_shape);
+        //     window.draw(Arrow2Icon_shape);
+        //     window.draw(p019);
+        // }
+        // else if (!flag_020 && !type )
+        // {
+        //     //flag_Arrow_Back = false;
+        //     window.clear();
+        //     window.draw(user_shape);
+        //     flag_Arrow1 = false;
+        //      flag_just_one = false;
+        //    // window.draw(ArrowIcon_shape);
+        //     window.draw(Arrow2Icon_shape);
+        //     window.draw(p020);
+        // }
+        // else if (!flag_021 && !type )
+        // {
+        //     //flag_Arrow_Back = false;
+        //     window.clear();
+        //     window.draw(user_shape);
+        //     flag_Arrow1 = false;
+        //      flag_just_one = false;
+        //     //window.draw(ArrowIcon_shape);
+        //     window.draw(Arrow2Icon_shape);
+        //     window.draw(p021);
+        // }
+        // else if (!flag_022 && !type )
+        // {
+        //     //flag_Arrow_Back = false;
+        //     window.clear();
+        //     window.draw(user_shape);
+        //     flag_Arrow1 = false;
+        //      flag_just_one = false;
+        //     //window.draw(ArrowIcon_shape);
+        //     window.draw(Arrow2Icon_shape);
+        //     window.draw(p022);
+        // }
+        // else if (!flag_023 && !type )
+        // {
+        //     //flag_Arrow_Back = false;
+        //     window.clear();
+        //     window.draw(user_shape);
+        //     flag_Arrow1 = false;
+        //      flag_just_one = false;
+        //     //window.draw(ArrowIcon_shape);
+        //     window.draw(Arrow2Icon_shape);
+        //     window.draw(p023);
+        // }
+        // else if (!flag_024 && !type )
+        // {
+        //     //flag_Arrow_Back = false;
+        //     window.clear();
+        //     window.draw(user_shape);
+        //     flag_Arrow1 = false;
+        //      flag_just_one = false;
+        //    // window.draw(ArrowIcon_shape);
+        //     window.draw(Arrow2Icon_shape);
+        //     window.draw(p024);
+        // }
+        // else if (!flag_025 && !type )
+        // {
+        //     //flag_Arrow_Back = false;
+        //     window.clear();
+        //     window.draw(user_shape);
+        //     flag_Arrow1 = false;
+        //      flag_just_one = false;
+        //     //window.draw(ArrowIcon_shape);
+        //     window.draw(Arrow2Icon_shape);
+        //     window.draw(p025);
+        // }
+        // else if (!flag_026 && !type)
+        // {
+        //     //flag_Arrow_Back = false;
+        //     window.clear();
+        //     window.draw(user_shape);
+        //     flag_Arrow1 = false;
+        //      flag_just_one = false;
+        //     //window.draw(ArrowIcon_shape);
+        //     window.draw(Arrow2Icon_shape);
+        //     window.draw(p026);
+        // }
+        // else if (!flag_027 && !type )
+        // {
+        //     //flag_Arrow_Back = false;
+        //     window.clear();
+        //     window.draw(user_shape);
+        //     flag_Arrow1 = false;
+        //      flag_just_one = false;
+        //     //window.draw(ArrowIcon_shape);
+        //     window.draw(Arrow2Icon_shape);
+        //     window.draw(p027);
+        // }
+        // else if (!flag_028 && !type )
+        // {
+        //     //flag_Arrow_Back = false;
+        //     window.clear();
+        //     window.draw(user_shape);
+        //     flag_Arrow1 = false;
+        //      flag_just_one = false;
+        //    // window.draw(ArrowIcon_shape);
+        //     window.draw(Arrow2Icon_shape);
+        //     window.draw(p028);
+        // }
+        // else if (!flag_029 && !type )
+        // {
+        //     //flag_Arrow_Back = false;
+        //     window.clear();
+        //     window.draw(user_shape);
+        //     flag_Arrow1 = false;
+        //      flag_just_one = false;
+        //     //window.draw(ArrowIcon_shape);
+        //     window.draw(Arrow2Icon_shape);
+        //     window.draw(p029);
+        // }
+        // else if (!flag_030 && !type )
+        // {
+        //     //flag_Arrow_Back = false;
+        //     window.clear();
+        //     window.draw(user_shape);
+        //     flag_Arrow1 = false;
+        //      flag_just_one = false;
+        //    // window.draw(ArrowIcon_shape);
+        //     window.draw(Arrow2Icon_shape);
+        //     window.draw(p030);
+        // }
+        // else if (!flag_031 && !type )
+        // {
+        //     //flag_Arrow_Back = false;
+        //     window.clear();
+        //     window.draw(user_shape);
+        //     flag_Arrow1 = false;
+        //      flag_just_one = false;
+        //     //window.draw(ArrowIcon_shape);
+        //     window.draw(Arrow2Icon_shape);
+        //     window.draw(p031);
+        // }
+        // else if (!flag_032 && !type )
+        // {
+        //     //flag_Arrow_Back = false;
+        //     window.clear();
+        //     window.draw(user_shape);
+        //     flag_Arrow1 = false;
+        //      flag_just_one = false;
+        //     window.draw(ArrowIcon_shape);
+        //    // window.draw(Arrow2Icon_shape);
+        //     window.draw(p032);
+        // }
+        // else if (!flag_033 && !type )
+        // {
+        //     //flag_Arrow_Back = false;
+        //     window.clear();
+        //     window.draw(user_shape);
+        //     flag_Arrow1 = false;
+        //      flag_just_one = false;
+        //     //window.draw(ArrowIcon_shape);
+        //     window.draw(Arrow2Icon_shape);
+        //     window.draw(p033);
+        // }
+        // else if (!flag_034 && !type )
+        // {
+        //     //flag_Arrow_Back = false;
+        //     window.clear();
+        //     window.draw(user_shape);
+        //     flag_Arrow1 = false;
+        //      flag_just_one = false;
+        //    // window.draw(ArrowIcon_shape);
+        //     window.draw(Arrow2Icon_shape);
+        //     window.draw(p034);
+        // }
+        // else if (!flag_035 && !type )
+        // {
+        //     //flag_Arrow_Back = false;
+        //     window.clear();
+        //     window.draw(user_shape);
+        //     flag_Arrow1 = false;
+        //      flag_just_one = false;
+        //     //window.draw(ArrowIcon_shape);
+        //     window.draw(Arrow2Icon_shape);
+        //     window.draw(p035);
+        // }
+        // else if (!flag_036 && !type )
+        // {
+        //     //flag_Arrow_Back = false;
+        //     window.clear();
+        //     window.draw(user_shape);
+        //     flag_Arrow1 = false;
+        //      flag_just_one = false;
+        //     //window.draw(ArrowIcon_shape);
+        //     window.draw(Arrow2Icon_shape);
+        //     window.draw(p036);
+        // }
+        // else if (!flag_037 && !type )
+        // {
+        //     //flag_Arrow_Back = false;
+        //     window.clear();
+        //     window.draw(user_shape);
+        //     flag_Arrow1 = false;
+        //      flag_just_one = false;
+        //     //window.draw(ArrowIcon_shape);
+        //     window.draw(Arrow2Icon_shape);
+        //     window.draw(p037);
+        // }
+        // else if (!flag_038 && !type )
+        // {
+        //     //flag_Arrow_Back = false;
+        //     window.clear();
+        //     window.draw(user_shape);
+        //     flag_Arrow1 = false;
+        //      flag_just_one = false;
+        //    // window.draw(ArrowIcon_shape);
+        //     window.draw(Arrow2Icon_shape);
+        //     window.draw(p038);
+        // }
+        // else if (!flag_039 && !type )
+        // {
+        //     //flag_Arrow_Back = false;
+        //     window.clear();
+        //     window.draw(user_shape);
+        //     flag_Arrow1 = false;
+
+        //      flag_just_one = false;
+        //     //window.draw(ArrowIcon_shape);
+        //     window.draw(Arrow2Icon_shape);
+        //     window.draw(p039);
+        // }
+        // else if (!flag_040 && !type )
+        // {
+        //     //flag_Arrow_Back = false;
+        //     window.clear();
+        //     window.draw(user_shape);
+        //     flag_Arrow1 = false;
+        //      flag_just_one = false;
+        //     //window.draw(ArrowIcon_shape);
+        //     window.draw(Arrow2Icon_shape);
+        //     window.draw(p040);
+        // }
+        // else if (!flag_041 && !type )
+        // {
+        //     //flag_Arrow_Back = false;
+        //     window.clear();
+        //     window.draw(user_shape);
+        //     flag_Arrow1 = false;
+        //      flag_just_one = false;
+        //     //window.draw(ArrowIcon_shape);
+        //     window.draw(Arrow2Icon_shape);
+        //     window.draw(p041);
+        // }
+        // else if (!flag_042 && !type )
+        // {
+        //     //flag_Arrow_Back = false;
+        //     window.clear();
+        //     window.draw(user_shape);
+        //     flag_Arrow1 = false;
+        //      flag_just_one = false;
+        //     //window.draw(ArrowIcon_shape);
+        //     window.draw(Arrow2Icon_shape);
+        //     window.draw(p042);
+        // }
+        // else if (!flag_043 && !type )
+        // {
+        //     //flag_Arrow_Back = false;
+        //     window.clear();
+        //     window.draw(user_shape);
+        //     flag_Arrow1 = false;
+        //      flag_just_one = false;
+        //     //window.draw(ArrowIcon_shape);
+        //     window.draw(Arrow2Icon_shape);
+        //     window.draw(p043);
+        // }
+        // else if (!flag_044 && !type )
+        // {
+        //     //flag_Arrow_Back = false;
+        //     window.clear();
+        //     window.draw(user_shape);
+        //     flag_Arrow1 = false;
+        //      flag_just_one = false;
+        //     //window.draw(ArrowIcon_shape);
+        //     window.draw(Arrow2Icon_shape);
+        //     window.draw(p044);
+        // }
+        // else if (!flag_045 && !type )
+        // {
+        //     //flag_Arrow_Back = false;
+        //     window.clear();
+        //     window.draw(user_shape);
+        //     flag_Arrow1 = false;
+        //      flag_just_one = false;
+        //     //window.draw(ArrowIcon_shape);
+        //     window.draw(Arrow2Icon_shape);
+        //     window.draw(p045);
+        // }
+        // else if (!flag_046 && !type )
+        // {
+        //     //flag_Arrow_Back = false;
+        //     window.clear();
+        //     window.draw(user_shape);
+        //     flag_Arrow1 = false;
+        //      flag_just_one = false;
+        //    // window.draw(ArrowIcon_shape);
+        //     window.draw(Arrow2Icon_shape);
+        //     window.draw(p046);
+        // }
+        // else if (!flag_047 && !type )
+        // {
+        //     //flag_Arrow_Back = false;
+        //     window.clear();
+        //     window.draw(user_shape);
+        //     flag_Arrow1 = false;
+        //      flag_just_one = false;
+        //     //window.draw(ArrowIcon_shape);
+        //     window.draw(Arrow2Icon_shape);
+        //     window.draw(p047);
+        // }
+        // else if (!flag_048 && !type )
+        // {
+        //     //flag_Arrow_Back = false;
+        //     window.clear();
+        //     window.draw(user_shape);
+        //     flag_Arrow1 = false;
+        //      flag_just_one = false;
+        //    // window.draw(ArrowIcon_shape);
+        //     window.draw(Arrow2Icon_shape);
+        //     window.draw(p048);
+        // }
+        // else if (!flag_049 && !type )
+        // {
+        //     //flag_Arrow_Back = false;
+        //     window.clear();
+        //     window.draw(user_shape);
+        //     flag_Arrow1 = false;
+        //      flag_just_one = false;
+        //     //window.draw(ArrowIcon_shape);
+        //     window.draw(Arrow2Icon_shape);
+        //     window.draw(p049);
+        // }
+        // else if (!flag_050 && !type )
+        // {
+        //     //flag_Arrow_Back = false;
+        //     window.clear();
+        //     window.draw(user_shape);
+        //     flag_Arrow1 = false;
+        //      flag_just_one = false;
+        //     //window.draw(ArrowIcon_shape);
+        //     window.draw(Arrow2Icon_shape);
+        //     window.draw(p050);
+        // }
+        // else if (!flag_051 && !type)
+        // {
+        //     //flag_Arrow_Back = false;
+        //     window.clear();
+        //     window.draw(user_shape);
+        //     flag_Arrow1 = false;
+        //      flag_just_one = false;
+        //    // window.draw(ArrowIcon_shape);
+        //     window.draw(Arrow2Icon_shape);
+        //     window.draw(p051);
+        // }
+        // else if (!flag_052 && !type )
+        // {
+        //     //flag_Arrow_Back = false;
+        //     window.clear();
+        //     window.draw(user_shape);
+        //     flag_Arrow1 = false;
+        //      flag_just_one = false;
+        //     //window.draw(ArrowIcon_shape);
+        //     window.draw(Arrow2Icon_shape);
+        //     window.draw(p052);
+        // }
+        // else if (!flag_053 && !type )
+        // {
+        //     //flag_Arrow_Back = false;
+        //     window.clear();
+        //     window.draw(user_shape);
+        //     flag_Arrow1 = false;
+        //      flag_just_one = false;
+        //     //window.draw(ArrowIcon_shape);
+        //     window.draw(Arrow2Icon_shape);
+        //     window.draw(p053);
+        // }
+        // else if (!flag_054 && !type )
+        // {
+        //     //flag_Arrow_Back = false;
+        //     window.clear();
+        //     window.draw(user_shape);
+        //     flag_Arrow1 = false;
+        //      flag_just_one = false;
+        //     //window.draw(ArrowIcon_shape);
+        //     window.draw(Arrow2Icon_shape);
+        //     window.draw(p054);
+        // }
+        // else if (!flag_055 && !type )
+        // {
+        //     //flag_Arrow_Back = false;
+        //     window.clear();
+        //     window.draw(user_shape);
+        //     flag_Arrow1 = false;
+        //      flag_just_one = false;
+        //    // window.draw(ArrowIcon_shape);
+        //     window.draw(Arrow2Icon_shape);
+        //     window.draw(p055);
+        // }
+        // else if (!flag_056 && !type )
+        // {
+        //     //flag_Arrow_Back = false;
+        //     window.clear();
+        //     window.draw(user_shape);
+        //     flag_Arrow1 = false;
+        //      flag_just_one = false;
+        //     //window.draw(ArrowIcon_shape);
+        //     window.draw(Arrow2Icon_shape);
+        //     window.draw(p056);
+        // }
+        // else if (!flag_057 && !type )
+        // {
+        //     //flag_Arrow_Back = false;
+        //     window.clear();
+        //     window.draw(user_shape);
+        //     flag_Arrow1 = false;
+
+        //     //window.draw(ArrowIcon_shape);
+        //     window.draw(Arrow2Icon_shape);
+        //     window.draw(p057);
+        // }
+        // else if (!flag_058 && !type )
+        // {
+        //     //flag_Arrow_Back = false;
+        //     window.clear();
+        //     window.draw(user_shape);
+        //     flag_Arrow1 = false;
+        //    // window.draw(ArrowIcon_shape);
+        //     window.draw(Arrow2Icon_shape);
+        //     window.draw(p058);
+        // }
+        if (event.type == sf::Event::MouseButtonPressed)
+        {
+            if (event.mouseButton.button == sf::Mouse::Left)
+            {
+                if (AllamehIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
+                {
+                    flag_000 = false;
+                    window2.close();
+                }
+            }
+        }
+
+        if (event.type == sf::Event::MouseButtonPressed)
+        {
+            if (event.mouseButton.button == sf::Mouse::Left)
+            {
+
+                if (AghdasiyehIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
+                {
+                    flag_001 = false;
+                    window2.close();
+                }
+            }
+        }
+        if (event.type == sf::Event::MouseButtonPressed)
+        {
+            if (event.mouseButton.button == sf::Mouse::Left)
+            {
+                if (AzadeghanIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
+                {
+                    flag_002 = false;
+                    window2.close();
+                }
+            }
+        }
+        if (event.type == sf::Event::MouseButtonPressed)
+        {
+            if (event.mouseButton.button == sf::Mouse::Left)
+            {
+                if (BimehIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
+                {
+                    flag_003 = false;
+                    window2.close();
+                }
+            }
+        }
+
+        if (event.type == sf::Event::MouseButtonPressed)
+        {
+            if (event.mouseButton.button == sf::Mouse::Left)
+            {
+                if (BoostanIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
+                {
+                    flag_004 = false;
+                    window2.close();
+                }
+            }
+        }
+
+        if (event.type == sf::Event::MouseButtonPressed)
+        {
+            if (event.mouseButton.button == sf::Mouse::Left)
+            {
+                if (chaharIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
+                {
+                    flag_005 = false;
+                    window2.close();
+                }
+            }
+        }
+        if (event.type == sf::Event::MouseButtonPressed)
+        {
+            if (event.mouseButton.button == sf::Mouse::Left)
+            {
+                if (DowlatIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
+                {
+                    flag_006 = false;
+                    window2.close();
+                }
+            }
+        }
+        if (event.type == sf::Event::MouseButtonPressed)
+        {
+            if (event.mouseButton.button == sf::Mouse::Left)
+            {
+                if (ShemiranIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
+                {
+                    flag_007 = false;
+                    window2.close();
+                }
+            }
+        }
+        if (event.type == sf::Event::MouseButtonPressed)
+        {
+            if (event.mouseButton.button == sf::Mouse::Left)
+            {
+                if (SinaIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
+                {
+                    flag_008 = false;
+                    window2.close();
+                }
+            }
+        }
+        if (event.type == sf::Event::MouseButtonPressed)
+        {
+            if (event.mouseButton.button == sf::Mouse::Left)
+            {
+                if (HosseinIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
+                {
+                    flag_009 = false;
+                    window2.close();
+                }
+            }
+        }
+        if (event.type == sf::Event::MouseButtonPressed)
+        {
+            if (event.mouseButton.button == sf::Mouse::Left)
+            {
+                if (SabzIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
+                {
+                    flag_010 = false;
+                    window2.close();
+                }
+            }
+        }
+        if (event.type == sf::Event::MouseButtonPressed)
+        {
+            if (event.mouseButton.button == sf::Mouse::Left)
+            {
+                if (FerdowsiIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
+                {
+                    flag_011 = false;
+                    window2.close();
+                }
+            }
+        }
+        if (event.type == sf::Event::MouseButtonPressed)
+        {
+            if (event.mouseButton.button == sf::Mouse::Left)
+            {
+                if (GhaemIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
+                {
+                    flag_012 = false;
+                    window2.close();
+                }
+            }
+        }
+
+        if (event.type == sf::Event::MouseButtonPressed)
+        {
+            if (event.mouseButton.button == sf::Mouse::Left)
+            {
+                if (GheytariyehIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
+                {
+                    flag_013 = false;
+                    window2.close();
+                }
+            }
+        }
+        if (event.type == sf::Event::MouseButtonPressed)
+        {
+            if (event.mouseButton.button == sf::Mouse::Left)
+            {
+                if (GolhakIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
+                {
+                    flag_014 = false;
+                    window2.close();
+                }
+            }
+        }
+        if (event.type == sf::Event::MouseButtonPressed)
+        {
+            if (event.mouseButton.button == sf::Mouse::Left)
+            {
+                if (HarmIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
+                {
+                    flag_015 = false;
+                    window2.close();
+                }
+            }
+        }
+        if (event.type == sf::Event::MouseButtonPressed)
+        {
+            if (event.mouseButton.button == sf::Mouse::Left)
+            {
+                if (haftIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
+                {
+                    flag_016 = false;
+                    window2.close();
+                }
+            }
+        }
+        if (event.type == sf::Event::MouseButtonPressed)
+        {
+            if (event.mouseButton.button == sf::Mouse::Left)
+            {
+                if (javadiyehIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
+                {
+                    flag_017 = false;
+                    window2.close();
+                }
+            }
+        }
+        if (event.type == sf::Event::MouseButtonPressed)
+        {
+            if (event.mouseButton.button == sf::Mouse::Left)
+            {
+                if (KashaniIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
+                {
+                    flag_018 = false;
+                    window2.close();
+                }
+            }
+        }
+        if (event.type == sf::Event::MouseButtonPressed)
+        {
+            if (event.mouseButton.button == sf::Mouse::Left)
+            {
+                if (KahrizakIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
+                {
+                    flag_019 = false;
+                    window2.close();
+                }
+            }
+        }
+        if (event.type == sf::Event::MouseButtonPressed)
+        {
+            if (event.mouseButton.button == sf::Mouse::Left)
+            {
+                if (KhajehIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
+                {
+                    flag_020 = false;
+                    window2.close();
+                }
+            }
+        }
+        if (event.type == sf::Event::MouseButtonPressed)
+        {
+            if (event.mouseButton.button == sf::Mouse::Left)
+            {
+                if (JonoubIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
+                {
+                    flag_021 = false;
+                    window2.close();
+                }
+            }
+        }
+
+        if (event.type == sf::Event::MouseButtonPressed)
+        {
+            if (event.mouseButton.button == sf::Mouse::Left)
+            {
+                if (KouhsarIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
+                {
+                    flag_022 = false;
+                    window2.close();
+                }
+            }
+        }
+
+        if (event.type == sf::Event::MouseButtonPressed)
+        {
+            if (event.mouseButton.button == sf::Mouse::Left)
+            {
+                if (MahdiyehIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
+                {
+                    flag_023 = false;
+                    window2.close();
+                }
+            }
+        }
+        if (event.type == sf::Event::MouseButtonPressed)
+        {
+            if (event.mouseButton.button == sf::Mouse::Left)
+            {
+                if (AzadiIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
+                {
+                    flag_024 = false;
+                    window2.close();
+                }
+            }
+        }
+        if (event.type == sf::Event::MouseButtonPressed)
+        {
+            if (event.mouseButton.button == sf::Mouse::Left)
+            {
+                if (EnghelabIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
+                {
+                    flag_025 = false;
+                    window2.close();
+                }
+            }
+        }
+        if (event.type == sf::Event::MouseButtonPressed)
+        {
+            if (event.mouseButton.button == sf::Mouse::Left)
+            {
+                if (ValiAsarIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
+                {
+                    flag_026 = false;
+                    window2.close();
+                }
+            }
+        }
+        if (event.type == sf::Event::MouseButtonPressed)
+        {
+            if (event.mouseButton.button == sf::Mouse::Left)
+            {
+                if (JahadIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
+                {
+                    flag_027 = false;
+                    window2.close();
+                }
+            }
+        }
+        if (event.type == sf::Event::MouseButtonPressed)
+        {
+            if (event.mouseButton.button == sf::Mouse::Left)
+            {
+                if (ShohadaIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
+                {
+                    flag_028 = false;
+                    window2.close();
+                }
+            }
+        }
+        if (event.type == sf::Event::MouseButtonPressed)
+        {
+            if (event.mouseButton.button == sf::Mouse::Left)
+            {
+                if (MirdamadIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
+                {
+                    flag_029 = false;
+                    window2.close();
+                }
+            }
+        }
+        if (event.type == sf::Event::MouseButtonPressed)
+        {
+            if (event.mouseButton.button == sf::Mouse::Left)
+            {
+                if (ShiraziIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
+                {
+                    flag_030 = false;
+                    window2.close();
+                }
+            }
+        }
+        if (event.type == sf::Event::MouseButtonPressed)
+        {
+            if (event.mouseButton.button == sf::Mouse::Left)
+            {
+                if (MoniriyehIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
+                {
+                    flag_031 = false;
+                    window2.close();
+                }
+            }
+        }
+        if (event.type == sf::Event::MouseButtonPressed)
+        {
+            if (event.mouseButton.button == sf::Mouse::Left)
+            {
+                if (NabardIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
+                {
+                    flag_032 = false;
+                    window2.close();
+                }
+            }
+        }
+        if (event.type == sf::Event::MouseButtonPressed)
+        {
+            if (event.mouseButton.button == sf::Mouse::Left)
+            {
+                if (NiroIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
+                {
+                    flag_033 = false;
+                    window2.close();
+                }
+            }
+        }
+        if (event.type == sf::Event::MouseButtonPressed)
+        {
+            if (event.mouseButton.button == sf::Mouse::Left)
+            {
+                if (OstadIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
+                {
+                    flag_034 = false;
+                    window2.close();
+                }
+            }
+        }
+        if (event.type == sf::Event::MouseButtonPressed)
+        {
+            if (event.mouseButton.button == sf::Mouse::Left)
+            {
+                if (PanzdahIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
+                {
+                    flag_035 = false;
+                    window2.close();
+                }
+            }
+        }
+        if (event.type == sf::Event::MouseButtonPressed)
+        {
+            if (event.mouseButton.button == sf::Mouse::Left)
+            {
+                if (PayanehIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
+                {
+                    flag_036 = false;
+                    window2.close();
+                }
+            }
+        }
+        if (event.type == sf::Event::MouseButtonPressed)
+        {
+            if (event.mouseButton.button == sf::Mouse::Left)
+            {
+                if (piroziIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
+                {
+                    flag_037 = false;
+                    window2.close();
+                }
+            }
+        }
+        if (event.type == sf::Event::MouseButtonPressed)
+        {
+            if (event.mouseButton.button == sf::Mouse::Left)
+            {
+                if (RahahanIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
+                {
+                    flag_038 = false;
+                    window2.close();
+                }
+            }
+        }
+        if (event.type == sf::Event::MouseButtonPressed)
+        {
+            if (event.mouseButton.button == sf::Mouse::Left)
+            {
+                if (ShademanIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
+                {
+                    flag_039 = false;
+                    window2.close();
+                }
+            }
+        }
+        if (event.type == sf::Event::MouseButtonPressed)
+        {
+            if (event.mouseButton.button == sf::Mouse::Left)
+            {
+                if (GhodosiIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
+                {
+                    flag_040 = false;
+                    window2.close();
+                }
+            }
+        }
+        if (event.type == sf::Event::MouseButtonPressed)
+        {
+            if (event.mouseButton.button == sf::Mouse::Left)
+            {
+                if (BeheshtiIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
+                {
+                    flag_041 = false;
+                    window2.close();
+                }
+            }
+        }
+        if (event.type == sf::Event::MouseButtonPressed)
+        {
+            if (event.mouseButton.button == sf::Mouse::Left)
+            {
+                if (HaghaniIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
+                {
+                    flag_042 = false;
+                    window2.close();
+                }
+            }
+        }
+        if (event.type == sf::Event::MouseButtonPressed)
+        {
+            if (event.mouseButton.button == sf::Mouse::Left)
+            {
+                if (KolahdozIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
+                {
+                    flag_043 = false;
+                    window2.close();
+                }
+            }
+        }
+        if (event.type == sf::Event::MouseButtonPressed)
+        {
+            if (event.mouseButton.button == sf::Mouse::Left)
+            {
+                if (MofattehIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
+                {
+                    flag_044 = false;
+                    window2.close();
+                }
+            }
+        }
+        if (event.type == sf::Event::MouseButtonPressed)
+        {
+            if (event.mouseButton.button == sf::Mouse::Left)
+            {
+                if (RezaeiIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
+                {
+                    flag_045 = false;
+                    window2.close();
+                }
+            }
+        }
+        if (event.type == sf::Event::MouseButtonPressed)
+        {
+            if (event.mouseButton.button == sf::Mouse::Left)
+            {
+                if (SadrIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
+                {
+                    flag_046 = false;
+                    window2.close();
+                }
+            }
+        }
+        if (event.type == sf::Event::MouseButtonPressed)
+        {
+            if (event.mouseButton.button == sf::Mouse::Left)
+            {
+                if (ZeynoddinIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
+                {
+                    flag_047 = false;
+                    window2.close();
+                }
+            }
+        }
+        if (event.type == sf::Event::MouseButtonPressed)
+        {
+            if (event.mouseButton.button == sf::Mouse::Left)
+            {
+                if (ShariatiIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
+                {
+                    flag_048 = false;
+                    window2.close();
+                }
+            }
+        }
+        if (event.type == sf::Event::MouseButtonPressed)
+        {
+            if (event.mouseButton.button == sf::Mouse::Left)
+            {
+                if (ReyIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
+                {
+                    flag_049 = false;
+                    window2.close();
+                }
+            }
+        }
+        if (event.type == sf::Event::MouseButtonPressed)
+        {
+            if (event.mouseButton.button == sf::Mouse::Left)
+            {
+                if (ShoushIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
+                {
+                    flag_050 = false;
+                    window2.close();
+                }
+            }
+        }
+        if (event.type == sf::Event::MouseButtonPressed)
+        {
+            if (event.mouseButton.button == sf::Mouse::Left)
+            {
+                if (sohrevardiIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
+                {
+                    flag_051 = false;
+                    window2.close();
+                }
+            }
+        }
+        if (event.type == sf::Event::MouseButtonPressed)
+        {
+            if (event.mouseButton.button == sf::Mouse::Left)
+            {
+                if (TajrishIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
+                {
+                    flag_052 = false;
+                    window2.close();
+                }
+            }
+        }
+        if (event.type == sf::Event::MouseButtonPressed)
+        {
+            if (event.mouseButton.button == sf::Mouse::Left)
+            {
+                if (TaleghaniIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
+                {
+                    flag_053 = false;
+                    window2.close();
+                }
+            }
+        }
+        if (event.type == sf::Event::MouseButtonPressed)
+        {
+            if (event.mouseButton.button == sf::Mouse::Left)
+            {
+                if (TeaterIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
+                {
+                    flag_054 = false;
+                    window2.close();
+                }
+            }
+        }
+        if (event.type == sf::Event::MouseButtonPressed)
+        {
+            if (event.mouseButton.button == sf::Mouse::Left)
+            {
+                if (ParsIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
+                {
+                    flag_055 = false;
+                    window2.close();
+                }
+            }
+        }
+        if (event.type == sf::Event::MouseButtonPressed)
+        {
+            if (event.mouseButton.button == sf::Mouse::Left)
+            {
+                if (TowhidIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
+                {
+                    flag_056 = false;
+                    window2.close();
+                }
+            }
+        }
+        if (event.type == sf::Event::MouseButtonPressed)
+        {
+            if (event.mouseButton.button == sf::Mouse::Left)
+            {
+                if (YadegarIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
+                {
+                    flag_057 = false;
+                    window2.close();
+                }
+            }
+        }
+        if (event.type == sf::Event::MouseButtonPressed)
+        {
+            if (event.mouseButton.button == sf::Mouse::Left)
+            {
+                if (ZamzamIcon_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y))
+                {
+                    flag_058 = false;
+                    window2.close();
+                }
+            }
+        }
+
         window2.display();
     }
 }

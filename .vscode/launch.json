@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/ASUS/Desktop/where/src",
-      "program": "c:/Users/ASUS/Desktop/where/src/build/Debug/outDebug",
+      "cwd": "c:/Users/ASUS/Desktop/where",
+      "program": "c:/Users/ASUS/Desktop/where/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
