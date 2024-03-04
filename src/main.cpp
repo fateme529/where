@@ -4,6 +4,7 @@ int main()
 {
   App app;
   app.window2();
+  app.window3();
   
     return 0;
    

@@ -548,366 +548,6 @@ void App::window2()
     TowhidIcon_shape.setPosition(sf::Vector2f(38, 625));
     YadegarIcon_shape.setPosition(sf::Vector2f(38, 652));
     ZamzamIcon_shape.setPosition(sf::Vector2f(38, 679));
-    sf::Font font;
-    sf::Text p000;
-    sf::Text p001;
-    sf::Text p002;
-    sf::Text p003;
-    sf::Text p004;
-    sf::Text p005;
-    sf::Text p006;
-    sf::Text p007;
-    sf::Text p008;
-    sf::Text p009;
-    sf::Text p010;
-    sf::Text p011;
-    sf::Text p012;
-    sf::Text p013;
-    sf::Text p014;
-    sf::Text p015;
-    sf::Text p016;
-    sf::Text p017;
-    sf::Text p018;
-    sf::Text p019;
-    sf::Text p020;
-    sf::Text p021;
-    sf::Text p022;
-    sf::Text p023;
-    sf::Text p024;
-    sf::Text p025;
-    sf::Text p026;
-    sf::Text p027;
-    sf::Text p028;
-    sf::Text p029;
-    sf::Text p030;
-    sf::Text p031;
-    sf::Text p032;
-    sf::Text p033;
-    sf::Text p034;
-    sf::Text p035;
-    sf::Text p036;
-    sf::Text p037;
-    sf::Text p038;
-    sf::Text p039;
-    sf::Text p040;
-    sf::Text p041;
-    sf::Text p042;
-    sf::Text p043;
-    sf::Text p044;
-    sf::Text p045;
-    sf::Text p046;
-    sf::Text p047;
-    sf::Text p048;
-    sf::Text p049;
-    sf::Text p050;
-    sf::Text p051;
-    sf::Text p052;
-    sf::Text p053;
-    sf::Text p054;
-    sf::Text p055;
-    sf::Text p056;
-    sf::Text p057;
-    sf::Text p058;
-    if (!font.loadFromFile("arial.ttf"))
-    {
-        throw runtime_error("Error: Unable to load font.");
-    }
-    p000.setFont(font);
-    p001.setFont(font);
-    p002.setFont(font);
-    p003.setFont(font);
-    p004.setFont(font);
-    p005.setFont(font);
-    p006.setFont(font);
-    p007.setFont(font);
-    p008.setFont(font);
-    p009.setFont(font);
-    p010.setFont(font);
-    p011.setFont(font);
-    p012.setFont(font);
-    p013.setFont(font);
-    p014.setFont(font);
-    p015.setFont(font);
-    p016.setFont(font);
-    p017.setFont(font);
-    p018.setFont(font);
-    p019.setFont(font);
-    p020.setFont(font);
-    p021.setFont(font);
-    p022.setFont(font);
-    p023.setFont(font);
-    p024.setFont(font);
-    p025.setFont(font);
-    p026.setFont(font);
-    p027.setFont(font);
-    p028.setFont(font);
-    p029.setFont(font);
-    p030.setFont(font);
-    p031.setFont(font);
-    p032.setFont(font);
-    p033.setFont(font);
-    p034.setFont(font);
-    p035.setFont(font);
-    p036.setFont(font);
-    p037.setFont(font);
-    p038.setFont(font);
-    p039.setFont(font);
-    p040.setFont(font);
-    p041.setFont(font);
-    p042.setFont(font);
-    p043.setFont(font);
-    p044.setFont(font);
-    p045.setFont(font);
-    p046.setFont(font);
-    p047.setFont(font);
-    p048.setFont(font);
-    p050.setFont(font);
-    p051.setFont(font);
-    p052.setFont(font);
-    p053.setFont(font);
-    p054.setFont(font);
-    p055.setFont(font);
-    p056.setFont(font);
-    p057.setFont(font);
-    p058.setFont(font);
-    p000.setCharacterSize(16);
-    p001.setCharacterSize(16);
-    p002.setCharacterSize(16);
-    p003.setCharacterSize(16);
-    p004.setCharacterSize(16);
-    p005.setCharacterSize(16);
-    p006.setCharacterSize(16);
-    p007.setCharacterSize(16);
-    p008.setCharacterSize(16);
-    p009.setCharacterSize(16);
-    p010.setCharacterSize(16);
-    p011.setCharacterSize(16);
-    p012.setCharacterSize(16);
-    p013.setCharacterSize(16);
-    p014.setCharacterSize(16);
-    p015.setCharacterSize(16);
-    p016.setCharacterSize(16);
-    p017.setCharacterSize(16);
-    p018.setCharacterSize(16);
-    p019.setCharacterSize(16);
-    p020.setCharacterSize(16);
-    p021.setCharacterSize(16);
-    p022.setCharacterSize(16);
-    p023.setCharacterSize(16);
-    p024.setCharacterSize(16);
-    p025.setCharacterSize(16);
-    p026.setCharacterSize(16);
-    p027.setCharacterSize(16);
-    p028.setCharacterSize(16);
-    p029.setCharacterSize(16);
-    p030.setCharacterSize(16);
-    p031.setCharacterSize(16);
-    p032.setCharacterSize(16);
-    p033.setCharacterSize(16);
-    p034.setCharacterSize(16);
-    p035.setCharacterSize(16);
-    p036.setCharacterSize(16);
-    p037.setCharacterSize(16);
-    p038.setCharacterSize(16);
-    p039.setCharacterSize(16);
-    p040.setCharacterSize(16);
-    p041.setCharacterSize(16);
-    p042.setCharacterSize(16);
-    p043.setCharacterSize(16);
-    p044.setCharacterSize(16);
-    p045.setCharacterSize(16);
-    p046.setCharacterSize(16);
-    p047.setCharacterSize(16);
-    p048.setCharacterSize(16);
-    p049.setCharacterSize(16);
-    p050.setCharacterSize(16);
-    p051.setCharacterSize(16);
-    p052.setCharacterSize(16);
-    p053.setCharacterSize(16);
-    p054.setCharacterSize(16);
-    p056.setCharacterSize(16);
-    p057.setCharacterSize(16);
-    p058.setCharacterSize(16);
-
-    p000.setFillColor(sf::Color::Black);
-    p001.setFillColor(sf::Color::Black);
-    p002.setFillColor(sf::Color::Black);
-    p003.setFillColor(sf::Color::Black);
-    p004.setFillColor(sf::Color::Black);
-    p005.setFillColor(sf::Color::Black);
-    p006.setFillColor(sf::Color::Black);
-    p007.setFillColor(sf::Color::Black);
-    p008.setFillColor(sf::Color::Black);
-    p009.setFillColor(sf::Color::Black);
-    p010.setFillColor(sf::Color::Black);
-    p011.setFillColor(sf::Color::Black);
-    p012.setFillColor(sf::Color::Black);
-    p013.setFillColor(sf::Color::Black);
-    p014.setFillColor(sf::Color::Black);
-    p015.setFillColor(sf::Color::Black);
-    p016.setFillColor(sf::Color::Black);
-    p017.setFillColor(sf::Color::Black);
-    p018.setFillColor(sf::Color::Black);
-    p019.setFillColor(sf::Color::Black);
-    p020.setFillColor(sf::Color::Black);
-    p021.setFillColor(sf::Color::Black);
-    p022.setFillColor(sf::Color::Black);
-    p023.setFillColor(sf::Color::Black);
-    p024.setFillColor(sf::Color::Black);
-    p025.setFillColor(sf::Color::Black);
-    p026.setFillColor(sf::Color::Black);
-    p027.setFillColor(sf::Color::Black);
-    p028.setFillColor(sf::Color::Black);
-    p029.setFillColor(sf::Color::Black);
-    p030.setFillColor(sf::Color::Black);
-    p031.setFillColor(sf::Color::Black);
-    p032.setFillColor(sf::Color::Black);
-    p033.setFillColor(sf::Color::Black);
-    p034.setFillColor(sf::Color::Black);
-    p035.setFillColor(sf::Color::Black);
-    p036.setFillColor(sf::Color::Black);
-    p037.setFillColor(sf::Color::Black);
-    p038.setFillColor(sf::Color::Black);
-    p039.setFillColor(sf::Color::Black);
-    p040.setFillColor(sf::Color::Black);
-    p041.setFillColor(sf::Color::Black);
-    p042.setFillColor(sf::Color::Black);
-    p043.setFillColor(sf::Color::Black);
-    p044.setFillColor(sf::Color::Black);
-    p045.setFillColor(sf::Color::Black);
-    p046.setFillColor(sf::Color::Black);
-    p047.setFillColor(sf::Color::Black);
-    p048.setFillColor(sf::Color::Black);
-    p049.setFillColor(sf::Color::Black);
-    p050.setFillColor(sf::Color::Black);
-    p051.setFillColor(sf::Color::Black);
-    p052.setFillColor(sf::Color::Black);
-    p053.setFillColor(sf::Color::Black);
-    p054.setFillColor(sf::Color::Black);
-    p055.setFillColor(sf::Color::Black);
-    p056.setFillColor(sf::Color::Black);
-    p057.setFillColor(sf::Color::Black);
-    p058.setFillColor(sf::Color::Black);
-
-    p000.setPosition(66, 245);
-    p001.setPosition(66, 245);
-    p002.setPosition(66, 245);
-    p003.setPosition(66, 245);
-    p004.setPosition(66, 245);
-    p005.setPosition(66, 245);
-    p006.setPosition(66, 245);
-    p007.setPosition(66, 245);
-    p008.setPosition(66, 245);
-    p009.setPosition(66, 245);
-    p010.setPosition(66, 245);
-    p011.setPosition(66, 245);
-    p012.setPosition(66, 245);
-    p013.setPosition(66, 245);
-    p014.setPosition(66, 245);
-    p015.setPosition(66, 245);
-    p016.setPosition(66, 245);
-    p017.setPosition(66, 245);
-    p018.setPosition(66, 245);
-    p019.setPosition(66, 245);
-    p020.setPosition(66, 245);
-    p021.setPosition(66, 245);
-    p022.setPosition(66, 245);
-    p023.setPosition(66, 245);
-    p024.setPosition(66, 245);
-    p025.setPosition(66, 245);
-    p026.setPosition(66, 245);
-    p027.setPosition(66, 245);
-    p028.setPosition(66, 245);
-    p029.setPosition(66, 245);
-    p030.setPosition(66, 245);
-    p031.setPosition(66, 245);
-    p032.setPosition(66, 245);
-    p033.setPosition(66, 245);
-    p034.setPosition(66, 245);
-    p035.setPosition(66, 245);
-    p036.setPosition(66, 245);
-    p037.setPosition(66, 245);
-    p038.setPosition(66, 245);
-    p039.setPosition(66, 245);
-    p040.setPosition(66, 245);
-    p041.setPosition(66, 245);
-    p042.setPosition(66, 245);
-    p043.setPosition(66, 245);
-    p044.setPosition(66, 245);
-    p045.setPosition(66, 245);
-    p046.setPosition(66, 245);
-    p047.setPosition(66, 245);
-    p048.setPosition(66, 245);
-    p049.setPosition(66, 245);
-    p050.setPosition(66, 245);
-    p051.setPosition(66, 245);
-    p052.setPosition(66, 245);
-    p053.setPosition(66, 245);
-    p054.setPosition(66, 245);
-    p055.setPosition(66, 245);
-    p056.setPosition(66, 245);
-    p057.setPosition(66, 245);
-    p058.setPosition(66, 245);
-
-    p000.setString("Allameh Jafari");
-    p001.setString("Aghdasiyeh");
-    p002.setString("Azadeghan");
-    p003.setString("Bimeh");
-    p004.setString("Boostan-e laleh");
-    p005.setString("Chaharbagh");
-    p006.setString("Darvazeh Dowlat");
-    p007.setString("Darvazeh Shemiran");
-    p008.setString("Ebn-e Sina");
-    p009.setString("Emam Hossein");
-    p010.setString("EramSabz");
-    p011.setString("Ferdowsi");
-    p012.setString("Gha'em");
-    p013.setString("Gheytariyeh");
-    p014.setString("Gholhak");
-    p015.setString("Haram-e Hazrat Abdolazim");
-    p016.setString("Haftom-e Tir");
-    p017.setString("Javadiyeh");
-    p018.setString("Kashani");
-    p019.setString("Kahrizak");
-    p020.setString("Khajeh Abdollah-e Ansari");
-    p021.setString("Jonoub Terminal");
-    p022.setString("Kouhsar");
-    p023.setString("Mahdiyeh");
-    p024.setString("Meydan Azadi");
-    p025.setString("Meydan-e Enghlab Eslami");
-    p026.setString("Meydan-e Hazrat-e ValiAsr");
-    p027.setString("Meydan-e Jahad");
-    p028.setString("Meydan-e Shohada");
-    p029.setString("Mirdamad");
-    p030.setString("Mirza-ye Shirazi");
-    p031.setString("Moniriyeh");
-    p032.setString("Nabard");
-    p033.setString("Niro Havaei");
-    p034.setString("Ostad Mo'in");
-    p035.setString("Panzdah-e Khordad");
-    p036.setString("Payaneh Javanmard");
-    p037.setString("Pirozi");
-    p038.setString("Rahahan");
-    p039.setString("Shademan");
-    p040.setString("Shahid Ghodousi");
-    p041.setString("Shahid Beheshti");
-    p042.setString("Shahid Haghani");
-    p043.setString("Shahid Kolahdoz");
-    p044.setString("Shahid Mofatteh");
-    p045.setString("Shahid Rezaei");
-    p046.setString("Shahid Sadr");
-    p047.setString("Shahid Zeynoddin");
-    p048.setString("Shahrak-e Shari'ati");
-    p049.setString("Shahr-e Rey");
-    p050.setString("Shoush");
-    p051.setString("sohrevardi");
-    p052.setString("Tajrish");
-    p053.setString("Taleghani");
-    p054.setString("Teatr-e Shahr");
-    p055.setString("Tehran Pars");
-    p056.setString("Towhid");
-    p057.setString("Yadegar-e Emam");
-    p058.setString("Zamzam");
 
     while (window2.isOpen())
     {
@@ -2306,5 +1946,793 @@ void App::window2()
         }
 
         window2.display();
+    }
+}
+
+// void App::window3()
+// {
+//     sf::RenderWindow window3(sf::VideoMode(x_SIZE, y_SIZE), "Window 3");
+//     sf ::Event event;
+//     sf::Vector2f mouse = window3.mapPixelToCoords(sf::Mouse::getPosition(window3));
+//     while (window3.pollEvent(event))
+//     {
+//         if (event.type == sf::Event::EventType::Closed)
+//         {
+//             window3.close();
+//         }
+//     }
+//     // sf::Texture texture3;
+
+//     sf::Texture texture3;
+//     texture3.loadFromFile("picture/04.png");
+//     sf::RectangleShape texture3_shape(sf::Vector2f(x_SIZE, y_SIZE));
+//     // texture3.loadFromFile("picture/user.png");
+
+//     // texture3_shape.setTexture(&texture3);
+
+//     texture3_shape.setTexture(&texture3);
+//     while (window3.isOpen())
+//     {
+//         sf::Event event;
+//         while (window3.pollEvent(event))
+//         {
+//             if (event.type == sf::Event::Closed)
+//                 window3.close();
+//         }
+
+//         if (!flag_000)
+//         {
+//             window3.clear();
+//             window3.draw(texture3_shape);
+//         }
+//     }
+
+//     window3.display();
+// }
+
+void App::window3()
+{
+    sf::RenderWindow window3(sf::VideoMode(x_SIZE, y_SIZE), "Window 3");
+
+    sf ::Event event;
+    sf::Vector2f mouse = window3.mapPixelToCoords(sf::Mouse::getPosition(window3));
+    while (window3.pollEvent(event))
+    {
+        if (event.type == sf::Event::EventType::Closed)
+        {
+            window3.close();
+        }
+    }
+    // sf::RectangleShape page2(sf::Vector2f(800, 600));
+    //  page2.setFillColor(sf::Color::Green);
+    sf::Texture user;
+    user.loadFromFile("picture/6.png");
+    sf::RectangleShape user_shape(sf::Vector2f(x_SIZE, y_SIZE));
+    user_shape.setTexture(&user);
+
+    sf::Font font;
+    sf::Text p000;
+    sf::Text p001;
+    sf::Text p002;
+    sf::Text p003;
+    sf::Text p004;
+    sf::Text p005;
+    sf::Text p006;
+    sf::Text p007;
+    sf::Text p008;
+    sf::Text p009;
+    sf::Text p010;
+    sf::Text p011;
+    sf::Text p012;
+    sf::Text p013;
+    sf::Text p014;
+    sf::Text p015;
+    sf::Text p016;
+    sf::Text p017;
+    sf::Text p018;
+    sf::Text p019;
+    sf::Text p020;
+    sf::Text p021;
+    sf::Text p022;
+    sf::Text p023;
+    sf::Text p024;
+    sf::Text p025;
+    sf::Text p026;
+    sf::Text p027;
+    sf::Text p028;
+    sf::Text p029;
+    sf::Text p030;
+    sf::Text p031;
+    sf::Text p032;
+    sf::Text p033;
+    sf::Text p034;
+    sf::Text p035;
+    sf::Text p036;
+    sf::Text p037;
+    sf::Text p038;
+    sf::Text p039;
+    sf::Text p040;
+    sf::Text p041;
+    sf::Text p042;
+    sf::Text p043;
+    sf::Text p044;
+    sf::Text p045;
+    sf::Text p046;
+    sf::Text p047;
+    sf::Text p048;
+    sf::Text p049;
+    sf::Text p050;
+    sf::Text p051;
+    sf::Text p052;
+    sf::Text p053;
+    sf::Text p054;
+    sf::Text p055;
+    sf::Text p056;
+    sf::Text p057;
+    sf::Text p058;
+    if (!font.loadFromFile("arial.ttf"))
+    {
+        throw runtime_error("Error: Unable to load font.");
+    }
+    p000.setFont(font);
+    p001.setFont(font);
+    p002.setFont(font);
+    p003.setFont(font);
+    p004.setFont(font);
+    p005.setFont(font);
+    p006.setFont(font);
+    p007.setFont(font);
+    p008.setFont(font);
+    p009.setFont(font);
+    p010.setFont(font);
+    p011.setFont(font);
+    p012.setFont(font);
+    p013.setFont(font);
+    p014.setFont(font);
+    p015.setFont(font);
+    p016.setFont(font);
+    p017.setFont(font);
+    p018.setFont(font);
+    p019.setFont(font);
+    p020.setFont(font);
+    p021.setFont(font);
+    p022.setFont(font);
+    p023.setFont(font);
+    p024.setFont(font);
+    p025.setFont(font);
+    p026.setFont(font);
+    p027.setFont(font);
+    p028.setFont(font);
+    p029.setFont(font);
+    p030.setFont(font);
+    p031.setFont(font);
+    p032.setFont(font);
+    p033.setFont(font);
+    p034.setFont(font);
+    p035.setFont(font);
+    p036.setFont(font);
+    p037.setFont(font);
+    p038.setFont(font);
+    p039.setFont(font);
+    p040.setFont(font);
+    p041.setFont(font);
+    p042.setFont(font);
+    p043.setFont(font);
+    p044.setFont(font);
+    p045.setFont(font);
+    p046.setFont(font);
+    p047.setFont(font);
+    p048.setFont(font);
+    p050.setFont(font);
+    p051.setFont(font);
+    p052.setFont(font);
+    p053.setFont(font);
+    p054.setFont(font);
+    p055.setFont(font);
+    p056.setFont(font);
+    p057.setFont(font);
+    p058.setFont(font);
+    p000.setCharacterSize(16);
+    p001.setCharacterSize(16);
+    p002.setCharacterSize(16);
+    p003.setCharacterSize(16);
+    p004.setCharacterSize(16);
+    p005.setCharacterSize(16);
+    p006.setCharacterSize(16);
+    p007.setCharacterSize(16);
+    p008.setCharacterSize(16);
+    p009.setCharacterSize(16);
+    p010.setCharacterSize(16);
+    p011.setCharacterSize(16);
+    p012.setCharacterSize(16);
+    p013.setCharacterSize(16);
+    p014.setCharacterSize(16);
+    p015.setCharacterSize(16);
+    p016.setCharacterSize(16);
+    p017.setCharacterSize(16);
+    p018.setCharacterSize(16);
+    p019.setCharacterSize(16);
+    p020.setCharacterSize(16);
+    p021.setCharacterSize(16);
+    p022.setCharacterSize(16);
+    p023.setCharacterSize(16);
+    p024.setCharacterSize(16);
+    p025.setCharacterSize(16);
+    p026.setCharacterSize(16);
+    p027.setCharacterSize(16);
+    p028.setCharacterSize(16);
+    p029.setCharacterSize(16);
+    p030.setCharacterSize(16);
+    p031.setCharacterSize(16);
+    p032.setCharacterSize(16);
+    p033.setCharacterSize(16);
+    p034.setCharacterSize(16);
+    p035.setCharacterSize(16);
+    p036.setCharacterSize(16);
+    p037.setCharacterSize(16);
+    p038.setCharacterSize(16);
+    p039.setCharacterSize(16);
+    p040.setCharacterSize(16);
+    p041.setCharacterSize(16);
+    p042.setCharacterSize(16);
+    p043.setCharacterSize(16);
+    p044.setCharacterSize(16);
+    p045.setCharacterSize(16);
+    p046.setCharacterSize(16);
+    p047.setCharacterSize(16);
+    p048.setCharacterSize(16);
+    p049.setCharacterSize(16);
+    p050.setCharacterSize(16);
+    p051.setCharacterSize(16);
+    p052.setCharacterSize(16);
+    p053.setCharacterSize(16);
+    p054.setCharacterSize(16);
+    p056.setCharacterSize(16);
+    p057.setCharacterSize(16);
+    p058.setCharacterSize(16);
+
+    p000.setFillColor(sf::Color::Black);
+    p001.setFillColor(sf::Color::Black);
+    p002.setFillColor(sf::Color::Black);
+    p003.setFillColor(sf::Color::Black);
+    p004.setFillColor(sf::Color::Black);
+    p005.setFillColor(sf::Color::Black);
+    p006.setFillColor(sf::Color::Black);
+    p007.setFillColor(sf::Color::Black);
+    p008.setFillColor(sf::Color::Black);
+    p009.setFillColor(sf::Color::Black);
+    p010.setFillColor(sf::Color::Black);
+    p011.setFillColor(sf::Color::Black);
+    p012.setFillColor(sf::Color::Black);
+    p013.setFillColor(sf::Color::Black);
+    p014.setFillColor(sf::Color::Black);
+    p015.setFillColor(sf::Color::Black);
+    p016.setFillColor(sf::Color::Black);
+    p017.setFillColor(sf::Color::Black);
+    p018.setFillColor(sf::Color::Black);
+    p019.setFillColor(sf::Color::Black);
+    p020.setFillColor(sf::Color::Black);
+    p021.setFillColor(sf::Color::Black);
+    p022.setFillColor(sf::Color::Black);
+    p023.setFillColor(sf::Color::Black);
+    p024.setFillColor(sf::Color::Black);
+    p025.setFillColor(sf::Color::Black);
+    p026.setFillColor(sf::Color::Black);
+    p027.setFillColor(sf::Color::Black);
+    p028.setFillColor(sf::Color::Black);
+    p029.setFillColor(sf::Color::Black);
+    p030.setFillColor(sf::Color::Black);
+    p031.setFillColor(sf::Color::Black);
+    p032.setFillColor(sf::Color::Black);
+    p033.setFillColor(sf::Color::Black);
+    p034.setFillColor(sf::Color::Black);
+    p035.setFillColor(sf::Color::Black);
+    p036.setFillColor(sf::Color::Black);
+    p037.setFillColor(sf::Color::Black);
+    p038.setFillColor(sf::Color::Black);
+    p039.setFillColor(sf::Color::Black);
+    p040.setFillColor(sf::Color::Black);
+    p041.setFillColor(sf::Color::Black);
+    p042.setFillColor(sf::Color::Black);
+    p043.setFillColor(sf::Color::Black);
+    p044.setFillColor(sf::Color::Black);
+    p045.setFillColor(sf::Color::Black);
+    p046.setFillColor(sf::Color::Black);
+    p047.setFillColor(sf::Color::Black);
+    p048.setFillColor(sf::Color::Black);
+    p049.setFillColor(sf::Color::Black);
+    p050.setFillColor(sf::Color::Black);
+    p051.setFillColor(sf::Color::Black);
+    p052.setFillColor(sf::Color::Black);
+    p053.setFillColor(sf::Color::Black);
+    p054.setFillColor(sf::Color::Black);
+    p055.setFillColor(sf::Color::Black);
+    p056.setFillColor(sf::Color::Black);
+    p057.setFillColor(sf::Color::Black);
+    p058.setFillColor(sf::Color::Black);
+
+    p000.setPosition(66, 245);
+    p001.setPosition(66, 245);
+    p002.setPosition(66, 245);
+    p003.setPosition(66, 245);
+    p004.setPosition(66, 245);
+    p005.setPosition(66, 245);
+    p006.setPosition(66, 245);
+    p007.setPosition(66, 245);
+    p008.setPosition(66, 245);
+    p009.setPosition(66, 245);
+    p010.setPosition(66, 245);
+    p011.setPosition(66, 245);
+    p012.setPosition(66, 245);
+    p013.setPosition(66, 245);
+    p014.setPosition(66, 245);
+    p015.setPosition(66, 245);
+    p016.setPosition(66, 245);
+    p017.setPosition(66, 245);
+    p018.setPosition(66, 245);
+    p019.setPosition(66, 245);
+    p020.setPosition(66, 245);
+    p021.setPosition(66, 245);
+    p022.setPosition(66, 245);
+    p023.setPosition(66, 245);
+    p024.setPosition(66, 245);
+    p025.setPosition(66, 245);
+    p026.setPosition(66, 245);
+    p027.setPosition(66, 245);
+    p028.setPosition(66, 245);
+    p029.setPosition(66, 245);
+    p030.setPosition(66, 245);
+    p031.setPosition(66, 245);
+    p032.setPosition(66, 245);
+    p033.setPosition(66, 245);
+    p034.setPosition(66, 245);
+    p035.setPosition(66, 245);
+    p036.setPosition(66, 245);
+    p037.setPosition(66, 245);
+    p038.setPosition(66, 245);
+    p039.setPosition(66, 245);
+    p040.setPosition(66, 245);
+    p041.setPosition(66, 245);
+    p042.setPosition(66, 245);
+    p043.setPosition(66, 245);
+    p044.setPosition(66, 245);
+    p045.setPosition(66, 245);
+    p046.setPosition(66, 245);
+    p047.setPosition(66, 245);
+    p048.setPosition(66, 245);
+    p049.setPosition(66, 245);
+    p050.setPosition(66, 245);
+    p051.setPosition(66, 245);
+    p052.setPosition(66, 245);
+    p053.setPosition(66, 245);
+    p054.setPosition(66, 245);
+    p055.setPosition(66, 245);
+    p056.setPosition(66, 245);
+    p057.setPosition(66, 245);
+    p058.setPosition(66, 245);
+
+    p000.setString("Allameh Jafari");
+    p001.setString("Aghdasiyeh");
+    p002.setString("Azadeghan");
+    p003.setString("Bimeh");
+    p004.setString("Boostan-e laleh");
+    p005.setString("Chaharbagh");
+    p006.setString("Darvazeh Dowlat");
+    p007.setString("Darvazeh Shemiran");
+    p008.setString("Ebn-e Sina");
+    p009.setString("Emam Hossein");
+    p010.setString("EramSabz");
+    p011.setString("Ferdowsi");
+    p012.setString("Gha'em");
+    p013.setString("Gheytariyeh");
+    p014.setString("Gholhak");
+    p015.setString("Haram-e Hazrat Abdolazim");
+    p016.setString("Haftom-e Tir");
+    p017.setString("Javadiyeh");
+    p018.setString("Kashani");
+    p019.setString("Kahrizak");
+    p020.setString("Khajeh Abdollah-e Ansari");
+    p021.setString("Jonoub Terminal");
+    p022.setString("Kouhsar");
+    p023.setString("Mahdiyeh");
+    p024.setString("Meydan Azadi");
+    p025.setString("Meydan-e Enghlab Eslami");
+    p026.setString("Meydan-e Hazrat-e ValiAsr");
+    p027.setString("Meydan-e Jahad");
+    p028.setString("Meydan-e Shohada");
+    p029.setString("Mirdamad");
+    p030.setString("Mirza-ye Shirazi");
+    p031.setString("Moniriyeh");
+    p032.setString("Nabard");
+    p033.setString("Niro Havaei");
+    p034.setString("Ostad Mo'in");
+    p035.setString("Panzdah-e Khordad");
+    p036.setString("Payaneh Javanmard");
+    p037.setString("Pirozi");
+    p038.setString("Rahahan");
+    p039.setString("Shademan");
+    p040.setString("Shahid Ghodousi");
+    p041.setString("Shahid Beheshti");
+    p042.setString("Shahid Haghani");
+    p043.setString("Shahid Kolahdoz");
+    p044.setString("Shahid Mofatteh");
+    p045.setString("Shahid Rezaei");
+    p046.setString("Shahid Sadr");
+    p047.setString("Shahid Zeynoddin");
+    p048.setString("Shahrak-e Shari'ati");
+    p049.setString("Shahr-e Rey");
+    p050.setString("Shoush");
+    p051.setString("sohrevardi");
+    p052.setString("Tajrish");
+    p053.setString("Taleghani");
+    p054.setString("Teatr-e Shahr");
+    p055.setString("Tehran Pars");
+    p056.setString("Towhid");
+    p057.setString("Yadegar-e Emam");
+    p058.setString("Zamzam");
+
+    while (window3.isOpen())
+    {
+        sf::Event event;
+        while (window3.pollEvent(event))
+        {
+            if (event.type == sf::Event::Closed)
+                window3.close();
+        }
+        if (!flag_000)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p000);
+        }
+        else if (!flag_001)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p001);
+        }
+        else if (!flag_002)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p002);
+        }
+        else if (!flag_003)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p003);
+        }
+        else if (!flag_004)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p004);
+        }
+        else if (!flag_005)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p005);
+        }
+        else if (!flag_006)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p006);
+        }
+        else if (!flag_007)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p007);
+        }
+        else if (!flag_008)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p008);
+        }
+        else if (!flag_009)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p009);
+        }
+        else if (!flag_010)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p010);
+        }
+        else if (!flag_011)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p011);
+        }
+        else if (!flag_012)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p012);
+        }
+        else if (!flag_013)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p013);
+        }
+        else if (!flag_014)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p014);
+        }
+        else if (!flag_015)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p015);
+        }
+        else if (!flag_016)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p016);
+        }
+        else if (!flag_017)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p017);
+        }
+        else if (!flag_018)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p018);
+        }
+        else if (!flag_019)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p019);
+        }
+        else if (!flag_020)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p020);
+        }
+        else if (!flag_021)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p021);
+        }
+        else if (!flag_022)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p022);
+        }
+        else if (!flag_023)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p023);
+        }
+        else if (!flag_024)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p024);
+        }
+        else if (!flag_025)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p025);
+        }
+        else if (!flag_026)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p026);
+        }
+        else if (!flag_027)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p027);
+        }
+        else if (!flag_028)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p028);
+        }
+        else if (!flag_029)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p029);
+        }
+        else if (!flag_030)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p030);
+        }
+        else if (!flag_031)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p031);
+        }
+        else if (!flag_032)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p032);
+        }
+        else if (!flag_033)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p033);
+        }
+        else if (!flag_034)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p034);
+        }
+        else if (!flag_035)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p035);
+        }
+        else if (!flag_036)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p036);
+        }
+        else if (!flag_037)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p037);
+        }
+        else if (!flag_038)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p038);
+        }
+        else if (!flag_039)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p039);
+        }
+        else if (!flag_040)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p040);
+        }
+        else if (!flag_041)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p041);
+        }
+        else if (!flag_042)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p042);
+        }
+        else if (!flag_043)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p043);
+        }
+        else if (!flag_044)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p044);
+        }
+        else if (!flag_045)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p045);
+        }
+        else if (!flag_046)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p046);
+        }
+        else if (!flag_047)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p047);
+        }
+        else if (!flag_048)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p048);
+        }
+        else if (!flag_049)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p049);
+        }
+        else if (!flag_050)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p050);
+        }
+        else if (!flag_051)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p051);
+        }
+        else if (!flag_052)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p052);
+        }
+        else if (!flag_053)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p053);
+        }
+        else if (!flag_054)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p054);
+        }
+        else if (!flag_055)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p055);
+        }
+        else if (!flag_056)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p056);
+        }
+        else if (!flag_057)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p057);
+        }
+        else if (!flag_058)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p058);
+        }
+        window3.display();
     }
 }
