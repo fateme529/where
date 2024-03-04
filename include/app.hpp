@@ -86,4 +86,5 @@ private:
 
 public:
     App();
+    void window2();
 };
