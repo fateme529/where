@@ -1820,6 +1820,7 @@ void App::window3()
     sf::Texture Arrow2_icon;
     user.loadFromFile("picture/6.png");
     Arrow2_icon.loadFromFile("picture/Arrow.png");
+    // if(file.is_open())
 
     sf::RectangleShape user_shape(sf::Vector2f(x_SIZE, y_SIZE));
     sf::RectangleShape Arrow2Icon_shape(sf::Vector2f(17, 16));
@@ -2549,784 +2550,442 @@ void App::window3()
 
     while (window3.isOpen())
     {
+        std::ofstream file("input.txt");
+
         sf::Event event;
         while (window3.pollEvent(event))
         {
             if (event.type == sf::Event::Closed)
                 window3.close();
         }
-        // if (destination)
-        // {
-        //     if (!flag_000)
-        //     {
-        //         window3.clear();
-        //         window3.draw(user_shape);
-        //         window3.draw(p000);
-        //     }
-        //     else if (!flag_001)
-        //     {
-        //         window3.clear();
-        //         window3.draw(user_shape);
-        //         window3.draw(p001);
-        //     }
-        //     else if (!flag_002)
-        //     {
-        //         window3.clear();
-        //         window3.draw(user_shape);
-        //         window3.draw(p002);
-        //     }
-        //     else if (!flag_003)
-        //     {
-        //         window3.clear();
-        //         window3.draw(user_shape);
-        //         window3.draw(p003);
-        //     }
-        //     else if (!flag_004)
-        //     {
-        //         window3.clear();
-        //         window3.draw(user_shape);
-        //         window3.draw(p004);
-        //     }
-        //     else if (!flag_005)
-        //     {
-        //         window3.clear();
-        //         window3.draw(user_shape);
-        //         window3.draw(p005);
-        //     }
-        //     else if (!flag_006)
-        //     {
-        //         window3.clear();
-        //         window3.draw(user_shape);
-        //         window3.draw(p006);
-        //     }
-        //     else if (!flag_007)
-        //     {
-        //         window3.clear();
-        //         window3.draw(user_shape);
-        //         window3.draw(p007);
-        //     }
-        //     else if (!flag_008)
-        //     {
-        //         window3.clear();
-        //         window3.draw(user_shape);
-        //         window3.draw(p008);
-        //     }
-        //     else if (!flag_009)
-        //     {
-        //         window3.clear();
-        //         window3.draw(user_shape);
-        //         window3.draw(p009);
-        //     }
-        //     else if (!flag_010)
-        //     {
-        //         window3.clear();
-        //         window3.draw(user_shape);
-        //         window3.draw(p010);
-        //     }
-        //     else if (!flag_011)
-        //     {
-        //         window3.clear();
-        //         window3.draw(user_shape);
-        //         window3.draw(p011);
-        //     }
-        //     else if (!flag_012)
-        //     {
-        //         window3.clear();
-        //         window3.draw(user_shape);
-        //         window3.draw(p012);
-        //     }
-        //     else if (!flag_013)
-        //     {
-        //         window3.clear();
-        //         window3.draw(user_shape);
-        //         window3.draw(p013);
-        //     }
-        //     else if (!flag_014)
-        //     {
-        //         window3.clear();
-        //         window3.draw(user_shape);
-        //         window3.draw(p014);
-        //     }
-        //     else if (!flag_015)
-        //     {
-        //         window3.clear();
-        //         window3.draw(user_shape);
-        //         window3.draw(p015);
-        //     }
-        //     else if (!flag_016)
-        //     {
-        //         window3.clear();
-        //         window3.draw(user_shape);
-        //         window3.draw(p016);
-        //     }
-        //     else if (!flag_017)
-        //     {
-        //         window3.clear();
-        //         window3.draw(user_shape);
-        //         window3.draw(p017);
-        //     }
-        //     else if (!flag_018)
-        //     {
-        //         window3.clear();
-        //         window3.draw(user_shape);
-        //         window3.draw(p018);
-        //     }
-        //     else if (!flag_019)
-        //     {
-        //         window3.clear();
-        //         window3.draw(user_shape);
-        //         window3.draw(p019);
-        //     }
-        //     else if (!flag_020)
-        //     {
-        //         window3.clear();
-        //         window3.draw(user_shape);
-        //         window3.draw(p020);
-        //     }
-        //     else if (!flag_021)
-        //     {
-        //         window3.clear();
-        //         window3.draw(user_shape);
-        //         window3.draw(p021);
-        //     }
-        //     else if (!flag_022)
-        //     {
-        //         window3.clear();
-        //         window3.draw(user_shape);
-        //         window3.draw(p022);
-        //     }
-        //     else if (!flag_023)
-        //     {
-        //         window3.clear();
-        //         window3.draw(user_shape);
-        //         window3.draw(p023);
-        //     }
-        //     else if (!flag_024)
-        //     {
-        //         window3.clear();
-        //         window3.draw(user_shape);
-        //         window3.draw(p024);
-        //     }
-        //     else if (!flag_025)
-        //     {
-        //         window3.clear();
-        //         window3.draw(user_shape);
-        //         window3.draw(p025);
-        //     }
-        //     else if (!flag_026)
-        //     {
-        //         window3.clear();
-        //         window3.draw(user_shape);
-        //         window3.draw(p026);
-        //     }
-        //     else if (!flag_027)
-        //     {
-        //         window3.clear();
-        //         window3.draw(user_shape);
-        //         window3.draw(p027);
-        //     }
-        //     else if (!flag_028)
-        //     {
-        //         window3.clear();
-        //         window3.draw(user_shape);
-        //         window3.draw(p028);
-        //     }
-        //     else if (!flag_029)
-        //     {
-        //         window3.clear();
-        //         window3.draw(user_shape);
-        //         window3.draw(p029);
-        //     }
-        //     else if (!flag_030)
-        //     {
-        //         window3.clear();
-        //         window3.draw(user_shape);
-        //         window3.draw(p030);
-        //     }
-        //     else if (!flag_031)
-        //     {
-        //         window3.clear();
-        //         window3.draw(user_shape);
-        //         window3.draw(p031);
-        //     }
-        //     else if (!flag_032)
-        //     {
-        //         window3.clear();
-        //         window3.draw(user_shape);
-        //         window3.draw(p032);
-        //     }
-        //     else if (!flag_033)
-        //     {
-        //         window3.clear();
-        //         window3.draw(user_shape);
-        //         window3.draw(p033);
-        //     }
-        //     else if (!flag_034)
-        //     {
-        //         window3.clear();
-        //         window3.draw(user_shape);
-        //         window3.draw(p034);
-        //     }
-        //     else if (!flag_035)
-        //     {
-        //         window3.clear();
-        //         window3.draw(user_shape);
-        //         window3.draw(p035);
-        //     }
-        //     else if (!flag_036)
-        //     {
-        //         window3.clear();
-        //         window3.draw(user_shape);
-        //         window3.draw(p036);
-        //     }
-        //     else if (!flag_037)
-        //     {
-        //         window3.clear();
-        //         window3.draw(user_shape);
-        //         window3.draw(p037);
-        //     }
-        //     else if (!flag_038)
-        //     {
-        //         window3.clear();
-        //         window3.draw(user_shape);
-        //         window3.draw(p038);
-        //     }
-        //     else if (!flag_039)
-        //     {
-        //         window3.clear();
-        //         window3.draw(user_shape);
-        //         window3.draw(p039);
-        //     }
-        //     else if (!flag_040)
-        //     {
-        //         window3.clear();
-        //         window3.draw(user_shape);
-        //         window3.draw(p040);
-        //     }
-        //     else if (!flag_041)
-        //     {
-        //         window3.clear();
-        //         window3.draw(user_shape);
-        //         window3.draw(p041);
-        //     }
-        //     else if (!flag_042)
-        //     {
-        //         window3.clear();
-        //         window3.draw(user_shape);
-        //         window3.draw(p042);
-        //     }
-        //     else if (!flag_043)
-        //     {
-        //         window3.clear();
-        //         window3.draw(user_shape);
-        //         window3.draw(p043);
-        //     }
-        //     else if (!flag_044)
-        //     {
-        //         window3.clear();
-        //         window3.draw(user_shape);
-        //         window3.draw(p044);
-        //     }
-        //     else if (!flag_045)
-        //     {
-        //         window3.clear();
-        //         window3.draw(user_shape);
-        //         window3.draw(p045);
-        //     }
-        //     else if (!flag_046)
-        //     {
-        //         window3.clear();
-        //         window3.draw(user_shape);
-        //         window3.draw(p046);
-        //     }
-        //     else if (!flag_047)
-        //     {
-        //         window3.clear();
-        //         window3.draw(user_shape);
-        //         window3.draw(p047);
-        //     }
-        //     else if (!flag_048)
-        //     {
-        //         window3.clear();
-        //         window3.draw(user_shape);
-        //         window3.draw(p048);
-        //     }
-        //     else if (!flag_049)
-        //     {
-        //         window3.clear();
-        //         window3.draw(user_shape);
-        //         window3.draw(p049);
-        //     }
-        //     else if (!flag_050)
-        //     {
-        //         window3.clear();
-        //         window3.draw(user_shape);
-        //         window3.draw(p050);
-        //     }
-        //     else if (!flag_051)
-        //     {
-        //         window3.clear();
-        //         window3.draw(user_shape);
-        //         window3.draw(p051);
-        //     }
-        //     else if (!flag_052)
-        //     {
-        //         window3.clear();
-        //         window3.draw(user_shape);
-        //         window3.draw(p052);
-        //     }
-        //     else if (!flag_053)
-        //     {
-        //         window3.clear();
-        //         window3.draw(user_shape);
-        //         window3.draw(p053);
-        //     }
-        //     else if (!flag_054)
-        //     {
-        //         window3.clear();
-        //         window3.draw(user_shape);
-        //         window3.draw(p054);
-        //     }
-        //     else if (!flag_055)
-        //     {
-        //         window3.clear();
-        //         window3.draw(user_shape);
-        //         window3.draw(p055);
-        //     }
-        //     else if (!flag_056)
-        //     {
-        //         window3.clear();
-        //         window3.draw(user_shape);
-        //         window3.draw(p056);
-        //     }
-        //     else if (!flag_057)
-        //     {
-        //         window3.clear();
-        //         window3.draw(user_shape);
-        //         window3.draw(p057);
-        //     }
-        //     else if (!flag_058)
-        //     {
-        //         window3.clear();
-        //         window3.draw(user_shape);
-        //         window3.draw(p058);
-        //     }
-        // }
-    
-        
-            if (!flag_000)
-            {
-                window3.clear();
-                window3.draw(user_shape);
-                window3.draw(p000);
-                window3.draw(Arrow2Icon_shape);
-            }
-            else if (!flag_001)
-            {
-                window3.clear();
-                window3.draw(user_shape);
-                window3.draw(p001);
-                window3.draw(Arrow2Icon_shape);
-            }
-            else if (!flag_002)
-            {
-                window3.clear();
-                window3.draw(user_shape);
-                window3.draw(p002);
-                window3.draw(Arrow2Icon_shape);
-            }
-            else if (!flag_003)
-            {
-                window3.clear();
-                window3.draw(user_shape);
-                window3.draw(p003);
-                window3.draw(Arrow2Icon_shape);
-            }
-            else if (!flag_004)
-            {
-                window3.clear();
-                window3.draw(user_shape);
-                window3.draw(p004);
-                window3.draw(Arrow2Icon_shape);
-            }
-            else if (!flag_005)
-            {
-                window3.clear();
-                window3.draw(user_shape);
-                window3.draw(p005);
-                window3.draw(Arrow2Icon_shape);
-            }
-            else if (!flag_006)
-            {
-                window3.clear();
-                window3.draw(user_shape);
-                window3.draw(p006);
-                window3.draw(Arrow2Icon_shape);
-            }
-            else if (!flag_007)
-            {
-                window3.clear();
-                window3.draw(user_shape);
-                window3.draw(p007);
-                window3.draw(Arrow2Icon_shape);
-            }
-            else if (!flag_008)
-            {
-                window3.clear();
-                window3.draw(user_shape);
-                window3.draw(p008);
-                window3.draw(Arrow2Icon_shape);
-            }
-            else if (!flag_009)
-            {
-                window3.clear();
-                window3.draw(user_shape);
-                window3.draw(p009);
-                window3.draw(Arrow2Icon_shape);
-            }
-            else if (!flag_010)
-            {
-                window3.clear();
-                window3.draw(user_shape);
-                window3.draw(p010);
-                window3.draw(Arrow2Icon_shape);
-            }
-            else if (!flag_011)
-            {
-                window3.clear();
-                window3.draw(user_shape);
-                window3.draw(p011);
-                window3.draw(Arrow2Icon_shape);
-            }
-            else if (!flag_012)
-            {
-                window3.clear();
-                window3.draw(user_shape);
-                window3.draw(p012);
-                window3.draw(Arrow2Icon_shape);
-            }
-            else if (!flag_013)
-            {
-                window3.clear();
-                window3.draw(user_shape);
-                window3.draw(p013);
-                window3.draw(Arrow2Icon_shape);
-            }
-            else if (!flag_014)
-            {
-                window3.clear();
-                window3.draw(user_shape);
-                window3.draw(p014);
-                window3.draw(Arrow2Icon_shape);
-            }
-            else if (!flag_015)
-            {
-                window3.clear();
-                window3.draw(user_shape);
-                window3.draw(p015);
-                window3.draw(Arrow2Icon_shape);
-            }
-            else if (!flag_016)
-            {
-                window3.clear();
-                window3.draw(user_shape);
-                window3.draw(p016);
-                window3.draw(Arrow2Icon_shape);
-            }
-            else if (!flag_017)
-            {
-                window3.clear();
-                window3.draw(user_shape);
-                window3.draw(p017);
-                window3.draw(Arrow2Icon_shape);
-            }
-            else if (!flag_018)
-            {
-                window3.clear();
-                window3.draw(user_shape);
-                window3.draw(p018);
-                window3.draw(Arrow2Icon_shape);
-            }
-            else if (!flag_019)
-            {
-                window3.clear();
-                window3.draw(user_shape);
-                window3.draw(p019);
-                window3.draw(Arrow2Icon_shape);
-            }
-            else if (!flag_020)
-            {
-                window3.clear();
-                window3.draw(user_shape);
-                window3.draw(p020);
-                window3.draw(Arrow2Icon_shape);
-            }
-            else if (!flag_021)
-            {
-                window3.clear();
-                window3.draw(user_shape);
-                window3.draw(p021);
-                window3.draw(Arrow2Icon_shape);
-            }
-            else if (!flag_022)
-            {
-                window3.clear();
-                window3.draw(user_shape);
-                window3.draw(p022);
-                window3.draw(Arrow2Icon_shape);
-            }
-            else if (!flag_023)
-            {
-                window3.clear();
-                window3.draw(user_shape);
-                window3.draw(p023);
-                window3.draw(Arrow2Icon_shape);
-            }
-            else if (!flag_024)
-            {
-                window3.clear();
-                window3.draw(user_shape);
-                window3.draw(p024);
-                window3.draw(Arrow2Icon_shape);
-            }
-            else if (!flag_025)
-            {
-                window3.clear();
-                window3.draw(user_shape);
-                window3.draw(p025);
-                window3.draw(Arrow2Icon_shape);
-            }
-            else if (!flag_026)
-            {
-                window3.clear();
-                window3.draw(user_shape);
-                window3.draw(p026);
-                window3.draw(Arrow2Icon_shape);
-            }
-            else if (!flag_027)
-            {
-                window3.clear();
-                window3.draw(user_shape);
-                window3.draw(p027);
-                window3.draw(Arrow2Icon_shape);
-            }
-            else if (!flag_028)
-            {
-                window3.clear();
-                window3.draw(user_shape);
-                window3.draw(p028);
-                window3.draw(Arrow2Icon_shape);
-            }
-            else if (!flag_029)
-            {
-                window3.clear();
-                window3.draw(user_shape);
-                window3.draw(p029);
-                window3.draw(Arrow2Icon_shape);
-            }
-            else if (!flag_030)
-            {
-                window3.clear();
-                window3.draw(user_shape);
-                window3.draw(p030);
-                window3.draw(Arrow2Icon_shape);
-            }
-            else if (!flag_031)
-            {
-                window3.clear();
-                window3.draw(user_shape);
-                window3.draw(p031);
-                window3.draw(Arrow2Icon_shape);
-            }
-            else if (!flag_032)
-            {
-                window3.clear();
-                window3.draw(user_shape);
-                window3.draw(p032);
-                window3.draw(Arrow2Icon_shape);
-            }
-            else if (!flag_033)
-            {
-                window3.clear();
-                window3.draw(user_shape);
-                window3.draw(p033);
-                window3.draw(Arrow2Icon_shape);
-            }
-            else if (!flag_034)
-            {
-                window3.clear();
-                window3.draw(user_shape);
-                window3.draw(p034);
-                window3.draw(Arrow2Icon_shape);
-            }
-            else if (!flag_035)
-            {
-                window3.clear();
-                window3.draw(user_shape);
-                window3.draw(p035);
-                window3.draw(Arrow2Icon_shape);
-            }
-            else if (!flag_036)
-            {
-                window3.clear();
-                window3.draw(user_shape);
-                window3.draw(p036);
-                window3.draw(Arrow2Icon_shape);
-            }
-            else if (!flag_037)
-            {
-                window3.clear();
-                window3.draw(user_shape);
-                window3.draw(p037);
-                window3.draw(Arrow2Icon_shape);
-            }
-            else if (!flag_038)
-            {
-                window3.clear();
-                window3.draw(user_shape);
-                window3.draw(p038);
-                window3.draw(Arrow2Icon_shape);
-            }
-            else if (!flag_039)
-            {
-                window3.clear();
-                window3.draw(user_shape);
-                window3.draw(p039);
-                window3.draw(Arrow2Icon_shape);
-            }
-            else if (!flag_040)
-            {
-                window3.clear();
-                window3.draw(user_shape);
-                window3.draw(p040);
-                window3.draw(Arrow2Icon_shape);
-            }
-            else if (!flag_041)
-            {
-                window3.clear();
-                window3.draw(user_shape);
-                window3.draw(p041);
-                window3.draw(Arrow2Icon_shape);
-            }
-            else if (!flag_042)
-            {
-                window3.clear();
-                window3.draw(user_shape);
-                window3.draw(p042);
-                window3.draw(Arrow2Icon_shape);
-            }
-            else if (!flag_043)
-            {
-                window3.clear();
-                window3.draw(user_shape);
-                window3.draw(p043);
-                window3.draw(Arrow2Icon_shape);
-            }
-            else if (!flag_044)
-            {
-                window3.clear();
-                window3.draw(user_shape);
-                window3.draw(p044);
-                window3.draw(Arrow2Icon_shape);
-            }
-            else if (!flag_045)
-            {
-                window3.clear();
-                window3.draw(user_shape);
-                window3.draw(p045);
-                window3.draw(Arrow2Icon_shape);
-            }
-            else if (!flag_046)
-            {
-                window3.clear();
-                window3.draw(user_shape);
-                window3.draw(p046);
-                window3.draw(Arrow2Icon_shape);
-            }
-            else if (!flag_047)
-            {
-                window3.clear();
-                window3.draw(user_shape);
-                window3.draw(p047);
-                window3.draw(Arrow2Icon_shape);
-            }
-            else if (!flag_048)
-            {
-                window3.clear();
-                window3.draw(user_shape);
-                window3.draw(p048);
-                window3.draw(Arrow2Icon_shape);
-            }
-            else if (!flag_049)
-            {
-                window3.clear();
-                window3.draw(user_shape);
-                window3.draw(p049);
-                window3.draw(Arrow2Icon_shape);
-            }
-            else if (!flag_050)
-            {
-                window3.clear();
-                window3.draw(user_shape);
-                window3.draw(p050);
-                window3.draw(Arrow2Icon_shape);
-            }
-            else if (!flag_051)
-            {
-                window3.clear();
-                window3.draw(user_shape);
-                window3.draw(p051);
-                window3.draw(Arrow2Icon_shape);
-            }
-            else if (!flag_052)
-            {
-                window3.clear();
-                window3.draw(user_shape);
-                window3.draw(p052);
-                window3.draw(Arrow2Icon_shape);
-            }
-            else if (!flag_053)
-            {
-                window3.clear();
-                window3.draw(user_shape);
-                window3.draw(p053);
-                window3.draw(Arrow2Icon_shape);
-            }
-            else if (!flag_054)
-            {
-                window3.clear();
-                window3.draw(user_shape);
-                window3.draw(p054);
-            }
-            else if (!flag_055)
-            {
-                window3.clear();
-                window3.draw(user_shape);
-                window3.draw(p055);
-            }
-            else if (!flag_056)
-            {
-                window3.clear();
-                window3.draw(user_shape);
-                window3.draw(p056);
-            }
-            else if (!flag_057)
-            {
-                window3.clear();
-                window3.draw(user_shape);
-                window3.draw(p057);
-            }
-            else if (!flag_058)
-            {
-                window3.clear();
-                window3.draw(user_shape);
-                window3.draw(p058);
-            }
+
+        if (!flag_000)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p000);
+            window3.draw(Arrow2Icon_shape);
+     
+                if (file.is_open())
+                {
+                    text = "allameh/";
+                    file << text;
+                }
+                // file.close();
+            
+        }
+        else if (!flag_001)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p001);
+            window3.draw(Arrow2Icon_shape);
+        }
+        else if (!flag_002)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p002);
+            window3.draw(Arrow2Icon_shape);
+        }
+        else if (!flag_003)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p003);
+            window3.draw(Arrow2Icon_shape);
+        }
+        else if (!flag_004)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p004);
+            window3.draw(Arrow2Icon_shape);
+        }
+        else if (!flag_005)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p005);
+            window3.draw(Arrow2Icon_shape);
+        }
+        else if (!flag_006)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p006);
+            window3.draw(Arrow2Icon_shape);
+        }
+        else if (!flag_007)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p007);
+            window3.draw(Arrow2Icon_shape);
+        }
+        else if (!flag_008)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p008);
+            window3.draw(Arrow2Icon_shape);
+        }
+        else if (!flag_009)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p009);
+            window3.draw(Arrow2Icon_shape);
+        }
+        else if (!flag_010)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p010);
+            window3.draw(Arrow2Icon_shape);
+        }
+        else if (!flag_011)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p011);
+            window3.draw(Arrow2Icon_shape);
+        }
+        else if (!flag_012)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p012);
+            window3.draw(Arrow2Icon_shape);
+        }
+        else if (!flag_013)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p013);
+            window3.draw(Arrow2Icon_shape);
+        }
+        else if (!flag_014)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p014);
+            window3.draw(Arrow2Icon_shape);
+        }
+        else if (!flag_015)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p015);
+            window3.draw(Arrow2Icon_shape);
+        }
+        else if (!flag_016)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p016);
+            window3.draw(Arrow2Icon_shape);
+        }
+        else if (!flag_017)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p017);
+            window3.draw(Arrow2Icon_shape);
+        }
+        else if (!flag_018)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p018);
+            window3.draw(Arrow2Icon_shape);
+        }
+        else if (!flag_019)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p019);
+            window3.draw(Arrow2Icon_shape);
+        }
+        else if (!flag_020)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p020);
+            window3.draw(Arrow2Icon_shape);
+        }
+        else if (!flag_021)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p021);
+            window3.draw(Arrow2Icon_shape);
+        }
+        else if (!flag_022)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p022);
+            window3.draw(Arrow2Icon_shape);
+        }
+        else if (!flag_023)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p023);
+            window3.draw(Arrow2Icon_shape);
+        }
+        else if (!flag_024)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p024);
+            window3.draw(Arrow2Icon_shape);
+        }
+        else if (!flag_025)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p025);
+            window3.draw(Arrow2Icon_shape);
+        }
+        else if (!flag_026)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p026);
+            window3.draw(Arrow2Icon_shape);
+        }
+        else if (!flag_027)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p027);
+            window3.draw(Arrow2Icon_shape);
+        }
+        else if (!flag_028)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p028);
+            window3.draw(Arrow2Icon_shape);
+        }
+        else if (!flag_029)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p029);
+            window3.draw(Arrow2Icon_shape);
+        }
+        else if (!flag_030)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p030);
+            window3.draw(Arrow2Icon_shape);
+        }
+        else if (!flag_031)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p031);
+            window3.draw(Arrow2Icon_shape);
+        }
+        else if (!flag_032)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p032);
+            window3.draw(Arrow2Icon_shape);
+        }
+        else if (!flag_033)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p033);
+            window3.draw(Arrow2Icon_shape);
+        }
+        else if (!flag_034)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p034);
+            window3.draw(Arrow2Icon_shape);
+        }
+        else if (!flag_035)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p035);
+            window3.draw(Arrow2Icon_shape);
+        }
+        else if (!flag_036)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p036);
+            window3.draw(Arrow2Icon_shape);
+        }
+        else if (!flag_037)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p037);
+            window3.draw(Arrow2Icon_shape);
+        }
+        else if (!flag_038)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p038);
+            window3.draw(Arrow2Icon_shape);
+        }
+        else if (!flag_039)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p039);
+            window3.draw(Arrow2Icon_shape);
+        }
+        else if (!flag_040)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p040);
+            window3.draw(Arrow2Icon_shape);
+        }
+        else if (!flag_041)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p041);
+            window3.draw(Arrow2Icon_shape);
+        }
+        else if (!flag_042)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p042);
+            window3.draw(Arrow2Icon_shape);
+        }
+        else if (!flag_043)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p043);
+            window3.draw(Arrow2Icon_shape);
+        }
+        else if (!flag_044)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p044);
+            window3.draw(Arrow2Icon_shape);
+        }
+        else if (!flag_045)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p045);
+            window3.draw(Arrow2Icon_shape);
+        }
+        else if (!flag_046)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p046);
+            window3.draw(Arrow2Icon_shape);
+        }
+        else if (!flag_047)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p047);
+            window3.draw(Arrow2Icon_shape);
+        }
+        else if (!flag_048)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p048);
+            window3.draw(Arrow2Icon_shape);
+        }
+        else if (!flag_049)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p049);
+            window3.draw(Arrow2Icon_shape);
+        }
+        else if (!flag_050)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p050);
+            window3.draw(Arrow2Icon_shape);
+        }
+        else if (!flag_051)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p051);
+            window3.draw(Arrow2Icon_shape);
+        }
+        else if (!flag_052)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p052);
+            window3.draw(Arrow2Icon_shape);
+        }
+        else if (!flag_053)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p053);
+            window3.draw(Arrow2Icon_shape);
+        }
+        else if (!flag_054)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p054);
+        }
+        else if (!flag_055)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p055);
+        }
+        else if (!flag_056)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p056);
+        }
+        else if (!flag_057)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p057);
+        }
+        else if (!flag_058)
+        {
+            window3.clear();
+            window3.draw(user_shape);
+            window3.draw(p058);
+        }
         if (!destination)
         {
             if (!flag_0000)
             {
+                file_bool = false;
                 window3.draw(p0000);
+                if (file.is_open())
+                {
+                    text = "allamehh";
+                    file << text;
+                }
             }
             if (!flag_0001)
             {

@@ -1,5 +1,5 @@
 #pragma once
-
+#include <fstream>
 #include "../include/game.hpp"
 #include "../include/Vertex.hpp"
 #include "../include/Graph.hpp"
@@ -141,8 +141,10 @@ private:
 
     bool type = true;
     bool destination = true;
+    bool file_bool = true;
     string originName, destinationName;
     string filename = "input.txt";
+    string text;
     Graph graph;
     void menu();
 
